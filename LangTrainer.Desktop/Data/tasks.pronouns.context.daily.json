@@ -1,0 +1,56 @@
+{
+  "deckId": "pronouns.context.daily",
+  "title": "Pronouns in daily contexts",
+  "tasks": [
+    {
+      "id": "pc001",
+      "group": "pronouns.indirect",
+      "type": "choose_or_type",
+      "promptRu": "Я ему сразу ответил.",
+      "promptEsTemplate": "___ respondí enseguida.",
+      "options": ["le", "lo", "la"],
+      "acceptableAnswers": ["le"],
+      "note": "Responder a alguien → indirect object."
+    },
+    {
+      "id": "pc002",
+      "group": "pronouns.direct",
+      "type": "choose_or_type",
+      "promptRu": "Я это уже сделал.",
+      "promptEsTemplate": "Ya ___ hice.",
+      "options": ["lo", "le", "la"],
+      "acceptableAnswers": ["lo"],
+      "note": "Neutral direct object."
+    },
+    {
+      "id": "pc003",
+      "group": "pronouns.se_replacement",
+      "type": "choose_or_type",
+      "promptRu": "Я ему это сказал.",
+      "promptEsTemplate": "___ dije.",
+      "options": ["le", "se", "lo"],
+      "acceptableAnswers": ["se"],
+      "note": "Le → se before lo."
+    },
+    {
+      "id": "pc004",
+      "group": "pronouns.reflexive",
+      "type": "choose_or_type",
+      "promptRu": "Она слишком рано проснулась.",
+      "promptEsTemplate": "___ despertó demasiado pronto.",
+      "options": ["se", "la", "le"],
+      "acceptableAnswers": ["se"],
+      "note": "Reflexive daily verb."
+    },
+    {
+      "id": "pc005",
+      "group": "pronouns.indirect",
+      "type": "choose_or_type",
+      "promptRu": "Мы им доверяем.",
+      "promptEsTemplate": "___ confiamos.",
+      "options": ["les", "los", "las"],
+      "acceptableAnswers": ["les"],
+      "note": "Confiar en alguien → indirect."
+    }
+  ]
+}

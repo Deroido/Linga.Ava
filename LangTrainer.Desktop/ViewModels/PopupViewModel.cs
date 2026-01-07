@@ -1,3 +1,4 @@
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -21,6 +22,8 @@ public sealed class PopupViewModel : INotifyPropertyChanged
     private string _phraseInsert = "";
     private string _phraseSuffix = "";
     private IBrush _insertBrush = Brushes.Transparent;
+    private string _promptPrefix = "";
+    private string _promptSuffix = "";
 
     public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -159,6 +162,32 @@ public sealed class PopupViewModel : INotifyPropertyChanged
         }
     }
 
+    public string PromptPrefix
+    {
+        get => _promptPrefix;
+        private set
+        {
+            if (_promptPrefix != value)
+            {
+                _promptPrefix = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    public string PromptSuffix
+    {
+        get => _promptSuffix;
+        private set
+        {
+            if (_promptSuffix != value)
+            {
+                _promptSuffix = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
     public bool WasCorrect
     {
         get => _wasCorrect;
@@ -193,9 +222,13 @@ public sealed class PopupViewModel : INotifyPropertyChanged
         PhraseInsert = "";
         PhraseSuffix = "";
         InsertBrush = Brushes.Transparent;
+        PromptPrefix = "";
+        PromptSuffix = "";
 
         OnPropertyChanged(nameof(PromptRu));
         OnPropertyChanged(nameof(PromptEsTemplate));
+
+        UpdatePromptParts();
     }
 
     public bool Submit()
@@ -224,6 +257,31 @@ public sealed class PopupViewModel : INotifyPropertyChanged
         HasResult = true;
 
         return correct;
+    }
+
+    public void UpdatePromptParts()
+    {
+        if (_task == null)
+        {
+            PromptPrefix = "";
+            PromptSuffix = "";
+            return;
+        }
+
+        var template = _task.PromptEsTemplate ?? "";
+        var placeholder = "___";
+        var index = template.IndexOf(placeholder, StringComparison.Ordinal);
+
+        if (index >= 0)
+        {
+            PromptPrefix = template.Substring(0, index);
+            PromptSuffix = template.Substring(index + placeholder.Length);
+        }
+        else
+        {
+            PromptPrefix = template;
+            PromptSuffix = "";
+        }
     }
 
     private void UpdatePhrase(bool correct)

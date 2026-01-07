@@ -1,0 +1,46 @@
+{
+  "deckId": "vocabulary.context.abstract",
+  "title": "Vocabulary: abstract & contextual",
+  "tasks": [
+    {
+      "id": "va001",
+      "group": "vocabulary.abstract",
+      "type": "choose_or_type",
+      "promptRu": "Осознанность.",
+      "promptEsTemplate": "___",
+      "options": ["conciencia", "atención", "pensamiento"],
+      "acceptableAnswers": ["conciencia"],
+      "note": "Conciencia = awareness."
+    },
+    {
+      "id": "va002",
+      "group": "vocabulary.adjective",
+      "type": "choose_or_type",
+      "promptRu": "Неоднозначный.",
+      "promptEsTemplate": "___",
+      "options": ["ambiguo", "extraño", "raro"],
+      "acceptableAnswers": ["ambiguo"],
+      "note": "Ambiguo = ambiguous."
+    },
+    {
+      "id": "va003",
+      "group": "vocabulary.adverb",
+      "type": "choose_or_type",
+      "promptRu": "Постепенно.",
+      "promptEsTemplate": "___",
+      "options": ["poco a poco", "de repente", "enseguida"],
+      "acceptableAnswers": ["poco a poco"],
+      "note": "Adverbial expression."
+    },
+    {
+      "id": "va004",
+      "group": "vocabulary.noun",
+      "type": "choose_or_type",
+      "promptRu": "Последствие.",
+      "promptEsTemplate": "___",
+      "options": ["consecuencia", "resultado", "efecto"],
+      "acceptableAnswers": ["consecuencia"],
+      "note": "Consecuencia = consequence."
+    }
+  ]
+}

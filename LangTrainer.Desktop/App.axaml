@@ -7,4 +7,27 @@
     <Application.Styles>
         <FluentTheme />
     </Application.Styles>
+
+    <Application.TrayIcons>
+        <TrayIcon Icon="avares://LangTrainer.Desktop/Assets/tray.png"
+                  ToolTipText="LangTrainer">
+            <TrayIcon.Menu>
+                <NativeMenu>
+                    <NativeMenuItem Header="Open task now" Click="TrayOpenNow_Click" />
+                    <NativeMenuItem Header="Interval">
+                        <NativeMenuItem.Menu>
+                            <NativeMenu>
+                                <NativeMenuItem Header="5 min" Tag="5" Click="TrayInterval_Click" />
+                                <NativeMenuItem Header="10 min" Tag="10" Click="TrayInterval_Click" />
+                                <NativeMenuItem Header="30 min" Tag="30" Click="TrayInterval_Click" />
+                                <NativeMenuItem Header="60 min" Tag="60" Click="TrayInterval_Click" />
+                                <NativeMenuItem Header="120 min" Tag="120" Click="TrayInterval_Click" />
+                            </NativeMenu>
+                        </NativeMenuItem.Menu>
+                    </NativeMenuItem>
+                    <NativeMenuItem Header="Exit" Click="TrayExit_Click" />
+                </NativeMenu>
+            </TrayIcon.Menu>
+        </TrayIcon>
+    </Application.TrayIcons>
 </Application>

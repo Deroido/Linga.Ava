@@ -2,10 +2,12 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         x:Class="LangTrainer.Desktop.Views.MainWindow"
-        Width="420"
-        Height="240"
+        Width="460"
+        Height="260"
         Title="LangTrainer"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        Background="#1E2126"
+        FontFamily="Candara">
     <Grid Margin="12">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -15,9 +17,9 @@
         <Button Grid.Row="0"
                 HorizontalAlignment="Right"
                 VerticalAlignment="Top"
-                Width="32"
-                Height="32"
-                FontSize="16"
+                Width="30"
+                Height="30"
+                FontSize="14"
                 Content="⟳"
                 ToolTip.Tip="Reload decks"
                 Click="ReloadDecks_Click"/>
@@ -25,17 +27,21 @@
         <StackPanel Grid.Row="1"
                     VerticalAlignment="Center"
                     HorizontalAlignment="Center"
-                    Spacing="12">
-            <TextBlock Text="LangTrainer is running"
-                       FontSize="20"/>
-            <TextBlock Text="Avalonia desktop lifecycle OK"
-                       FontSize="14"/>
+                    Spacing="10">
+            <TextBlock Text="LangTrainer"
+                       FontSize="22"
+                       FontWeight="Bold"
+                       Foreground="White"/>
+            <TextBlock Text="Background trainer is active"
+                       FontSize="14"
+                       Foreground="#B8C0CC"/>
             <Button Content="Open Popup (Test)"
                     Width="180"
                     Click="OpenPopup_Click"/>
             <TextBlock x:Name="DiagnosticsText"
-                       Width="360"
+                       Width="380"
                        FontSize="12"
+                       Foreground="#9AA7B3"
                        TextWrapping="Wrap"
                        TextAlignment="Center"/>
         </StackPanel>

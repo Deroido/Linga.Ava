@@ -1,0 +1,56 @@
+{
+  "deckId": "verbs.endings.present.fast",
+  "title": "Verbs: present endings (fast)",
+  "tasks": [
+    {
+      "id": "vf001",
+      "group": "verbs.ar.present",
+      "type": "choose_or_type",
+      "promptRu": "Ты работаешь.",
+      "promptEsTemplate": "Tú trabaj___",
+      "options": ["as", "es", "is"],
+      "acceptableAnswers": ["as"],
+      "note": "-ar verb, tú."
+    },
+    {
+      "id": "vf002",
+      "group": "verbs.er.present",
+      "type": "choose_or_type",
+      "promptRu": "Он продаёт.",
+      "promptEsTemplate": "Él vend___",
+      "options": ["e", "a", "o"],
+      "acceptableAnswers": ["e"],
+      "note": "-er verb."
+    },
+    {
+      "id": "vf003",
+      "group": "verbs.ir.present",
+      "type": "choose_or_type",
+      "promptRu": "Мы открываем.",
+      "promptEsTemplate": "Abr___",
+      "options": ["imos", "amos", "emos"],
+      "acceptableAnswers": ["imos"],
+      "note": "-ir verb."
+    },
+    {
+      "id": "vf004",
+      "group": "verbs.irregular.present",
+      "type": "choose_or_type",
+      "promptRu": "Я знаю.",
+      "promptEsTemplate": "Yo ___",
+      "options": ["sé", "sabe", "son"],
+      "acceptableAnswers": ["sé"],
+      "note": "Saber, 1st person singular."
+    },
+    {
+      "id": "vf005",
+      "group": "verbs.irregular.present",
+      "type": "choose_or_type",
+      "promptRu": "Они могут.",
+      "promptEsTemplate": "___ pueden.",
+      "options": ["Ellos", "Ellas", "Ustedes"],
+      "acceptableAnswers": ["Ellos", "Ellas"],
+      "note": "Subject recognition."
+    }
+  ]
+}

@@ -156,4 +156,35 @@ public partial class App : Application
     {
         return _lastLoadStatus;
     }
+
+    private void TrayOpenNow_Click(object? sender, EventArgs e)
+    {
+        ShowPopupNow();
+    }
+
+    private void TrayInterval_Click(object? sender, EventArgs e)
+    {
+        if (sender is not NativeMenuItem item) return;
+        if (item.Tag is not string tag) return;
+        if (!int.TryParse(tag, out var minutes)) return;
+        if (minutes <= 0) return;
+
+        _interval = TimeSpan.FromMinutes(minutes);
+
+        if (_popupWindow != null && _popupWindow.IsVisible)
+        {
+            _scheduler?.Stop();
+            return;
+        }
+
+        _scheduler?.Start(_interval, ShowNextTaskPopup);
+    }
+
+    private void TrayExit_Click(object? sender, EventArgs e)
+    {
+        if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
+        {
+            desktop.Shutdown();
+        }
+    }
 }
