@@ -1,0 +1,106 @@
+{
+  "deckId": "pronouns.direct_indirect.basic",
+  "title": "Pronouns: le / lo / la / se",
+  "tasks": [
+    {
+      "id": "pl001",
+      "group": "pronouns.indirect",
+      "type": "choose_or_type",
+      "promptRu": "Дай ему время.",
+      "promptEsTemplate": "Dale ___ tiempo.",
+      "options": ["le", "lo", "la"],
+      "acceptableAnswers": ["le"],
+      "note": "Indirect object: 'a él' → le."
+    },
+    {
+      "id": "pl002",
+      "group": "pronouns.direct",
+      "type": "choose_or_type",
+      "promptRu": "Я видел его.",
+      "promptEsTemplate": "Yo ___ vi.",
+      "options": ["le", "lo", "la"],
+      "acceptableAnswers": ["lo"],
+      "note": "Direct object masculine."
+    },
+    {
+      "id": "pl003",
+      "group": "pronouns.direct",
+      "type": "choose_or_type",
+      "promptRu": "Я видел её.",
+      "promptEsTemplate": "Yo ___ vi.",
+      "options": ["le", "lo", "la"],
+      "acceptableAnswers": ["la"],
+      "note": "Direct object feminine."
+    },
+    {
+      "id": "pl004",
+      "group": "pronouns.indirect",
+      "type": "choose_or_type",
+      "promptRu": "Я объяснил ей всё.",
+      "promptEsTemplate": "___ expliqué todo.",
+      "options": ["le", "lo", "la"],
+      "acceptableAnswers": ["le"],
+      "note": "Indirect object: explicar algo a alguien."
+    },
+    {
+      "id": "pl005",
+      "group": "pronouns.se_replacement",
+      "type": "choose_or_type",
+      "promptRu": "Я дал ему книгу.",
+      "promptEsTemplate": "___ di el libro.",
+      "options": ["le", "se", "lo"],
+      "acceptableAnswers": ["se"],
+      "note": "Le → se before lo/la."
+    },
+    {
+      "id": "pl006",
+      "group": "pronouns.se_replacement",
+      "type": "choose_or_type",
+      "promptRu": "Она принесла ей цветы.",
+      "promptEsTemplate": "___ trajo flores.",
+      "options": ["le", "se", "la"],
+      "acceptableAnswers": ["se"],
+      "note": "Indirect + direct → se."
+    },
+    {
+      "id": "pl007",
+      "group": "pronouns.direct",
+      "type": "choose_or_type",
+      "promptRu": "Я купил их.",
+      "promptEsTemplate": "___ compré.",
+      "options": ["los", "les", "las"],
+      "acceptableAnswers": ["los"],
+      "note": "Direct object plural masculine."
+    },
+    {
+      "id": "pl008",
+      "group": "pronouns.indirect",
+      "type": "choose_or_type",
+      "promptRu": "Я позвонил им.",
+      "promptEsTemplate": "___ llamé.",
+      "options": ["les", "los", "las"],
+      "acceptableAnswers": ["les"],
+      "note": "Llamar a alguien → indirect."
+    },
+    {
+      "id": "pl009",
+      "group": "pronouns.direct",
+      "type": "choose_or_type",
+      "promptRu": "Она потеряла сумку.",
+      "promptEsTemplate": "___ perdió.",
+      "options": ["la", "le", "se"],
+      "acceptableAnswers": ["la"],
+      "note": "Direct object with feminine noun."
+    },
+    {
+      "id": "pl010",
+      "group": "pronouns.indirect_vs_direct",
+      "type": "choose_or_type",
+      "promptRu": "Я спросил его.",
+      "promptEsTemplate": "___ pregunté.",
+      "options": ["le", "lo", "la"],
+      "acceptableAnswers": ["le"],
+      "note": "Preguntar a alguien → indirect."
+    }
+  ]
+}

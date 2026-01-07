@@ -1,0 +1,106 @@
+{
+  "deckId": "pronouns.reflexive.basic",
+  "title": "Pronouns: reflexive & benefactive",
+  "tasks": [
+    {
+      "id": "pr001",
+      "group": "pronouns.reflexive",
+      "type": "choose_or_type",
+      "promptRu": "Взять себя в руки.",
+      "promptEsTemplate": "___ tomó en serio.",
+      "options": ["se", "me", "te"],
+      "acceptableAnswers": ["se"],
+      "note": "Fixed reflexive expression: 'tomarse en serio'."
+    },
+    {
+      "id": "pr002",
+      "group": "pronouns.reflexive",
+      "type": "choose_or_type",
+      "promptRu": "Он помыл руки.",
+      "promptEsTemplate": "___ lavó las manos.",
+      "options": ["se", "le", "lo"],
+      "acceptableAnswers": ["se"],
+      "note": "Reflexive action on own body."
+    },
+    {
+      "id": "pr003",
+      "group": "pronouns.non_reflexive",
+      "type": "choose_or_type",
+      "promptRu": "Он помыл машину.",
+      "promptEsTemplate": "___ lavó el coche.",
+      "options": ["se", "lo", "le"],
+      "acceptableAnswers": ["lo"],
+      "note": "Not reflexive: washing an external object."
+    },
+    {
+      "id": "pr004",
+      "group": "pronouns.benefactive",
+      "type": "choose_or_type",
+      "promptRu": "Купи себе кофе.",
+      "promptEsTemplate": "Cómprate ___ café.",
+      "options": ["un", "te", "me"],
+      "acceptableAnswers": ["te"],
+      "note": "Benefactive pronoun: action done for oneself."
+    },
+    {
+      "id": "pr005",
+      "group": "pronouns.reflexive",
+      "type": "choose_or_type",
+      "promptRu": "Она порезалась.",
+      "promptEsTemplate": "___ cortó.",
+      "options": ["se", "la", "le"],
+      "acceptableAnswers": ["se"],
+      "note": "Accidental reflexive verb."
+    },
+    {
+      "id": "pr006",
+      "group": "pronouns.false_reflexive",
+      "type": "choose_or_type",
+      "promptRu": "Он ушёл.",
+      "promptEsTemplate": "___ fue.",
+      "options": ["se", "lo", "le"],
+      "acceptableAnswers": ["se"],
+      "note": "Movement verb with reflexive meaning change."
+    },
+    {
+      "id": "pr007",
+      "group": "pronouns.non_reflexive",
+      "type": "choose_or_type",
+      "promptRu": "Он уехал его.",
+      "promptEsTemplate": "___ llevó.",
+      "options": ["se", "lo", "le"],
+      "acceptableAnswers": ["lo"],
+      "note": "Non-reflexive transport of another person/object."
+    },
+    {
+      "id": "pr008",
+      "group": "pronouns.reflexive_vs_indirect",
+      "type": "choose_or_type",
+      "promptRu": "Я сломал себе ногу.",
+      "promptEsTemplate": "___ rompí la pierna.",
+      "options": ["me", "se", "le"],
+      "acceptableAnswers": ["me"],
+      "note": "Indirect reflexive possession (body parts)."
+    },
+    {
+      "id": "pr009",
+      "group": "pronouns.indirect",
+      "type": "choose_or_type",
+      "promptRu": "Я сломал ему ногу.",
+      "promptEsTemplate": "___ rompí la pierna.",
+      "options": ["le", "me", "se"],
+      "acceptableAnswers": ["le"],
+      "note": "Indirect object pronoun for another person."
+    },
+    {
+      "id": "pr010",
+      "group": "pronouns.reflexive",
+      "type": "choose_or_type",
+      "promptRu": "Она засмеялась.",
+      "promptEsTemplate": "___ rió.",
+      "options": ["se", "la", "le"],
+      "acceptableAnswers": ["se"],
+      "note": "Inchoative reflexive verb."
+    }
+  ]
+}

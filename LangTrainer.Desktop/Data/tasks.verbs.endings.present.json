@@ -1,0 +1,106 @@
+{
+  "deckId": "verbs.endings.present.basic",
+  "title": "Verbs: present tense endings",
+  "tasks": [
+    {
+      "id": "ve001",
+      "group": "verbs.ar.present",
+      "type": "choose_or_type",
+      "promptRu": "Я говорю.",
+      "promptEsTemplate": "Yo habl___",
+      "options": ["o", "a", "e"],
+      "acceptableAnswers": ["o"],
+      "note": "-ar verb, 1st person singular."
+    },
+    {
+      "id": "ve002",
+      "group": "verbs.er.present",
+      "type": "choose_or_type",
+      "promptRu": "Ты ешь.",
+      "promptEsTemplate": "Tú com___",
+      "options": ["es", "as", "e"],
+      "acceptableAnswers": ["es"],
+      "note": "-er verb, 2nd person singular."
+    },
+    {
+      "id": "ve003",
+      "group": "verbs.ir.present",
+      "type": "choose_or_type",
+      "promptRu": "Он живёт.",
+      "promptEsTemplate": "Él viv___",
+      "options": ["e", "a", "o"],
+      "acceptableAnswers": ["e"],
+      "note": "-ir verb, 3rd person singular."
+    },
+    {
+      "id": "ve004",
+      "group": "verbs.ar.present",
+      "type": "choose_or_type",
+      "promptRu": "Мы работаем.",
+      "promptEsTemplate": "Nosotros trabaj___",
+      "options": ["amos", "emos", "imos"],
+      "acceptableAnswers": ["amos"],
+      "note": "-ar verb, 1st person plural."
+    },
+    {
+      "id": "ve005",
+      "group": "verbs.er.present",
+      "type": "choose_or_type",
+      "promptRu": "Вы понимаете.",
+      "promptEsTemplate": "Vosotros entend___",
+      "options": ["éis", "áis", "ís"],
+      "acceptableAnswers": ["éis"],
+      "note": "-er verb, vosotros."
+    },
+    {
+      "id": "ve006",
+      "group": "verbs.ir.present",
+      "type": "choose_or_type",
+      "promptRu": "Они пишут.",
+      "promptEsTemplate": "Ellos escrib___",
+      "options": ["en", "an", "on"],
+      "acceptableAnswers": ["en"],
+      "note": "-ir verb, 3rd person plural."
+    },
+    {
+      "id": "ve007",
+      "group": "verbs.irregular.present",
+      "type": "choose_or_type",
+      "promptRu": "Я иду.",
+      "promptEsTemplate": "Yo ___",
+      "options": ["voy", "va", "vas"],
+      "acceptableAnswers": ["voy"],
+      "note": "Ir is irregular."
+    },
+    {
+      "id": "ve008",
+      "group": "verbs.irregular.present",
+      "type": "choose_or_type",
+      "promptRu": "У нас есть время.",
+      "promptEsTemplate": "___ tiempo.",
+      "options": ["Tenemos", "Tienen", "Tiene"],
+      "acceptableAnswers": ["Tenemos"],
+      "note": "Tener, 1st person plural."
+    },
+    {
+      "id": "ve009",
+      "group": "verbs.ser_estar",
+      "type": "choose_or_type",
+      "promptRu": "Он устал.",
+      "promptEsTemplate": "___ cansado.",
+      "options": ["Está", "Es", "Son"],
+      "acceptableAnswers": ["Está"],
+      "note": "Temporary state → estar."
+    },
+    {
+      "id": "ve010",
+      "group": "verbs.ser_estar",
+      "type": "choose_or_type",
+      "promptRu": "Он врач.",
+      "promptEsTemplate": "___ médico.",
+      "options": ["Es", "Está", "Son"],
+      "acceptableAnswers": ["Es"],
+      "note": "Permanent characteristic → ser."
+    }
+  ]
+}

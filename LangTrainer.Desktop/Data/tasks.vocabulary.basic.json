@@ -1,0 +1,56 @@
+{
+  "deckId": "vocabulary.basic.misc",
+  "title": "Vocabulary: nouns, adjectives, adverbs",
+  "tasks": [
+    {
+      "id": "vb001",
+      "group": "vocabulary.noun",
+      "type": "choose_or_type",
+      "promptRu": "Склон.",
+      "promptEsTemplate": "___",
+      "options": ["pendiente", "cuesta", "lado"],
+      "acceptableAnswers": ["cuesta"],
+      "note": "Cuesta = slope / uphill."
+    },
+    {
+      "id": "vb002",
+      "group": "vocabulary.adjective",
+      "type": "choose_or_type",
+      "promptRu": "Неловкий.",
+      "promptEsTemplate": "___",
+      "options": ["torpe", "raro", "lento"],
+      "acceptableAnswers": ["torpe"],
+      "note": "Torpe = clumsy."
+    },
+    {
+      "id": "vb003",
+      "group": "vocabulary.adverb",
+      "type": "choose_or_type",
+      "promptRu": "Вряд ли.",
+      "promptEsTemplate": "___",
+      "options": ["apenas", "quizá", "difícilmente"],
+      "acceptableAnswers": ["difícilmente"],
+      "note": "Difícilmente = hardly / unlikely."
+    },
+    {
+      "id": "vb004",
+      "group": "vocabulary.noun",
+      "type": "choose_or_type",
+      "promptRu": "Черта характера.",
+      "promptEsTemplate": "___",
+      "options": ["rasgo", "carácter", "modo"],
+      "acceptableAnswers": ["rasgo"],
+      "note": "Rasgo = trait."
+    },
+    {
+      "id": "vb005",
+      "group": "vocabulary.adjective",
+      "type": "choose_or_type",
+      "promptRu": "Уместный.",
+      "promptEsTemplate": "___",
+      "options": ["adecuado", "correcto", "justo"],
+      "acceptableAnswers": ["adecuado"],
+      "note": "Adecuado = appropriate."
+    }
+  ]
+}

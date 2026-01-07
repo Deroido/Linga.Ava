@@ -1,0 +1,46 @@
+{
+  "deckId": "prepositions.basic",
+  "title": "Prepositions: en / por / para / con",
+  "tasks": [
+    {
+      "id": "pp001",
+      "group": "prepositions.por_para",
+      "type": "choose_or_type",
+      "promptRu": "Спасибо за помощь.",
+      "promptEsTemplate": "Gracias ___ la ayuda.",
+      "options": ["por", "para", "con"],
+      "acceptableAnswers": ["por"],
+      "note": "Gracias por."
+    },
+    {
+      "id": "pp002",
+      "group": "prepositions.para",
+      "type": "choose_or_type",
+      "promptRu": "Это для тебя.",
+      "promptEsTemplate": "Esto es ___ ti.",
+      "options": ["para", "por", "con"],
+      "acceptableAnswers": ["para"],
+      "note": "Para = recipient."
+    },
+    {
+      "id": "pp003",
+      "group": "prepositions.en",
+      "type": "choose_or_type",
+      "promptRu": "Он в доме.",
+      "promptEsTemplate": "Está ___ casa.",
+      "options": ["en", "a", "con"],
+      "acceptableAnswers": ["en"],
+      "note": "Location with en."
+    },
+    {
+      "id": "pp004",
+      "group": "prepositions.con",
+      "type": "choose_or_type",
+      "promptRu": "Я с ней.",
+      "promptEsTemplate": "Estoy ___ ella.",
+      "options": ["con", "para", "por"],
+      "acceptableAnswers": ["con"],
+      "note": "Con + tonic pronoun."
+    }
+  ]
+}

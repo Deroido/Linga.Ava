@@ -1,0 +1,46 @@
+{
+  "deckId": "pronouns.basic",
+  "title": "Pronouns: lo/la/le/se",
+  "tasks": [
+    {
+      "id": "p001",
+      "group": "pronouns",
+      "type": "choose_or_type",
+      "promptRu": "Дай мне время.",
+      "promptEsTemplate": "Dame ___ tiempo.",
+      "options": ["me", "te", "le", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Indirect object pronoun for 'a mí' is 'me'."
+    },
+    {
+      "id": "p002",
+      "group": "pronouns",
+      "type": "choose_or_type",
+      "promptRu": "Возьми себе фрукт.",
+      "promptEsTemplate": "Toma___ una fruta.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["te"],
+      "note": "Reflexive/beneficiary: 'tómate' (take for yourself)."
+    },
+    {
+      "id": "p003",
+      "group": "pronouns",
+      "type": "choose_or_type",
+      "promptRu": "Унесли свои вещи.",
+      "promptEsTemplate": "Se llevaron ___ cosas.",
+      "options": ["mis", "tus", "sus", "nuestras", "vuestras"],
+      "acceptableAnswers": ["sus"],
+      "note": "Possessive agrees with plural 'cosas' (their things)."
+    },
+    {
+      "id": "p004",
+      "group": "pronouns",
+      "type": "choose_or_type",
+      "promptRu": "Гулять вместе с ней.",
+      "promptEsTemplate": "Pasear con ___.",
+      "options": ["mí", "ti", "ella", "él", "nosotros"],
+      "acceptableAnswers": ["ella"],
+      "note": "After 'con' we use tonic pronoun: 'con ella'."
+    }
+  ]
+}

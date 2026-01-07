@@ -1,0 +1,54 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:LangTrainer.Desktop.ViewModels"
+        x:Class="LangTrainer.Desktop.Views.PopupWindow"
+        x:DataType="vm:PopupViewModel"
+        Width="520"
+        Height="260"
+        CanResize="False"
+        Topmost="True"
+        ShowInTaskbar="False"
+        WindowStartupLocation="CenterScreen"
+        Title="LangTrainer">
+  <Border Padding="16" CornerRadius="10" Background="#202225">
+    <StackPanel Spacing="10">
+      <TextBlock Text="{Binding PromptRu}" FontSize="18" Foreground="White" TextWrapping="Wrap" />
+      <TextBlock Text="{Binding PromptEsTemplate}" FontSize="16" Foreground="#B8C0CC" TextWrapping="Wrap" />
+
+      <StackPanel Orientation="Horizontal" Spacing="8">
+        <ComboBox Width="160"
+                  ItemsSource="{Binding Options}"
+                  SelectionChanged="Options_SelectionChanged"/>
+        <TextBox Width="240"
+                 Watermark="Type or choose..."
+                 Text="{Binding UserAnswer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+      </StackPanel>
+
+      <StackPanel Orientation="Horizontal" Spacing="8">
+        <Button Width="120" Content="Submit" Click="Submit_Click"/>
+        <Button Width="120" Content="Skip" Click="Skip_Click"/>
+      </StackPanel>
+
+      <TextBlock Text="{Binding ResultText}"
+                 Foreground="{Binding ResultBrush}"
+                 FontSize="18"
+                 FontWeight="Bold"
+                 IsVisible="{Binding HasResult}" />
+
+      <TextBlock FontSize="20"
+                 TextWrapping="Wrap"
+                 IsVisible="{Binding HasResult}">
+        <Run Text="{Binding PhrasePrefix}" />
+        <Run Text="{Binding PhraseInsert}"
+             Foreground="{Binding InsertBrush}"
+             FontWeight="Bold" />
+        <Run Text="{Binding PhraseSuffix}" />
+      </TextBlock>
+
+      <TextBlock Text="{Binding CorrectAnswerText}"
+                 Foreground="#FFB3B3"
+                 TextWrapping="Wrap"
+                 IsVisible="{Binding HasResult}" />
+    </StackPanel>
+  </Border>
+</Window>
