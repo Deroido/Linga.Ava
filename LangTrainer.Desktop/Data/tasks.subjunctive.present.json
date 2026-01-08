@@ -1,0 +1,2895 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "name": "Subjuntivo — presente (básico, 1 hueco)",
+    "createdAt": "2026-01-08T17:11:08.795422Z",
+    "count": 160,
+    "tags": [
+      "subjuntivo",
+      "gramática",
+      "A2-B1"
+    ]
+  },
+  "cards": [
+    {
+      "id": "S0001",
+      "ru": "Я хочу, чтобы ты dar.",
+      "es": {
+        "before": "quiero que tú ",
+        "after": "."
+      },
+      "answer": "des",
+      "options": [
+        "des",
+        "hablemos",
+        "llegues",
+        "den",
+        "habléis",
+        "demos"
+      ],
+      "comment": "subjuntivo presente, verbo: dar"
+    },
+    {
+      "id": "S0002",
+      "ru": "Я хочу, чтобы ты tener.",
+      "es": {
+        "before": "quiero que tú ",
+        "after": "."
+      },
+      "answer": "tengas",
+      "options": [
+        "deis",
+        "busque",
+        "dé",
+        "viváis",
+        "comáis",
+        "tengas"
+      ],
+      "comment": "subjuntivo presente, verbo: tener"
+    },
+    {
+      "id": "S0003",
+      "ru": "Я хочу, чтобы ты vivir.",
+      "es": {
+        "before": "quiero que tú ",
+        "after": "."
+      },
+      "answer": "vivas",
+      "options": [
+        "vayas",
+        "pidan",
+        "tengas",
+        "sepáis",
+        "vivas",
+        "puedan"
+      ],
+      "comment": "subjuntivo presente, verbo: vivir"
+    },
+    {
+      "id": "S0004",
+      "ru": "Я хочу, чтобы ты buscar.",
+      "es": {
+        "before": "quiero que tú ",
+        "after": "."
+      },
+      "answer": "busques",
+      "options": [
+        "busques",
+        "digáis",
+        "comas",
+        "veas",
+        "podáis",
+        "veamos"
+      ],
+      "comment": "subjuntivo presente, verbo: buscar"
+    },
+    {
+      "id": "S0005",
+      "ru": "Я хочу, чтобы ты saber.",
+      "es": {
+        "before": "quiero que tú ",
+        "after": "."
+      },
+      "answer": "sepas",
+      "options": [
+        "vengan",
+        "hables",
+        "hagáis",
+        "estéis",
+        "digas",
+        "sepas"
+      ],
+      "comment": "subjuntivo presente, verbo: saber"
+    },
+    {
+      "id": "S0006",
+      "ru": "Я хочу, чтобы ты decir.",
+      "es": {
+        "before": "quiero que tú ",
+        "after": "."
+      },
+      "answer": "digas",
+      "options": [
+        "pueda",
+        "vayáis",
+        "digas",
+        "vivas",
+        "duermas",
+        "queráis"
+      ],
+      "comment": "subjuntivo presente, verbo: decir"
+    },
+    {
+      "id": "S0007",
+      "ru": "Я хочу, чтобы ты comer.",
+      "es": {
+        "before": "quiero que tú ",
+        "after": "."
+      },
+      "answer": "comas",
+      "options": [
+        "pidas",
+        "busquen",
+        "comas",
+        "estemos",
+        "sepa",
+        "hagáis"
+      ],
+      "comment": "subjuntivo presente, verbo: comer"
+    },
+    {
+      "id": "S0008",
+      "ru": "Я хочу, чтобы ты pedir.",
+      "es": {
+        "before": "quiero que tú ",
+        "after": "."
+      },
+      "answer": "pidas",
+      "options": [
+        "des",
+        "hagas",
+        "duerman",
+        "sepa",
+        "deis",
+        "pidas"
+      ],
+      "comment": "subjuntivo presente, verbo: pedir"
+    },
+    {
+      "id": "S0009",
+      "ru": "Я хочу, чтобы ты llegar.",
+      "es": {
+        "before": "quiero que tú ",
+        "after": "."
+      },
+      "answer": "llegues",
+      "options": [
+        "digamos",
+        "sepa",
+        "comas",
+        "llegues",
+        "puedas",
+        "lleguemos"
+      ],
+      "comment": "subjuntivo presente, verbo: llegar"
+    },
+    {
+      "id": "S0010",
+      "ru": "Я хочу, чтобы ты dormir.",
+      "es": {
+        "before": "quiero que tú ",
+        "after": "."
+      },
+      "answer": "duermas",
+      "options": [
+        "sean",
+        "duermas",
+        "venga",
+        "vayamos",
+        "pidas",
+        "demos"
+      ],
+      "comment": "subjuntivo presente, verbo: dormir"
+    },
+    {
+      "id": "S0011",
+      "ru": "Я хочу, чтобы он poder.",
+      "es": {
+        "before": "quiero que él ",
+        "after": "."
+      },
+      "answer": "pueda",
+      "options": [
+        "hagas",
+        "esté",
+        "pida",
+        "vivan",
+        "estéis",
+        "pueda"
+      ],
+      "comment": "subjuntivo presente, verbo: poder"
+    },
+    {
+      "id": "S0012",
+      "ru": "Я хочу, чтобы он dar.",
+      "es": {
+        "before": "quiero que él ",
+        "after": "."
+      },
+      "answer": "dé",
+      "options": [
+        "vayas",
+        "tengamos",
+        "vayáis",
+        "viva",
+        "dé",
+        "vaya"
+      ],
+      "comment": "subjuntivo presente, verbo: dar"
+    },
+    {
+      "id": "S0013",
+      "ru": "Я хочу, чтобы он tener.",
+      "es": {
+        "before": "quiero que él ",
+        "after": "."
+      },
+      "answer": "tenga",
+      "options": [
+        "hables",
+        "comas",
+        "veáis",
+        "comáis",
+        "seas",
+        "tenga"
+      ],
+      "comment": "subjuntivo presente, verbo: tener"
+    },
+    {
+      "id": "S0014",
+      "ru": "Я хочу, чтобы он estar.",
+      "es": {
+        "before": "quiero que él ",
+        "after": "."
+      },
+      "answer": "esté",
+      "options": [
+        "sepas",
+        "vayas",
+        "esté",
+        "vengáis",
+        "diga",
+        "quieras"
+      ],
+      "comment": "subjuntivo presente, verbo: estar"
+    },
+    {
+      "id": "S0015",
+      "ru": "Я хочу, чтобы он querer.",
+      "es": {
+        "before": "quiero que él ",
+        "after": "."
+      },
+      "answer": "quiera",
+      "options": [
+        "pidan",
+        "quiera",
+        "hables",
+        "pida",
+        "estéis",
+        "vengamos"
+      ],
+      "comment": "subjuntivo presente, verbo: querer"
+    },
+    {
+      "id": "S0016",
+      "ru": "Я хочу, чтобы он venir.",
+      "es": {
+        "before": "quiero que él ",
+        "after": "."
+      },
+      "answer": "venga",
+      "options": [
+        "hagas",
+        "empecéis",
+        "busques",
+        "venga",
+        "puedan",
+        "hagamos"
+      ],
+      "comment": "subjuntivo presente, verbo: venir"
+    },
+    {
+      "id": "S0017",
+      "ru": "Я хочу, чтобы он decir.",
+      "es": {
+        "before": "quiero que él ",
+        "after": "."
+      },
+      "answer": "diga",
+      "options": [
+        "hagas",
+        "busquemos",
+        "hablemos",
+        "vaya",
+        "diga",
+        "veamos"
+      ],
+      "comment": "subjuntivo presente, verbo: decir"
+    },
+    {
+      "id": "S0018",
+      "ru": "Я хочу, чтобы он vivir.",
+      "es": {
+        "before": "quiero que él ",
+        "after": "."
+      },
+      "answer": "viva",
+      "options": [
+        "digáis",
+        "estén",
+        "vayáis",
+        "coma",
+        "viva",
+        "durmáis"
+      ],
+      "comment": "subjuntivo presente, verbo: vivir"
+    },
+    {
+      "id": "S0019",
+      "ru": "Я хочу, чтобы он saber.",
+      "es": {
+        "before": "quiero que él ",
+        "after": "."
+      },
+      "answer": "sepa",
+      "options": [
+        "sepáis",
+        "vayáis",
+        "tenga",
+        "demos",
+        "empiecen",
+        "sepa"
+      ],
+      "comment": "subjuntivo presente, verbo: saber"
+    },
+    {
+      "id": "S0020",
+      "ru": "Я хочу, чтобы он ser.",
+      "es": {
+        "before": "quiero que él ",
+        "after": "."
+      },
+      "answer": "sea",
+      "options": [
+        "sea",
+        "sepamos",
+        "lleguemos",
+        "llegue",
+        "vengáis",
+        "digan"
+      ],
+      "comment": "subjuntivo presente, verbo: ser"
+    },
+    {
+      "id": "S0021",
+      "ru": "Важно, чтобы ты saber.",
+      "es": {
+        "before": "es importante que tú ",
+        "after": "."
+      },
+      "answer": "sepas",
+      "options": [
+        "llegues",
+        "sepas",
+        "empiecen",
+        "busques",
+        "vayáis",
+        "vivas"
+      ],
+      "comment": "subjuntivo presente, verbo: saber"
+    },
+    {
+      "id": "S0022",
+      "ru": "Важно, чтобы ты pedir.",
+      "es": {
+        "before": "es importante que tú ",
+        "after": "."
+      },
+      "answer": "pidas",
+      "options": [
+        "busque",
+        "vayas",
+        "comamos",
+        "queráis",
+        "estén",
+        "pidas"
+      ],
+      "comment": "subjuntivo presente, verbo: pedir"
+    },
+    {
+      "id": "S0023",
+      "ru": "Важно, чтобы ты estar.",
+      "es": {
+        "before": "es importante que tú ",
+        "after": "."
+      },
+      "answer": "estés",
+      "options": [
+        "queráis",
+        "busques",
+        "diga",
+        "quieran",
+        "pueda",
+        "estés"
+      ],
+      "comment": "subjuntivo presente, verbo: estar"
+    },
+    {
+      "id": "S0024",
+      "ru": "Важно, чтобы ты buscar.",
+      "es": {
+        "before": "es importante que tú ",
+        "after": "."
+      },
+      "answer": "busques",
+      "options": [
+        "digan",
+        "quieran",
+        "durmáis",
+        "busques",
+        "estemos",
+        "quiera"
+      ],
+      "comment": "subjuntivo presente, verbo: buscar"
+    },
+    {
+      "id": "S0025",
+      "ru": "Важно, чтобы ты tener.",
+      "es": {
+        "before": "es importante que tú ",
+        "after": "."
+      },
+      "answer": "tengas",
+      "options": [
+        "queramos",
+        "podáis",
+        "lleguemos",
+        "tengas",
+        "estés",
+        "comas"
+      ],
+      "comment": "subjuntivo presente, verbo: tener"
+    },
+    {
+      "id": "S0026",
+      "ru": "Важно, чтобы ты dar.",
+      "es": {
+        "before": "es importante que tú ",
+        "after": "."
+      },
+      "answer": "des",
+      "options": [
+        "vivamos",
+        "tengáis",
+        "quiera",
+        "sepáis",
+        "des",
+        "empiecen"
+      ],
+      "comment": "subjuntivo presente, verbo: dar"
+    },
+    {
+      "id": "S0027",
+      "ru": "Важно, чтобы ты llegar.",
+      "es": {
+        "before": "es importante que tú ",
+        "after": "."
+      },
+      "answer": "llegues",
+      "options": [
+        "duermas",
+        "sean",
+        "haga",
+        "seamos",
+        "llegues",
+        "estemos"
+      ],
+      "comment": "subjuntivo presente, verbo: llegar"
+    },
+    {
+      "id": "S0028",
+      "ru": "Важно, чтобы ты ver.",
+      "es": {
+        "before": "es importante que tú ",
+        "after": "."
+      },
+      "answer": "veas",
+      "options": [
+        "digan",
+        "puedas",
+        "comáis",
+        "veas",
+        "puedan",
+        "veáis"
+      ],
+      "comment": "subjuntivo presente, verbo: ver"
+    },
+    {
+      "id": "S0029",
+      "ru": "Важно, чтобы ты vivir.",
+      "es": {
+        "before": "es importante que tú ",
+        "after": "."
+      },
+      "answer": "vivas",
+      "options": [
+        "vayáis",
+        "digamos",
+        "vivas",
+        "lleguemos",
+        "vengamos",
+        "comas"
+      ],
+      "comment": "subjuntivo presente, verbo: vivir"
+    },
+    {
+      "id": "S0030",
+      "ru": "Важно, чтобы ты ser.",
+      "es": {
+        "before": "es importante que tú ",
+        "after": "."
+      },
+      "answer": "seas",
+      "options": [
+        "vayáis",
+        "busques",
+        "vayas",
+        "vayamos",
+        "seas",
+        "sea"
+      ],
+      "comment": "subjuntivo presente, verbo: ser"
+    },
+    {
+      "id": "S0031",
+      "ru": "Нужно, чтобы мы saber.",
+      "es": {
+        "before": "es necesario que nosotros ",
+        "after": "."
+      },
+      "answer": "sepamos",
+      "options": [
+        "durmáis",
+        "vengamos",
+        "busquen",
+        "tengan",
+        "sepamos",
+        "empieces"
+      ],
+      "comment": "subjuntivo presente, verbo: saber"
+    },
+    {
+      "id": "S0032",
+      "ru": "Нужно, чтобы мы ser.",
+      "es": {
+        "before": "es necesario que nosotros ",
+        "after": "."
+      },
+      "answer": "seamos",
+      "options": [
+        "dé",
+        "digas",
+        "seamos",
+        "hablemos",
+        "podáis",
+        "hables"
+      ],
+      "comment": "subjuntivo presente, verbo: ser"
+    },
+    {
+      "id": "S0033",
+      "ru": "Нужно, чтобы мы ver.",
+      "es": {
+        "before": "es necesario que nosotros ",
+        "after": "."
+      },
+      "answer": "veamos",
+      "options": [
+        "lleguemos",
+        "vean",
+        "busquemos",
+        "veamos",
+        "busques",
+        "duermas"
+      ],
+      "comment": "subjuntivo presente, verbo: ver"
+    },
+    {
+      "id": "S0034",
+      "ru": "Нужно, чтобы мы decir.",
+      "es": {
+        "before": "es necesario que nosotros ",
+        "after": "."
+      },
+      "answer": "digamos",
+      "options": [
+        "vivamos",
+        "digamos",
+        "quieran",
+        "empiecen",
+        "seamos",
+        "vean"
+      ],
+      "comment": "subjuntivo presente, verbo: decir"
+    },
+    {
+      "id": "S0035",
+      "ru": "Нужно, чтобы мы comer.",
+      "es": {
+        "before": "es necesario que nosotros ",
+        "after": "."
+      },
+      "answer": "comamos",
+      "options": [
+        "vivan",
+        "haga",
+        "empieces",
+        "hable",
+        "comamos",
+        "puedas"
+      ],
+      "comment": "subjuntivo presente, verbo: comer"
+    },
+    {
+      "id": "S0036",
+      "ru": "Нужно, чтобы мы dar.",
+      "es": {
+        "before": "es necesario que nosotros ",
+        "after": "."
+      },
+      "answer": "demos",
+      "options": [
+        "vengan",
+        "sepáis",
+        "demos",
+        "busquen",
+        "pidas",
+        "veamos"
+      ],
+      "comment": "subjuntivo presente, verbo: dar"
+    },
+    {
+      "id": "S0037",
+      "ru": "Нужно, чтобы мы querer.",
+      "es": {
+        "before": "es necesario que nosotros ",
+        "after": "."
+      },
+      "answer": "queramos",
+      "options": [
+        "estén",
+        "queramos",
+        "sepas",
+        "tengas",
+        "puedan",
+        "queráis"
+      ],
+      "comment": "subjuntivo presente, verbo: querer"
+    },
+    {
+      "id": "S0038",
+      "ru": "Нужно, чтобы мы estar.",
+      "es": {
+        "before": "es necesario que nosotros ",
+        "after": "."
+      },
+      "answer": "estemos",
+      "options": [
+        "estemos",
+        "hablemos",
+        "digamos",
+        "duerma",
+        "pidáis",
+        "sepas"
+      ],
+      "comment": "subjuntivo presente, verbo: estar"
+    },
+    {
+      "id": "S0039",
+      "ru": "Нужно, чтобы мы buscar.",
+      "es": {
+        "before": "es necesario que nosotros ",
+        "after": "."
+      },
+      "answer": "busquemos",
+      "options": [
+        "estemos",
+        "comas",
+        "podamos",
+        "durmamos",
+        "busquemos",
+        "vivan"
+      ],
+      "comment": "subjuntivo presente, verbo: buscar"
+    },
+    {
+      "id": "S0040",
+      "ru": "Нужно, чтобы мы pedir.",
+      "es": {
+        "before": "es necesario que nosotros ",
+        "after": "."
+      },
+      "answer": "pidamos",
+      "options": [
+        "vivamos",
+        "sepáis",
+        "duerma",
+        "pidamos",
+        "empiecen",
+        "vea"
+      ],
+      "comment": "subjuntivo presente, verbo: pedir"
+    },
+    {
+      "id": "S0041",
+      "ru": "Я надеюсь, что они tener.",
+      "es": {
+        "before": "espero que ellos ",
+        "after": "."
+      },
+      "answer": "tengan",
+      "options": [
+        "llegues",
+        "hables",
+        "sean",
+        "tengan",
+        "vea",
+        "vayáis"
+      ],
+      "comment": "subjuntivo presente, verbo: tener"
+    },
+    {
+      "id": "S0042",
+      "ru": "Я надеюсь, что они hablar.",
+      "es": {
+        "before": "espero que ellos ",
+        "after": "."
+      },
+      "answer": "hablen",
+      "options": [
+        "veas",
+        "hablen",
+        "seas",
+        "quieras",
+        "tengamos",
+        "vea"
+      ],
+      "comment": "subjuntivo presente, verbo: hablar"
+    },
+    {
+      "id": "S0043",
+      "ru": "Я надеюсь, что они venir.",
+      "es": {
+        "before": "espero que ellos ",
+        "after": "."
+      },
+      "answer": "vengan",
+      "options": [
+        "vengan",
+        "llegues",
+        "sepáis",
+        "tenga",
+        "estéis",
+        "durmáis"
+      ],
+      "comment": "subjuntivo presente, verbo: venir"
+    },
+    {
+      "id": "S0044",
+      "ru": "Я надеюсь, что они vivir.",
+      "es": {
+        "before": "espero que ellos ",
+        "after": "."
+      },
+      "answer": "vivan",
+      "options": [
+        "estéis",
+        "sean",
+        "comáis",
+        "veamos",
+        "vivan",
+        "venga"
+      ],
+      "comment": "subjuntivo presente, verbo: vivir"
+    },
+    {
+      "id": "S0045",
+      "ru": "Я надеюсь, что они empezar.",
+      "es": {
+        "before": "espero que ellos ",
+        "after": "."
+      },
+      "answer": "empiecen",
+      "options": [
+        "pueda",
+        "empiecen",
+        "hagáis",
+        "queráis",
+        "busquemos",
+        "vean"
+      ],
+      "comment": "subjuntivo presente, verbo: empezar"
+    },
+    {
+      "id": "S0046",
+      "ru": "Я надеюсь, что они ver.",
+      "es": {
+        "before": "espero que ellos ",
+        "after": "."
+      },
+      "answer": "vean",
+      "options": [
+        "vean",
+        "demos",
+        "pidan",
+        "sepa",
+        "podamos",
+        "empecéis"
+      ],
+      "comment": "subjuntivo presente, verbo: ver"
+    },
+    {
+      "id": "S0047",
+      "ru": "Я надеюсь, что они buscar.",
+      "es": {
+        "before": "espero que ellos ",
+        "after": "."
+      },
+      "answer": "busquen",
+      "options": [
+        "vea",
+        "busquen",
+        "quieras",
+        "viváis",
+        "lleguen",
+        "lleguéis"
+      ],
+      "comment": "subjuntivo presente, verbo: buscar"
+    },
+    {
+      "id": "S0048",
+      "ru": "Я надеюсь, что они dar.",
+      "es": {
+        "before": "espero que ellos ",
+        "after": "."
+      },
+      "answer": "den",
+      "options": [
+        "pidan",
+        "busquéis",
+        "seamos",
+        "tengáis",
+        "den",
+        "digáis"
+      ],
+      "comment": "subjuntivo presente, verbo: dar"
+    },
+    {
+      "id": "S0049",
+      "ru": "Я надеюсь, что они ir.",
+      "es": {
+        "before": "espero que ellos ",
+        "after": "."
+      },
+      "answer": "vayan",
+      "options": [
+        "llegue",
+        "hagan",
+        "vayan",
+        "sepáis",
+        "sepa",
+        "hagáis"
+      ],
+      "comment": "subjuntivo presente, verbo: ir"
+    },
+    {
+      "id": "S0050",
+      "ru": "Я надеюсь, что они comer.",
+      "es": {
+        "before": "espero que ellos ",
+        "after": "."
+      },
+      "answer": "coman",
+      "options": [
+        "venga",
+        "duermas",
+        "vean",
+        "pidamos",
+        "coman",
+        "busquen"
+      ],
+      "comment": "subjuntivo presente, verbo: comer"
+    },
+    {
+      "id": "S0051",
+      "ru": "Я сомневаюсь, что она hacer.",
+      "es": {
+        "before": "dudo que ella ",
+        "after": "."
+      },
+      "answer": "haga",
+      "options": [
+        "tengamos",
+        "coma",
+        "veamos",
+        "viváis",
+        "haga",
+        "puedas"
+      ],
+      "comment": "subjuntivo presente, verbo: hacer"
+    },
+    {
+      "id": "S0052",
+      "ru": "Я сомневаюсь, что она dormir.",
+      "es": {
+        "before": "dudo que ella ",
+        "after": "."
+      },
+      "answer": "duerma",
+      "options": [
+        "durmáis",
+        "comas",
+        "busque",
+        "duerma",
+        "busques",
+        "deis"
+      ],
+      "comment": "subjuntivo presente, verbo: dormir"
+    },
+    {
+      "id": "S0053",
+      "ru": "Я сомневаюсь, что она ir.",
+      "es": {
+        "before": "dudo que ella ",
+        "after": "."
+      },
+      "answer": "vaya",
+      "options": [
+        "durmamos",
+        "estén",
+        "vengas",
+        "estemos",
+        "busquen",
+        "vaya"
+      ],
+      "comment": "subjuntivo presente, verbo: ir"
+    },
+    {
+      "id": "S0054",
+      "ru": "Я сомневаюсь, что она saber.",
+      "es": {
+        "before": "dudo que ella ",
+        "after": "."
+      },
+      "answer": "sepa",
+      "options": [
+        "sepa",
+        "hagan",
+        "duerma",
+        "comáis",
+        "seamos",
+        "queramos"
+      ],
+      "comment": "subjuntivo presente, verbo: saber"
+    },
+    {
+      "id": "S0055",
+      "ru": "Я сомневаюсь, что она venir.",
+      "es": {
+        "before": "dudo que ella ",
+        "after": "."
+      },
+      "answer": "venga",
+      "options": [
+        "estén",
+        "coman",
+        "duerman",
+        "deis",
+        "venga",
+        "hagan"
+      ],
+      "comment": "subjuntivo presente, verbo: venir"
+    },
+    {
+      "id": "S0056",
+      "ru": "Я сомневаюсь, что она decir.",
+      "es": {
+        "before": "dudo que ella ",
+        "after": "."
+      },
+      "answer": "diga",
+      "options": [
+        "vengamos",
+        "hagas",
+        "diga",
+        "digas",
+        "veáis",
+        "estés"
+      ],
+      "comment": "subjuntivo presente, verbo: decir"
+    },
+    {
+      "id": "S0057",
+      "ru": "Я сомневаюсь, что она ser.",
+      "es": {
+        "before": "dudo que ella ",
+        "after": "."
+      },
+      "answer": "sea",
+      "options": [
+        "sepas",
+        "sea",
+        "tengas",
+        "vivan",
+        "comamos",
+        "duerma"
+      ],
+      "comment": "subjuntivo presente, verbo: ser"
+    },
+    {
+      "id": "S0058",
+      "ru": "Я сомневаюсь, что она vivir.",
+      "es": {
+        "before": "dudo que ella ",
+        "after": "."
+      },
+      "answer": "viva",
+      "options": [
+        "habléis",
+        "comáis",
+        "den",
+        "empieces",
+        "queramos",
+        "viva"
+      ],
+      "comment": "subjuntivo presente, verbo: vivir"
+    },
+    {
+      "id": "S0059",
+      "ru": "Я сомневаюсь, что она comer.",
+      "es": {
+        "before": "dudo que ella ",
+        "after": "."
+      },
+      "answer": "coma",
+      "options": [
+        "queramos",
+        "estemos",
+        "coma",
+        "vea",
+        "den",
+        "vaya"
+      ],
+      "comment": "subjuntivo presente, verbo: comer"
+    },
+    {
+      "id": "S0060",
+      "ru": "Я сомневаюсь, что она llegar.",
+      "es": {
+        "before": "dudo que ella ",
+        "after": "."
+      },
+      "answer": "llegue",
+      "options": [
+        "llegue",
+        "des",
+        "vayan",
+        "tenga",
+        "dé",
+        "empiece"
+      ],
+      "comment": "subjuntivo presente, verbo: llegar"
+    },
+    {
+      "id": "S0061",
+      "ru": "Я рад, что вы buscar.",
+      "es": {
+        "before": "me alegra que vosotros ",
+        "after": "."
+      },
+      "answer": "busquéis",
+      "options": [
+        "venga",
+        "empiecen",
+        "busquéis",
+        "hables",
+        "vengas",
+        "vayan"
+      ],
+      "comment": "subjuntivo presente, verbo: buscar"
+    },
+    {
+      "id": "S0062",
+      "ru": "Я рад, что вы empezar.",
+      "es": {
+        "before": "me alegra que vosotros ",
+        "after": "."
+      },
+      "answer": "empecéis",
+      "options": [
+        "duerman",
+        "vea",
+        "digan",
+        "estés",
+        "haga",
+        "empecéis"
+      ],
+      "comment": "subjuntivo presente, verbo: empezar"
+    },
+    {
+      "id": "S0063",
+      "ru": "Я рад, что вы decir.",
+      "es": {
+        "before": "me alegra que vosotros ",
+        "after": "."
+      },
+      "answer": "digáis",
+      "options": [
+        "sean",
+        "pidamos",
+        "haga",
+        "hagamos",
+        "vengáis",
+        "digáis"
+      ],
+      "comment": "subjuntivo presente, verbo: decir"
+    },
+    {
+      "id": "S0064",
+      "ru": "Я рад, что вы comer.",
+      "es": {
+        "before": "me alegra que vosotros ",
+        "after": "."
+      },
+      "answer": "comáis",
+      "options": [
+        "esté",
+        "hagan",
+        "comáis",
+        "seamos",
+        "duerman",
+        "comamos"
+      ],
+      "comment": "subjuntivo presente, verbo: comer"
+    },
+    {
+      "id": "S0065",
+      "ru": "Я рад, что вы hablar.",
+      "es": {
+        "before": "me alegra que vosotros ",
+        "after": "."
+      },
+      "answer": "habléis",
+      "options": [
+        "hagan",
+        "vengas",
+        "habléis",
+        "sean",
+        "sea",
+        "digamos"
+      ],
+      "comment": "subjuntivo presente, verbo: hablar"
+    },
+    {
+      "id": "S0066",
+      "ru": "Я рад, что вы tener.",
+      "es": {
+        "before": "me alegra que vosotros ",
+        "after": "."
+      },
+      "answer": "tengáis",
+      "options": [
+        "vea",
+        "lleguéis",
+        "podamos",
+        "comas",
+        "tengáis",
+        "vaya"
+      ],
+      "comment": "subjuntivo presente, verbo: tener"
+    },
+    {
+      "id": "S0067",
+      "ru": "Я рад, что вы saber.",
+      "es": {
+        "before": "me alegra que vosotros ",
+        "after": "."
+      },
+      "answer": "sepáis",
+      "options": [
+        "sepáis",
+        "pueda",
+        "vengas",
+        "queráis",
+        "haga",
+        "pidas"
+      ],
+      "comment": "subjuntivo presente, verbo: saber"
+    },
+    {
+      "id": "S0068",
+      "ru": "Я рад, что вы llegar.",
+      "es": {
+        "before": "me alegra que vosotros ",
+        "after": "."
+      },
+      "answer": "lleguéis",
+      "options": [
+        "des",
+        "viváis",
+        "puedas",
+        "vaya",
+        "comamos",
+        "lleguéis"
+      ],
+      "comment": "subjuntivo presente, verbo: llegar"
+    },
+    {
+      "id": "S0069",
+      "ru": "Я рад, что вы querer.",
+      "es": {
+        "before": "me alegra que vosotros ",
+        "after": "."
+      },
+      "answer": "queráis",
+      "options": [
+        "veas",
+        "vaya",
+        "comas",
+        "busquéis",
+        "queráis",
+        "puedas"
+      ],
+      "comment": "subjuntivo presente, verbo: querer"
+    },
+    {
+      "id": "S0070",
+      "ru": "Я рад, что вы poder.",
+      "es": {
+        "before": "me alegra que vosotros ",
+        "after": "."
+      },
+      "answer": "podáis",
+      "options": [
+        "pida",
+        "vengamos",
+        "digáis",
+        "den",
+        "podáis",
+        "vengas"
+      ],
+      "comment": "subjuntivo presente, verbo: poder"
+    },
+    {
+      "id": "S0071",
+      "ru": "Я боюсь, что он buscar.",
+      "es": {
+        "before": "temo que él ",
+        "after": "."
+      },
+      "answer": "busque",
+      "options": [
+        "esté",
+        "pida",
+        "busque",
+        "vivas",
+        "durmáis",
+        "podamos"
+      ],
+      "comment": "subjuntivo presente, verbo: buscar"
+    },
+    {
+      "id": "S0072",
+      "ru": "Я боюсь, что он tener.",
+      "es": {
+        "before": "temo que él ",
+        "after": "."
+      },
+      "answer": "tenga",
+      "options": [
+        "puedan",
+        "sepamos",
+        "tenga",
+        "demos",
+        "diga",
+        "estén"
+      ],
+      "comment": "subjuntivo presente, verbo: tener"
+    },
+    {
+      "id": "S0073",
+      "ru": "Я боюсь, что он vivir.",
+      "es": {
+        "before": "temo que él ",
+        "after": "."
+      },
+      "answer": "viva",
+      "options": [
+        "vivas",
+        "viva",
+        "hablemos",
+        "puedas",
+        "tengan",
+        "pida"
+      ],
+      "comment": "subjuntivo presente, verbo: vivir"
+    },
+    {
+      "id": "S0074",
+      "ru": "Я боюсь, что он decir.",
+      "es": {
+        "before": "temo que él ",
+        "after": "."
+      },
+      "answer": "diga",
+      "options": [
+        "quieran",
+        "estéis",
+        "hagáis",
+        "seamos",
+        "des",
+        "diga"
+      ],
+      "comment": "subjuntivo presente, verbo: decir"
+    },
+    {
+      "id": "S0075",
+      "ru": "Я боюсь, что он estar.",
+      "es": {
+        "before": "temo que él ",
+        "after": "."
+      },
+      "answer": "esté",
+      "options": [
+        "esté",
+        "hagamos",
+        "durmamos",
+        "tengáis",
+        "hagan",
+        "veáis"
+      ],
+      "comment": "subjuntivo presente, verbo: estar"
+    },
+    {
+      "id": "S0076",
+      "ru": "Я боюсь, что он dar.",
+      "es": {
+        "before": "temo que él ",
+        "after": "."
+      },
+      "answer": "dé",
+      "options": [
+        "seáis",
+        "coman",
+        "estemos",
+        "llegue",
+        "busque",
+        "dé"
+      ],
+      "comment": "subjuntivo presente, verbo: dar"
+    },
+    {
+      "id": "S0077",
+      "ru": "Я боюсь, что он poder.",
+      "es": {
+        "before": "temo que él ",
+        "after": "."
+      },
+      "answer": "pueda",
+      "options": [
+        "pueda",
+        "estés",
+        "empieces",
+        "hables",
+        "lleguemos",
+        "haga"
+      ],
+      "comment": "subjuntivo presente, verbo: poder"
+    },
+    {
+      "id": "S0078",
+      "ru": "Я боюсь, что он venir.",
+      "es": {
+        "before": "temo que él ",
+        "after": "."
+      },
+      "answer": "venga",
+      "options": [
+        "veamos",
+        "venga",
+        "diga",
+        "hablemos",
+        "busquemos",
+        "empieces"
+      ],
+      "comment": "subjuntivo presente, verbo: venir"
+    },
+    {
+      "id": "S0079",
+      "ru": "Я боюсь, что он ir.",
+      "es": {
+        "before": "temo que él ",
+        "after": "."
+      },
+      "answer": "vaya",
+      "options": [
+        "vaya",
+        "vivan",
+        "veáis",
+        "habléis",
+        "duerma",
+        "duermas"
+      ],
+      "comment": "subjuntivo presente, verbo: ir"
+    },
+    {
+      "id": "S0080",
+      "ru": "Я боюсь, что он empezar.",
+      "es": {
+        "before": "temo que él ",
+        "after": "."
+      },
+      "answer": "empiece",
+      "options": [
+        "esté",
+        "haga",
+        "sepamos",
+        "vengas",
+        "empiece",
+        "digas"
+      ],
+      "comment": "subjuntivo presente, verbo: empezar"
+    },
+    {
+      "id": "S0081",
+      "ru": "Я не думаю, что они ser.",
+      "es": {
+        "before": "no creo que ellos ",
+        "after": "."
+      },
+      "answer": "sean",
+      "options": [
+        "veáis",
+        "lleguemos",
+        "esté",
+        "hagas",
+        "comas",
+        "sean"
+      ],
+      "comment": "subjuntivo presente, verbo: ser"
+    },
+    {
+      "id": "S0082",
+      "ru": "Я не думаю, что они empezar.",
+      "es": {
+        "before": "no creo que ellos ",
+        "after": "."
+      },
+      "answer": "empiecen",
+      "options": [
+        "tengáis",
+        "llegues",
+        "comas",
+        "estemos",
+        "empiecen",
+        "comáis"
+      ],
+      "comment": "subjuntivo presente, verbo: empezar"
+    },
+    {
+      "id": "S0083",
+      "ru": "Я не думаю, что они comer.",
+      "es": {
+        "before": "no creo que ellos ",
+        "after": "."
+      },
+      "answer": "coman",
+      "options": [
+        "coman",
+        "vayamos",
+        "haga",
+        "quiera",
+        "lleguéis",
+        "vayan"
+      ],
+      "comment": "subjuntivo presente, verbo: comer"
+    },
+    {
+      "id": "S0084",
+      "ru": "Я не думаю, что они querer.",
+      "es": {
+        "before": "no creo que ellos ",
+        "after": "."
+      },
+      "answer": "quieran",
+      "options": [
+        "seáis",
+        "llegue",
+        "viva",
+        "quieran",
+        "tengan",
+        "des"
+      ],
+      "comment": "subjuntivo presente, verbo: querer"
+    },
+    {
+      "id": "S0085",
+      "ru": "Я не думаю, что они decir.",
+      "es": {
+        "before": "no creo que ellos ",
+        "after": "."
+      },
+      "answer": "digan",
+      "options": [
+        "empiece",
+        "digan",
+        "veamos",
+        "estemos",
+        "busquemos",
+        "pidáis"
+      ],
+      "comment": "subjuntivo presente, verbo: decir"
+    },
+    {
+      "id": "S0086",
+      "ru": "Я не думаю, что они hacer.",
+      "es": {
+        "before": "no creo que ellos ",
+        "after": "."
+      },
+      "answer": "hagan",
+      "options": [
+        "vayáis",
+        "tengamos",
+        "sepáis",
+        "hagan",
+        "busquéis",
+        "queramos"
+      ],
+      "comment": "subjuntivo presente, verbo: hacer"
+    },
+    {
+      "id": "S0087",
+      "ru": "Я не думаю, что они ver.",
+      "es": {
+        "before": "no creo que ellos ",
+        "after": "."
+      },
+      "answer": "vean",
+      "options": [
+        "pidáis",
+        "hablen",
+        "durmáis",
+        "vean",
+        "demos",
+        "sean"
+      ],
+      "comment": "subjuntivo presente, verbo: ver"
+    },
+    {
+      "id": "S0088",
+      "ru": "Я не думаю, что они buscar.",
+      "es": {
+        "before": "no creo que ellos ",
+        "after": "."
+      },
+      "answer": "busquen",
+      "options": [
+        "lleguen",
+        "empieces",
+        "podáis",
+        "duermas",
+        "busquen",
+        "viva"
+      ],
+      "comment": "subjuntivo presente, verbo: buscar"
+    },
+    {
+      "id": "S0089",
+      "ru": "Я не думаю, что они saber.",
+      "es": {
+        "before": "no creo que ellos ",
+        "after": "."
+      },
+      "answer": "sepan",
+      "options": [
+        "hables",
+        "durmáis",
+        "hagan",
+        "sepan",
+        "veáis",
+        "sea"
+      ],
+      "comment": "subjuntivo presente, verbo: saber"
+    },
+    {
+      "id": "S0090",
+      "ru": "Я не думаю, что они tener.",
+      "es": {
+        "before": "no creo que ellos ",
+        "after": "."
+      },
+      "answer": "tengan",
+      "options": [
+        "sepan",
+        "tengas",
+        "llegues",
+        "durmáis",
+        "duermas",
+        "tengan"
+      ],
+      "comment": "subjuntivo presente, verbo: tener"
+    },
+    {
+      "id": "S0091",
+      "ru": "Возможно, что ты comer.",
+      "es": {
+        "before": "es posible que tú ",
+        "after": "."
+      },
+      "answer": "comas",
+      "options": [
+        "queramos",
+        "sepas",
+        "comas",
+        "duerman",
+        "empiecen",
+        "seamos"
+      ],
+      "comment": "subjuntivo presente, verbo: comer"
+    },
+    {
+      "id": "S0092",
+      "ru": "Возможно, что ты pedir.",
+      "es": {
+        "before": "es posible que tú ",
+        "after": "."
+      },
+      "answer": "pidas",
+      "options": [
+        "pidas",
+        "estén",
+        "tengas",
+        "hable",
+        "venga",
+        "digas"
+      ],
+      "comment": "subjuntivo presente, verbo: pedir"
+    },
+    {
+      "id": "S0093",
+      "ru": "Возможно, что ты ir.",
+      "es": {
+        "before": "es posible que tú ",
+        "after": "."
+      },
+      "answer": "vayas",
+      "options": [
+        "hagas",
+        "busque",
+        "vayas",
+        "demos",
+        "vengas",
+        "comamos"
+      ],
+      "comment": "subjuntivo presente, verbo: ir"
+    },
+    {
+      "id": "S0094",
+      "ru": "Возможно, что ты buscar.",
+      "es": {
+        "before": "es posible que tú ",
+        "after": "."
+      },
+      "answer": "busques",
+      "options": [
+        "estemos",
+        "empecéis",
+        "tengas",
+        "durmáis",
+        "busques",
+        "tenga"
+      ],
+      "comment": "subjuntivo presente, verbo: buscar"
+    },
+    {
+      "id": "S0095",
+      "ru": "Возможно, что ты hablar.",
+      "es": {
+        "before": "es posible que tú ",
+        "after": "."
+      },
+      "answer": "hables",
+      "options": [
+        "podamos",
+        "estés",
+        "comamos",
+        "quieran",
+        "seamos",
+        "hables"
+      ],
+      "comment": "subjuntivo presente, verbo: hablar"
+    },
+    {
+      "id": "S0096",
+      "ru": "Возможно, что ты querer.",
+      "es": {
+        "before": "es posible que tú ",
+        "after": "."
+      },
+      "answer": "quieras",
+      "options": [
+        "puedan",
+        "quieras",
+        "vayan",
+        "haga",
+        "duermas",
+        "digáis"
+      ],
+      "comment": "subjuntivo presente, verbo: querer"
+    },
+    {
+      "id": "S0097",
+      "ru": "Возможно, что ты poder.",
+      "es": {
+        "before": "es posible que tú ",
+        "after": "."
+      },
+      "answer": "puedas",
+      "options": [
+        "llegue",
+        "puedas",
+        "empecemos",
+        "empieces",
+        "duerman",
+        "pidan"
+      ],
+      "comment": "subjuntivo presente, verbo: poder"
+    },
+    {
+      "id": "S0098",
+      "ru": "Возможно, что ты saber.",
+      "es": {
+        "before": "es posible que tú ",
+        "after": "."
+      },
+      "answer": "sepas",
+      "options": [
+        "pueda",
+        "digáis",
+        "sepas",
+        "empiece",
+        "deis",
+        "vayan"
+      ],
+      "comment": "subjuntivo presente, verbo: saber"
+    },
+    {
+      "id": "S0099",
+      "ru": "Возможно, что ты ver.",
+      "es": {
+        "before": "es posible que tú ",
+        "after": "."
+      },
+      "answer": "veas",
+      "options": [
+        "veas",
+        "pidas",
+        "durmáis",
+        "viváis",
+        "queráis",
+        "podáis"
+      ],
+      "comment": "subjuntivo presente, verbo: ver"
+    },
+    {
+      "id": "S0100",
+      "ru": "Возможно, что ты tener.",
+      "es": {
+        "before": "es posible que tú ",
+        "after": "."
+      },
+      "answer": "tengas",
+      "options": [
+        "queramos",
+        "empecemos",
+        "tengas",
+        "sea",
+        "tenga",
+        "seamos"
+      ],
+      "comment": "subjuntivo presente, verbo: tener"
+    },
+    {
+      "id": "S0101",
+      "ru": "Маловероятно, что он saber.",
+      "es": {
+        "before": "es poco probable que él ",
+        "after": "."
+      },
+      "answer": "sepa",
+      "options": [
+        "venga",
+        "vengan",
+        "duerma",
+        "sepa",
+        "vayas",
+        "pida"
+      ],
+      "comment": "subjuntivo presente, verbo: saber"
+    },
+    {
+      "id": "S0102",
+      "ru": "Маловероятно, что он ver.",
+      "es": {
+        "before": "es poco probable que él ",
+        "after": "."
+      },
+      "answer": "vea",
+      "options": [
+        "llegue",
+        "vengas",
+        "vea",
+        "sea",
+        "vean",
+        "vaya"
+      ],
+      "comment": "subjuntivo presente, verbo: ver"
+    },
+    {
+      "id": "S0103",
+      "ru": "Маловероятно, что он vivir.",
+      "es": {
+        "before": "es poco probable que él ",
+        "after": "."
+      },
+      "answer": "viva",
+      "options": [
+        "lleguemos",
+        "viva",
+        "veamos",
+        "vean",
+        "digáis",
+        "vaya"
+      ],
+      "comment": "subjuntivo presente, verbo: vivir"
+    },
+    {
+      "id": "S0104",
+      "ru": "Маловероятно, что он dormir.",
+      "es": {
+        "before": "es poco probable que él ",
+        "after": "."
+      },
+      "answer": "duerma",
+      "options": [
+        "vayáis",
+        "dé",
+        "pidan",
+        "hablen",
+        "sepan",
+        "duerma"
+      ],
+      "comment": "subjuntivo presente, verbo: dormir"
+    },
+    {
+      "id": "S0105",
+      "ru": "Маловероятно, что он tener.",
+      "es": {
+        "before": "es poco probable que él ",
+        "after": "."
+      },
+      "answer": "tenga",
+      "options": [
+        "lleguemos",
+        "queráis",
+        "quieran",
+        "podáis",
+        "tenga",
+        "hable"
+      ],
+      "comment": "subjuntivo presente, verbo: tener"
+    },
+    {
+      "id": "S0106",
+      "ru": "Маловероятно, что он estar.",
+      "es": {
+        "before": "es poco probable que él ",
+        "after": "."
+      },
+      "answer": "esté",
+      "options": [
+        "estén",
+        "vayan",
+        "esté",
+        "quiera",
+        "hagas",
+        "diga"
+      ],
+      "comment": "subjuntivo presente, verbo: estar"
+    },
+    {
+      "id": "S0107",
+      "ru": "Маловероятно, что он pedir.",
+      "es": {
+        "before": "es poco probable que él ",
+        "after": "."
+      },
+      "answer": "pida",
+      "options": [
+        "sepa",
+        "lleguemos",
+        "lleguéis",
+        "vayamos",
+        "comas",
+        "pida"
+      ],
+      "comment": "subjuntivo presente, verbo: pedir"
+    },
+    {
+      "id": "S0108",
+      "ru": "Маловероятно, что он ir.",
+      "es": {
+        "before": "es poco probable que él ",
+        "after": "."
+      },
+      "answer": "vaya",
+      "options": [
+        "busquen",
+        "llegues",
+        "venga",
+        "vaya",
+        "comáis",
+        "duerman"
+      ],
+      "comment": "subjuntivo presente, verbo: ir"
+    },
+    {
+      "id": "S0109",
+      "ru": "Маловероятно, что он querer.",
+      "es": {
+        "before": "es poco probable que él ",
+        "after": "."
+      },
+      "answer": "quiera",
+      "options": [
+        "digáis",
+        "coman",
+        "empiecen",
+        "quiera",
+        "habléis",
+        "empieces"
+      ],
+      "comment": "subjuntivo presente, verbo: querer"
+    },
+    {
+      "id": "S0110",
+      "ru": "Маловероятно, что он dar.",
+      "es": {
+        "before": "es poco probable que él ",
+        "after": "."
+      },
+      "answer": "dé",
+      "options": [
+        "duerma",
+        "viváis",
+        "sepan",
+        "dé",
+        "digáis",
+        "demos"
+      ],
+      "comment": "subjuntivo presente, verbo: dar"
+    },
+    {
+      "id": "S0111",
+      "ru": "Я предпочитаю, чтобы мы ver.",
+      "es": {
+        "before": "prefiero que nosotros ",
+        "after": "."
+      },
+      "answer": "veamos",
+      "options": [
+        "busquéis",
+        "busquen",
+        "hagamos",
+        "veamos",
+        "digamos",
+        "vengan"
+      ],
+      "comment": "subjuntivo presente, verbo: ver"
+    },
+    {
+      "id": "S0112",
+      "ru": "Я предпочитаю, чтобы мы dar.",
+      "es": {
+        "before": "prefiero que nosotros ",
+        "after": "."
+      },
+      "answer": "demos",
+      "options": [
+        "empecéis",
+        "tengas",
+        "demos",
+        "dé",
+        "diga",
+        "lleguemos"
+      ],
+      "comment": "subjuntivo presente, verbo: dar"
+    },
+    {
+      "id": "S0113",
+      "ru": "Я предпочитаю, чтобы мы vivir.",
+      "es": {
+        "before": "prefiero que nosotros ",
+        "after": "."
+      },
+      "answer": "vivamos",
+      "options": [
+        "pueda",
+        "estéis",
+        "pida",
+        "vivamos",
+        "pidan",
+        "hagamos"
+      ],
+      "comment": "subjuntivo presente, verbo: vivir"
+    },
+    {
+      "id": "S0114",
+      "ru": "Я предпочитаю, чтобы мы estar.",
+      "es": {
+        "before": "prefiero que nosotros ",
+        "after": "."
+      },
+      "answer": "estemos",
+      "options": [
+        "duermas",
+        "llegue",
+        "durmáis",
+        "duerma",
+        "estemos",
+        "vayamos"
+      ],
+      "comment": "subjuntivo presente, verbo: estar"
+    },
+    {
+      "id": "S0115",
+      "ru": "Я предпочитаю, чтобы мы ser.",
+      "es": {
+        "before": "prefiero que nosotros ",
+        "after": "."
+      },
+      "answer": "seamos",
+      "options": [
+        "busquemos",
+        "podáis",
+        "pueda",
+        "sepan",
+        "seamos",
+        "seáis"
+      ],
+      "comment": "subjuntivo presente, verbo: ser"
+    },
+    {
+      "id": "S0116",
+      "ru": "Я предпочитаю, чтобы мы llegar.",
+      "es": {
+        "before": "prefiero que nosotros ",
+        "after": "."
+      },
+      "answer": "lleguemos",
+      "options": [
+        "lleguemos",
+        "sepas",
+        "digáis",
+        "sean",
+        "comamos",
+        "seamos"
+      ],
+      "comment": "subjuntivo presente, verbo: llegar"
+    },
+    {
+      "id": "S0117",
+      "ru": "Я предпочитаю, чтобы мы hablar.",
+      "es": {
+        "before": "prefiero que nosotros ",
+        "after": "."
+      },
+      "answer": "hablemos",
+      "options": [
+        "vayas",
+        "venga",
+        "duerman",
+        "hablemos",
+        "busque",
+        "sea"
+      ],
+      "comment": "subjuntivo presente, verbo: hablar"
+    },
+    {
+      "id": "S0118",
+      "ru": "Я предпочитаю, чтобы мы comer.",
+      "es": {
+        "before": "prefiero que nosotros ",
+        "after": "."
+      },
+      "answer": "comamos",
+      "options": [
+        "sepáis",
+        "comamos",
+        "vengan",
+        "veamos",
+        "empecemos",
+        "lleguéis"
+      ],
+      "comment": "subjuntivo presente, verbo: comer"
+    },
+    {
+      "id": "S0119",
+      "ru": "Я предпочитаю, чтобы мы dormir.",
+      "es": {
+        "before": "prefiero que nosotros ",
+        "after": "."
+      },
+      "answer": "durmamos",
+      "options": [
+        "empecemos",
+        "hagamos",
+        "lleguéis",
+        "durmamos",
+        "hable",
+        "empiecen"
+      ],
+      "comment": "subjuntivo presente, verbo: dormir"
+    },
+    {
+      "id": "S0120",
+      "ru": "Я предпочитаю, чтобы мы empezar.",
+      "es": {
+        "before": "prefiero que nosotros ",
+        "after": "."
+      },
+      "answer": "empecemos",
+      "options": [
+        "empecemos",
+        "vivan",
+        "estés",
+        "hagamos",
+        "vayas",
+        "sepas"
+      ],
+      "comment": "subjuntivo presente, verbo: empezar"
+    },
+    {
+      "id": "S0121",
+      "ru": "Я советую тебе, чтобы ты poder.",
+      "es": {
+        "before": "te aconsejo que tú ",
+        "after": "."
+      },
+      "answer": "puedas",
+      "options": [
+        "tengamos",
+        "sea",
+        "pidáis",
+        "hablen",
+        "vengan",
+        "puedas"
+      ],
+      "comment": "subjuntivo presente, verbo: poder"
+    },
+    {
+      "id": "S0122",
+      "ru": "Я советую тебе, чтобы ты vivir.",
+      "es": {
+        "before": "te aconsejo que tú ",
+        "after": "."
+      },
+      "answer": "vivas",
+      "options": [
+        "tengan",
+        "hable",
+        "podamos",
+        "vivas",
+        "diga",
+        "podáis"
+      ],
+      "comment": "subjuntivo presente, verbo: vivir"
+    },
+    {
+      "id": "S0123",
+      "ru": "Я советую тебе, чтобы ты llegar.",
+      "es": {
+        "before": "te aconsejo que tú ",
+        "after": "."
+      },
+      "answer": "llegues",
+      "options": [
+        "busquéis",
+        "den",
+        "llegues",
+        "vayáis",
+        "lleguen",
+        "quieras"
+      ],
+      "comment": "subjuntivo presente, verbo: llegar"
+    },
+    {
+      "id": "S0124",
+      "ru": "Я советую тебе, чтобы ты comer.",
+      "es": {
+        "before": "te aconsejo que tú ",
+        "after": "."
+      },
+      "answer": "comas",
+      "options": [
+        "comas",
+        "sea",
+        "hablemos",
+        "llegues",
+        "empiece",
+        "seamos"
+      ],
+      "comment": "subjuntivo presente, verbo: comer"
+    },
+    {
+      "id": "S0125",
+      "ru": "Я советую тебе, чтобы ты ser.",
+      "es": {
+        "before": "te aconsejo que tú ",
+        "after": "."
+      },
+      "answer": "seas",
+      "options": [
+        "queramos",
+        "vengamos",
+        "digamos",
+        "veas",
+        "pidamos",
+        "seas"
+      ],
+      "comment": "subjuntivo presente, verbo: ser"
+    },
+    {
+      "id": "S0126",
+      "ru": "Я советую тебе, чтобы ты ir.",
+      "es": {
+        "before": "te aconsejo que tú ",
+        "after": "."
+      },
+      "answer": "vayas",
+      "options": [
+        "vayamos",
+        "estén",
+        "llegue",
+        "llegues",
+        "vayas",
+        "esté"
+      ],
+      "comment": "subjuntivo presente, verbo: ir"
+    },
+    {
+      "id": "S0127",
+      "ru": "Я советую тебе, чтобы ты ver.",
+      "es": {
+        "before": "te aconsejo que tú ",
+        "after": "."
+      },
+      "answer": "veas",
+      "options": [
+        "puedas",
+        "demos",
+        "deis",
+        "veas",
+        "busquéis",
+        "empiece"
+      ],
+      "comment": "subjuntivo presente, verbo: ver"
+    },
+    {
+      "id": "S0128",
+      "ru": "Я советую тебе, чтобы ты buscar.",
+      "es": {
+        "before": "te aconsejo que tú ",
+        "after": "."
+      },
+      "answer": "busques",
+      "options": [
+        "dé",
+        "vayas",
+        "digáis",
+        "tengas",
+        "hagáis",
+        "busques"
+      ],
+      "comment": "subjuntivo presente, verbo: buscar"
+    },
+    {
+      "id": "S0129",
+      "ru": "Я советую тебе, чтобы ты venir.",
+      "es": {
+        "before": "te aconsejo que tú ",
+        "after": "."
+      },
+      "answer": "vengas",
+      "options": [
+        "estén",
+        "queramos",
+        "empiecen",
+        "estéis",
+        "duerman",
+        "vengas"
+      ],
+      "comment": "subjuntivo presente, verbo: venir"
+    },
+    {
+      "id": "S0130",
+      "ru": "Я советую тебе, чтобы ты querer.",
+      "es": {
+        "before": "te aconsejo que tú ",
+        "after": "."
+      },
+      "answer": "quieras",
+      "options": [
+        "comas",
+        "sepa",
+        "quieras",
+        "viváis",
+        "vayamos",
+        "lleguéis"
+      ],
+      "comment": "subjuntivo presente, verbo: querer"
+    },
+    {
+      "id": "S0131",
+      "ru": "Я прошу, чтобы вы llegar.",
+      "es": {
+        "before": "pido que vosotros ",
+        "after": "."
+      },
+      "answer": "lleguéis",
+      "options": [
+        "estén",
+        "digamos",
+        "lleguéis",
+        "sean",
+        "duerman",
+        "veas"
+      ],
+      "comment": "subjuntivo presente, verbo: llegar"
+    },
+    {
+      "id": "S0132",
+      "ru": "Я прошу, чтобы вы decir.",
+      "es": {
+        "before": "pido que vosotros ",
+        "after": "."
+      },
+      "answer": "digáis",
+      "options": [
+        "llegues",
+        "queráis",
+        "quieras",
+        "hable",
+        "sepáis",
+        "digáis"
+      ],
+      "comment": "subjuntivo presente, verbo: decir"
+    },
+    {
+      "id": "S0133",
+      "ru": "Я прошу, чтобы вы comer.",
+      "es": {
+        "before": "pido que vosotros ",
+        "after": "."
+      },
+      "answer": "comáis",
+      "options": [
+        "lleguéis",
+        "llegues",
+        "hagáis",
+        "des",
+        "duermas",
+        "comáis"
+      ],
+      "comment": "subjuntivo presente, verbo: comer"
+    },
+    {
+      "id": "S0134",
+      "ru": "Я прошу, чтобы вы ver.",
+      "es": {
+        "before": "pido que vosotros ",
+        "after": "."
+      },
+      "answer": "veáis",
+      "options": [
+        "sepáis",
+        "hagan",
+        "sepamos",
+        "durmamos",
+        "veáis",
+        "lleguéis"
+      ],
+      "comment": "subjuntivo presente, verbo: ver"
+    },
+    {
+      "id": "S0135",
+      "ru": "Я прошу, чтобы вы hacer.",
+      "es": {
+        "before": "pido que vosotros ",
+        "after": "."
+      },
+      "answer": "hagáis",
+      "options": [
+        "digamos",
+        "hagáis",
+        "llegues",
+        "puedas",
+        "hablemos",
+        "vayamos"
+      ],
+      "comment": "subjuntivo presente, verbo: hacer"
+    },
+    {
+      "id": "S0136",
+      "ru": "Я прошу, чтобы вы dormir.",
+      "es": {
+        "before": "pido que vosotros ",
+        "after": "."
+      },
+      "answer": "durmáis",
+      "options": [
+        "durmamos",
+        "durmáis",
+        "empecemos",
+        "veamos",
+        "sepamos",
+        "lleguen"
+      ],
+      "comment": "subjuntivo presente, verbo: dormir"
+    },
+    {
+      "id": "S0137",
+      "ru": "Я прошу, чтобы вы pedir.",
+      "es": {
+        "before": "pido que vosotros ",
+        "after": "."
+      },
+      "answer": "pidáis",
+      "options": [
+        "busquemos",
+        "tengamos",
+        "comas",
+        "pidáis",
+        "pidas",
+        "vengan"
+      ],
+      "comment": "subjuntivo presente, verbo: pedir"
+    },
+    {
+      "id": "S0138",
+      "ru": "Я прошу, чтобы вы dar.",
+      "es": {
+        "before": "pido que vosotros ",
+        "after": "."
+      },
+      "answer": "deis",
+      "options": [
+        "veamos",
+        "digamos",
+        "veas",
+        "vivan",
+        "deis",
+        "esté"
+      ],
+      "comment": "subjuntivo presente, verbo: dar"
+    },
+    {
+      "id": "S0139",
+      "ru": "Я прошу, чтобы вы poder.",
+      "es": {
+        "before": "pido que vosotros ",
+        "after": "."
+      },
+      "answer": "podáis",
+      "options": [
+        "pidáis",
+        "estés",
+        "hable",
+        "podáis",
+        "demos",
+        "comamos"
+      ],
+      "comment": "subjuntivo presente, verbo: poder"
+    },
+    {
+      "id": "S0140",
+      "ru": "Я прошу, чтобы вы tener.",
+      "es": {
+        "before": "pido que vosotros ",
+        "after": "."
+      },
+      "answer": "tengáis",
+      "options": [
+        "tenga",
+        "vengan",
+        "durmáis",
+        "hagáis",
+        "seas",
+        "tengáis"
+      ],
+      "comment": "subjuntivo presente, verbo: tener"
+    },
+    {
+      "id": "S0141",
+      "ru": "Когда ты придёшь, ... .",
+      "es": {
+        "before": "Cuando tú ",
+        "after": ", me llamas."
+      },
+      "answer": "vengas",
+      "options": [
+        "vengas",
+        "des",
+        "digamos",
+        "empecéis",
+        "estés",
+        "seáis"
+      ],
+      "comment": "subjuntivo tras cuando, verbo: venir"
+    },
+    {
+      "id": "S0142",
+      "ru": "Когда ты придёшь, ... .",
+      "es": {
+        "before": "Cuando tú ",
+        "after": ", me llamas."
+      },
+      "answer": "vengas",
+      "options": [
+        "comas",
+        "pidamos",
+        "vayáis",
+        "vengas",
+        "busques",
+        "tengamos"
+      ],
+      "comment": "subjuntivo tras cuando, verbo: venir"
+    },
+    {
+      "id": "S0143",
+      "ru": "Когда ты придёшь, ... .",
+      "es": {
+        "before": "Cuando tú ",
+        "after": ", me llamas."
+      },
+      "answer": "vengas",
+      "options": [
+        "pidáis",
+        "digáis",
+        "sea",
+        "lleguemos",
+        "terminéis",
+        "vengas"
+      ],
+      "comment": "subjuntivo tras cuando, verbo: venir"
+    },
+    {
+      "id": "S0144",
+      "ru": "Когда ты придёшь, ... .",
+      "es": {
+        "before": "Cuando tú ",
+        "after": ", me llamas."
+      },
+      "answer": "vengas",
+      "options": [
+        "vean",
+        "vengas",
+        "sepamos",
+        "lleguemos",
+        "lleguen",
+        "duerman"
+      ],
+      "comment": "subjuntivo tras cuando, verbo: venir"
+    },
+    {
+      "id": "S0145",
+      "ru": "Когда ты придёшь, ... .",
+      "es": {
+        "before": "Cuando tú ",
+        "after": ", me llamas."
+      },
+      "answer": "vengas",
+      "options": [
+        "tenga",
+        "vivan",
+        "diga",
+        "duerma",
+        "duerman",
+        "vengas"
+      ],
+      "comment": "subjuntivo tras cuando, verbo: venir"
+    },
+    {
+      "id": "S0146",
+      "ru": "Когда он будет готов, ... .",
+      "es": {
+        "before": "Cuando él ",
+        "after": ", me avisas."
+      },
+      "answer": "esté",
+      "options": [
+        "quieras",
+        "queramos",
+        "pidas",
+        "sepas",
+        "sepamos",
+        "esté"
+      ],
+      "comment": "subjuntivo tras cuando, verbo: estar"
+    },
+    {
+      "id": "S0147",
+      "ru": "Когда он будет готов, ... .",
+      "es": {
+        "before": "Cuando él ",
+        "after": ", me avisas."
+      },
+      "answer": "esté",
+      "options": [
+        "viva",
+        "vengas",
+        "estemos",
+        "lleguemos",
+        "busque",
+        "esté"
+      ],
+      "comment": "subjuntivo tras cuando, verbo: estar"
+    },
+    {
+      "id": "S0148",
+      "ru": "Когда он будет готов, ... .",
+      "es": {
+        "before": "Cuando él ",
+        "after": ", me avisas."
+      },
+      "answer": "esté",
+      "options": [
+        "empiecen",
+        "vengáis",
+        "vayamos",
+        "queráis",
+        "coma",
+        "esté"
+      ],
+      "comment": "subjuntivo tras cuando, verbo: estar"
+    },
+    {
+      "id": "S0149",
+      "ru": "Когда он будет готов, ... .",
+      "es": {
+        "before": "Cuando él ",
+        "after": ", me avisas."
+      },
+      "answer": "esté",
+      "options": [
+        "empecemos",
+        "deis",
+        "estés",
+        "viva",
+        "esté",
+        "comas"
+      ],
+      "comment": "subjuntivo tras cuando, verbo: estar"
+    },
+    {
+      "id": "S0150",
+      "ru": "Когда он будет готов, ... .",
+      "es": {
+        "before": "Cuando él ",
+        "after": ", me avisas."
+      },
+      "answer": "esté",
+      "options": [
+        "vengas",
+        "seamos",
+        "esté",
+        "comáis",
+        "podamos",
+        "haga"
+      ],
+      "comment": "subjuntivo tras cuando, verbo: estar"
+    },
+    {
+      "id": "S0151",
+      "ru": "Как только мы закончим, ... .",
+      "es": {
+        "before": "En cuanto nosotros ",
+        "after": ", salimos."
+      },
+      "answer": "terminemos",
+      "options": [
+        "hagamos",
+        "sea",
+        "veamos",
+        "terminemos",
+        "podamos",
+        "des"
+      ],
+      "comment": "subjuntivo tras en, verbo: terminar"
+    },
+    {
+      "id": "S0152",
+      "ru": "Как только мы закончим, ... .",
+      "es": {
+        "before": "En cuanto nosotros ",
+        "after": ", salimos."
+      },
+      "answer": "terminemos",
+      "options": [
+        "duerman",
+        "vengan",
+        "vengamos",
+        "termine",
+        "termines",
+        "terminemos"
+      ],
+      "comment": "subjuntivo tras en, verbo: terminar"
+    },
+    {
+      "id": "S0153",
+      "ru": "Как только мы закончим, ... .",
+      "es": {
+        "before": "En cuanto nosotros ",
+        "after": ", salimos."
+      },
+      "answer": "terminemos",
+      "options": [
+        "dé",
+        "seamos",
+        "terminemos",
+        "des",
+        "vengan",
+        "vean"
+      ],
+      "comment": "subjuntivo tras en, verbo: terminar"
+    },
+    {
+      "id": "S0154",
+      "ru": "Как только мы закончим, ... .",
+      "es": {
+        "before": "En cuanto nosotros ",
+        "after": ", salimos."
+      },
+      "answer": "terminemos",
+      "options": [
+        "demos",
+        "puedan",
+        "estén",
+        "terminemos",
+        "vaya",
+        "podamos"
+      ],
+      "comment": "subjuntivo tras en, verbo: terminar"
+    },
+    {
+      "id": "S0155",
+      "ru": "Как только мы закончим, ... .",
+      "es": {
+        "before": "En cuanto nosotros ",
+        "after": ", salimos."
+      },
+      "answer": "terminemos",
+      "options": [
+        "pidan",
+        "den",
+        "vaya",
+        "pida",
+        "empecemos",
+        "terminemos"
+      ],
+      "comment": "subjuntivo tras en, verbo: terminar"
+    },
+    {
+      "id": "S0156",
+      "ru": "До тех пор пока они не сделают, ... .",
+      "es": {
+        "before": "Hasta que ellos ",
+        "after": ", no paramos."
+      },
+      "answer": "hagan",
+      "options": [
+        "vayamos",
+        "estés",
+        "hagas",
+        "vaya",
+        "hagan",
+        "esté"
+      ],
+      "comment": "subjuntivo tras hasta, verbo: hacer"
+    },
+    {
+      "id": "S0157",
+      "ru": "До тех пор пока они не сделают, ... .",
+      "es": {
+        "before": "Hasta que ellos ",
+        "after": ", no paramos."
+      },
+      "answer": "hagan",
+      "options": [
+        "coman",
+        "hagan",
+        "deis",
+        "duerma",
+        "comas",
+        "comáis"
+      ],
+      "comment": "subjuntivo tras hasta, verbo: hacer"
+    },
+    {
+      "id": "S0158",
+      "ru": "До тех пор пока они не сделают, ... .",
+      "es": {
+        "before": "Hasta que ellos ",
+        "after": ", no paramos."
+      },
+      "answer": "hagan",
+      "options": [
+        "quieran",
+        "estéis",
+        "sea",
+        "vayas",
+        "hagan",
+        "lleguéis"
+      ],
+      "comment": "subjuntivo tras hasta, verbo: hacer"
+    },
+    {
+      "id": "S0159",
+      "ru": "До тех пор пока они не сделают, ... .",
+      "es": {
+        "before": "Hasta que ellos ",
+        "after": ", no paramos."
+      },
+      "answer": "hagan",
+      "options": [
+        "comas",
+        "queráis",
+        "digan",
+        "tengamos",
+        "hagan",
+        "hablen"
+      ],
+      "comment": "subjuntivo tras hasta, verbo: hacer"
+    },
+    {
+      "id": "S0160",
+      "ru": "До тех пор пока они не сделают, ... .",
+      "es": {
+        "before": "Hasta que ellos ",
+        "after": ", no paramos."
+      },
+      "answer": "hagan",
+      "options": [
+        "vayas",
+        "vaya",
+        "busques",
+        "durmáis",
+        "hagan",
+        "vea"
+      ],
+      "comment": "subjuntivo tras hasta, verbo: hacer"
+    }
+  ]
+}

@@ -1,0 +1,2175 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "name": "Abstracto (emociones, lógica, tiempo) — vocabulario",
+    "createdAt": "2026-01-08T17:11:08.785221Z",
+    "count": 120,
+    "tags": [
+      "abstracto",
+      "vocabulario",
+      "A2-B1"
+    ]
+  },
+  "cards": [
+    {
+      "id": "A0001",
+      "ru": "У нас нет времени.",
+      "es": {
+        "before": "No tenemos",
+        "after": "."
+      },
+      "answer": "tiempo",
+      "options": [
+        "parece",
+        "tiempo",
+        "mañana",
+        "calma",
+        "decisión",
+        "error"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0002",
+      "ru": "Это важный момент.",
+      "es": {
+        "before": "Es un",
+        "after": " importante."
+      },
+      "answer": "momento",
+      "options": [
+        "mentira",
+        "cantidad",
+        "alegría",
+        "razón",
+        "calidad",
+        "momento"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0003",
+      "ru": "В чём причина?",
+      "es": {
+        "before": "¿Cuál es la",
+        "after": "?"
+      },
+      "answer": "razón",
+      "options": [
+        "diferencia",
+        "momento",
+        "razón",
+        "tristeza",
+        "duda",
+        "error"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0004",
+      "ru": "Это хорошая идея.",
+      "es": {
+        "before": "Es una buena",
+        "after": "."
+      },
+      "answer": "idea",
+      "options": [
+        "error",
+        "enseguida",
+        "atención",
+        "calidad",
+        "idea",
+        "alegría"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0005",
+      "ru": "Мне нужно принять решение.",
+      "es": {
+        "before": "Necesito tomar una",
+        "after": "."
+      },
+      "answer": "decisión",
+      "options": [
+        "responsabilidad",
+        "verdad",
+        "libertad",
+        "posible",
+        "decisión",
+        "paciencia"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0006",
+      "ru": "Это мой план.",
+      "es": {
+        "before": "Este es mi",
+        "after": "."
+      },
+      "answer": "plan",
+      "options": [
+        "plan",
+        "mentira",
+        "cantidad",
+        "posible",
+        "miedo",
+        "sentido"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0007",
+      "ru": "Наша цель ясна.",
+      "es": {
+        "before": "Nuestro",
+        "after": " está claro."
+      },
+      "answer": "objetivo",
+      "options": [
+        "momento",
+        "enseguida",
+        "experiencia",
+        "objetivo",
+        "riesgo",
+        "importante"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0008",
+      "ru": "Это была ошибка.",
+      "es": {
+        "before": "Fue un",
+        "after": "."
+      },
+      "answer": "error",
+      "options": [
+        "lógica",
+        "error",
+        "ayer",
+        "alegría",
+        "posibilidad",
+        "oportunidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0009",
+      "ru": "Это правда.",
+      "es": {
+        "before": "Es la",
+        "after": "."
+      },
+      "answer": "verdad",
+      "options": [
+        "calidad",
+        "poco a poco",
+        "probabilidad",
+        "verdad",
+        "sentido",
+        "certeza"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0010",
+      "ru": "Это ложь.",
+      "es": {
+        "before": "Es una",
+        "after": "."
+      },
+      "answer": "mentira",
+      "options": [
+        "caos",
+        "memoria",
+        "decisión",
+        "mentira",
+        "certeza",
+        "calidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0011",
+      "ru": "В этом есть смысл.",
+      "es": {
+        "before": "Esto tiene",
+        "after": "."
+      },
+      "answer": "sentido",
+      "options": [
+        "ayer",
+        "orden",
+        "lógica",
+        "paciencia",
+        "importante",
+        "sentido"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0012",
+      "ru": "Это полезный опыт.",
+      "es": {
+        "before": "Es una",
+        "after": " útil."
+      },
+      "answer": "experiencia",
+      "options": [
+        "obvio",
+        "rabia",
+        "poco a poco",
+        "cantidad",
+        "importante",
+        "experiencia"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0013",
+      "ru": "У меня плохая память.",
+      "es": {
+        "before": "Tengo mala",
+        "after": "."
+      },
+      "answer": "memoria",
+      "options": [
+        "caos",
+        "alegría",
+        "calidad",
+        "razón",
+        "memoria",
+        "tiempo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0014",
+      "ru": "Это моя мечта.",
+      "es": {
+        "before": "Es mi",
+        "after": "."
+      },
+      "answer": "sueño",
+      "options": [
+        "idea",
+        "rabia",
+        "responsabilidad",
+        "error",
+        "imposible",
+        "sueño"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0015",
+      "ru": "У меня есть надежда.",
+      "es": {
+        "before": "Tengo",
+        "after": "."
+      },
+      "answer": "esperanza",
+      "options": [
+        "calma",
+        "esperanza",
+        "orden",
+        "responsabilidad",
+        "parece",
+        "verdad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0016",
+      "ru": "Я чувствую страх.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "miedo",
+      "options": [
+        "miedo",
+        "calma",
+        "cantidad",
+        "hoy",
+        "paciencia",
+        "obvio"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0017",
+      "ru": "Я чувствую радость.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "alegría",
+      "options": [
+        "alegría",
+        "paciencia",
+        "memoria",
+        "después",
+        "diferencia",
+        "oportunidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0018",
+      "ru": "Мне грустно.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "tristeza",
+      "options": [
+        "tristeza",
+        "momento",
+        "miedo",
+        "posibilidad",
+        "memoria",
+        "esperanza"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0019",
+      "ru": "Я в ярости.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "rabia",
+      "options": [
+        "rabia",
+        "certeza",
+        "tiempo",
+        "sentido",
+        "probabilidad",
+        "miedo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0020",
+      "ru": "Мне нужна спокойствие.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "calma",
+      "options": [
+        "idea",
+        "momento",
+        "rabia",
+        "calma",
+        "ayer",
+        "sueño"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0021",
+      "ru": "У меня есть сомнение.",
+      "es": {
+        "before": "Tengo una",
+        "after": "."
+      },
+      "answer": "duda",
+      "options": [
+        "atención",
+        "riesgo",
+        "calidad",
+        "duda",
+        "de repente",
+        "idea"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0022",
+      "ru": "Я в полной уверенности.",
+      "es": {
+        "before": "Tengo la",
+        "after": "."
+      },
+      "answer": "certeza",
+      "options": [
+        "mentira",
+        "certeza",
+        "orden",
+        "poco a poco",
+        "hoy",
+        "posibilidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0023",
+      "ru": "Есть возможность.",
+      "es": {
+        "before": "Hay una",
+        "after": "."
+      },
+      "answer": "posibilidad",
+      "options": [
+        "obvio",
+        "posibilidad",
+        "objetivo",
+        "tristeza",
+        "calidad",
+        "hoy"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0024",
+      "ru": "Какова вероятность?",
+      "es": {
+        "before": "¿Cuál es la",
+        "after": "?"
+      },
+      "answer": "probabilidad",
+      "options": [
+        "objetivo",
+        "diferencia",
+        "orden",
+        "tiempo",
+        "probabilidad",
+        "ayer"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0025",
+      "ru": "У тебя есть шанс.",
+      "es": {
+        "before": "Tienes una",
+        "after": "."
+      },
+      "answer": "oportunidad",
+      "options": [
+        "oportunidad",
+        "tristeza",
+        "orden",
+        "imposible",
+        "error",
+        "obvio"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0026",
+      "ru": "Это большой риск.",
+      "es": {
+        "before": "Es un gran",
+        "after": "."
+      },
+      "answer": "riesgo",
+      "options": [
+        "diferencia",
+        "rabia",
+        "riesgo",
+        "posibilidad",
+        "lógica",
+        "calidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0027",
+      "ru": "Это не логика.",
+      "es": {
+        "before": "Eso no es",
+        "after": "."
+      },
+      "answer": "lógica",
+      "options": [
+        "lógica",
+        "experiencia",
+        "cantidad",
+        "calma",
+        "oportunidad",
+        "atención"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0028",
+      "ru": "Нужен порядок.",
+      "es": {
+        "before": "Hace falta",
+        "after": "."
+      },
+      "answer": "orden",
+      "options": [
+        "plan",
+        "duda",
+        "orden",
+        "esperanza",
+        "posible",
+        "certeza"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0029",
+      "ru": "Там был хаос.",
+      "es": {
+        "before": "Allí había",
+        "after": "."
+      },
+      "answer": "caos",
+      "options": [
+        "caos",
+        "tiempo",
+        "parece",
+        "alegría",
+        "momento",
+        "idea"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0030",
+      "ru": "Обрати внимание.",
+      "es": {
+        "before": "Presta",
+        "after": "."
+      },
+      "answer": "atención",
+      "options": [
+        "oportunidad",
+        "calidad",
+        "orden",
+        "atención",
+        "antes",
+        "poco a poco"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0031",
+      "ru": "Нужно терпение.",
+      "es": {
+        "before": "Se necesita",
+        "after": "."
+      },
+      "answer": "paciencia",
+      "options": [
+        "decisión",
+        "tiempo",
+        "calidad",
+        "poco a poco",
+        "paciencia",
+        "caos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0032",
+      "ru": "Это срочность.",
+      "es": {
+        "before": "Es una",
+        "after": "."
+      },
+      "answer": "urgencia",
+      "options": [
+        "urgencia",
+        "diferencia",
+        "irrelevante",
+        "mentira",
+        "memoria",
+        "parece"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0033",
+      "ru": "Я ценю свободу.",
+      "es": {
+        "before": "Valoro la",
+        "after": "."
+      },
+      "answer": "libertad",
+      "options": [
+        "hoy",
+        "enseguida",
+        "libertad",
+        "plan",
+        "sentido",
+        "calidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0034",
+      "ru": "Это ответственность.",
+      "es": {
+        "before": "Es una",
+        "after": "."
+      },
+      "answer": "responsabilidad",
+      "options": [
+        "libertad",
+        "responsabilidad",
+        "irrelevante",
+        "error",
+        "experiencia",
+        "rabia"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0035",
+      "ru": "Качество важно.",
+      "es": {
+        "before": "La",
+        "after": " es importante."
+      },
+      "answer": "calidad",
+      "options": [
+        "sueño",
+        "memoria",
+        "rabia",
+        "calidad",
+        "responsabilidad",
+        "libertad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0036",
+      "ru": "Количество не важно.",
+      "es": {
+        "before": "La",
+        "after": " no importa."
+      },
+      "answer": "cantidad",
+      "options": [
+        "parece",
+        "posibilidad",
+        "antes",
+        "cantidad",
+        "importante",
+        "razón"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0037",
+      "ru": "Есть разница.",
+      "es": {
+        "before": "Hay una",
+        "after": "."
+      },
+      "answer": "diferencia",
+      "options": [
+        "después",
+        "calma",
+        "enseguida",
+        "tiempo",
+        "diferencia",
+        "cantidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0038",
+      "ru": "Кажется, что это правда.",
+      "es": {
+        "before": "",
+        "after": " que es verdad."
+      },
+      "answer": "parece",
+      "options": [
+        "urgencia",
+        "parece",
+        "cantidad",
+        "memoria",
+        "experiencia",
+        "ayer"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0039",
+      "ru": "Это возможно.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "posible",
+      "options": [
+        "lógica",
+        "imposible",
+        "error",
+        "posible",
+        "sentido",
+        "mentira"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0040",
+      "ru": "Это невозможно.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "imposible",
+      "options": [
+        "decisión",
+        "atención",
+        "sentido",
+        "imposible",
+        "responsabilidad",
+        "urgencia"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0041",
+      "ru": "Это очевидно.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "obvio",
+      "options": [
+        "parece",
+        "obvio",
+        "duda",
+        "ayer",
+        "poco a poco",
+        "mentira"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0042",
+      "ru": "Это важно.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "importante",
+      "options": [
+        "parece",
+        "objetivo",
+        "obvio",
+        "razón",
+        "tristeza",
+        "importante"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0043",
+      "ru": "Это неважно.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "irrelevante",
+      "options": [
+        "momento",
+        "riesgo",
+        "idea",
+        "parece",
+        "esperanza",
+        "irrelevante"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0044",
+      "ru": "Внезапно всё изменилось.",
+      "es": {
+        "before": "",
+        "after": " todo cambió."
+      },
+      "answer": "de repente",
+      "options": [
+        "razón",
+        "sentido",
+        "parece",
+        "de repente",
+        "esperanza",
+        "miedo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0045",
+      "ru": "Постепенно стало лучше.",
+      "es": {
+        "before": "",
+        "after": " fue mejor."
+      },
+      "answer": "poco a poco",
+      "options": [
+        "poco a poco",
+        "posible",
+        "urgencia",
+        "decisión",
+        "alegría",
+        "lógica"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0046",
+      "ru": "Сразу уходи.",
+      "es": {
+        "before": "Vete",
+        "after": "."
+      },
+      "answer": "enseguida",
+      "options": [
+        "miedo",
+        "después",
+        "urgencia",
+        "momento",
+        "riesgo",
+        "enseguida"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0047",
+      "ru": "Потом поговорим.",
+      "es": {
+        "before": "Hablamos",
+        "after": "."
+      },
+      "answer": "después",
+      "options": [
+        "riesgo",
+        "experiencia",
+        "rabia",
+        "cantidad",
+        "después",
+        "tiempo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0048",
+      "ru": "Раньше было проще.",
+      "es": {
+        "before": "",
+        "after": " era más fácil."
+      },
+      "answer": "antes",
+      "options": [
+        "decisión",
+        "antes",
+        "error",
+        "certeza",
+        "riesgo",
+        "importante"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0049",
+      "ru": "Сегодня я занят.",
+      "es": {
+        "before": "",
+        "after": " estoy ocupado."
+      },
+      "answer": "hoy",
+      "options": [
+        "miedo",
+        "posibilidad",
+        "atención",
+        "orden",
+        "rabia",
+        "hoy"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0050",
+      "ru": "Завтра увидимся.",
+      "es": {
+        "before": "Nos vemos",
+        "after": "."
+      },
+      "answer": "mañana",
+      "options": [
+        "mañana",
+        "verdad",
+        "memoria",
+        "miedo",
+        "plan",
+        "enseguida"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0051",
+      "ru": "Вчера было холодно.",
+      "es": {
+        "before": "",
+        "after": " hizo frío."
+      },
+      "answer": "ayer",
+      "options": [
+        "posibilidad",
+        "ayer",
+        "miedo",
+        "probabilidad",
+        "sentido",
+        "atención"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0052",
+      "ru": "Нет спокойствие.",
+      "es": {
+        "before": "No hay",
+        "after": "."
+      },
+      "answer": "calma",
+      "options": [
+        "calma",
+        "responsabilidad",
+        "atención",
+        "esperanza",
+        "sueño",
+        "verdad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0053",
+      "ru": "Это качество.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "calidad",
+      "options": [
+        "libertad",
+        "riesgo",
+        "antes",
+        "verdad",
+        "sueño",
+        "calidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0054",
+      "ru": "Мне нужна шанс.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "oportunidad",
+      "options": [
+        "mentira",
+        "calma",
+        "tiempo",
+        "enseguida",
+        "oportunidad",
+        "riesgo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0055",
+      "ru": "Мне нужна память.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "memoria",
+      "options": [
+        "duda",
+        "oportunidad",
+        "responsabilidad",
+        "diferencia",
+        "memoria",
+        "decisión"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0056",
+      "ru": "Это злость.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "rabia",
+      "options": [
+        "paciencia",
+        "probabilidad",
+        "rabia",
+        "calma",
+        "lógica",
+        "mañana"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0057",
+      "ru": "Я чувствую вероятность.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "probabilidad",
+      "options": [
+        "lógica",
+        "miedo",
+        "paciencia",
+        "orden",
+        "probabilidad",
+        "momento"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0058",
+      "ru": "У нас есть печаль.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "tristeza",
+      "options": [
+        "sentido",
+        "antes",
+        "tristeza",
+        "razón",
+        "esperanza",
+        "lógica"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0059",
+      "ru": "У нас есть причина.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "razón",
+      "options": [
+        "razón",
+        "miedo",
+        "duda",
+        "mañana",
+        "memoria",
+        "enseguida"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0060",
+      "ru": "Мне нужна время.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "tiempo",
+      "options": [
+        "idea",
+        "después",
+        "calma",
+        "ayer",
+        "tiempo",
+        "antes"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0061",
+      "ru": "Я чувствую причина.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "razón",
+      "options": [
+        "probabilidad",
+        "razón",
+        "objetivo",
+        "esperanza",
+        "orden",
+        "lógica"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0062",
+      "ru": "Нет возможность.",
+      "es": {
+        "before": "No hay",
+        "after": "."
+      },
+      "answer": "posibilidad",
+      "options": [
+        "mañana",
+        "posibilidad",
+        "certeza",
+        "responsabilidad",
+        "atención",
+        "idea"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0063",
+      "ru": "Это срочность.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "urgencia",
+      "options": [
+        "experiencia",
+        "alegría",
+        "urgencia",
+        "diferencia",
+        "cantidad",
+        "razón"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0064",
+      "ru": "Я чувствую смысл.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "sentido",
+      "options": [
+        "sentido",
+        "plan",
+        "mañana",
+        "sueño",
+        "probabilidad",
+        "orden"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0065",
+      "ru": "Это терпение.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "paciencia",
+      "options": [
+        "miedo",
+        "responsabilidad",
+        "paciencia",
+        "caos",
+        "tiempo",
+        "verdad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0066",
+      "ru": "У нас есть похоже.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "parece",
+      "options": [
+        "parece",
+        "cantidad",
+        "certeza",
+        "error",
+        "miedo",
+        "hoy"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0067",
+      "ru": "Это риск.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "riesgo",
+      "options": [
+        "tiempo",
+        "rabia",
+        "libertad",
+        "probabilidad",
+        "riesgo",
+        "error"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0068",
+      "ru": "Мне нужна память.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "memoria",
+      "options": [
+        "sentido",
+        "memoria",
+        "duda",
+        "atención",
+        "certeza",
+        "error"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0069",
+      "ru": "Мне нужна количество.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "cantidad",
+      "options": [
+        "atención",
+        "razón",
+        "cantidad",
+        "urgencia",
+        "tiempo",
+        "plan"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0070",
+      "ru": "Нет порядок.",
+      "es": {
+        "before": "No hay",
+        "after": "."
+      },
+      "answer": "orden",
+      "options": [
+        "memoria",
+        "posibilidad",
+        "duda",
+        "tiempo",
+        "cantidad",
+        "orden"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0071",
+      "ru": "Это план.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "plan",
+      "options": [
+        "lógica",
+        "sentido",
+        "plan",
+        "oportunidad",
+        "calma",
+        "momento"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0072",
+      "ru": "Нет сомнение.",
+      "es": {
+        "before": "No hay",
+        "after": "."
+      },
+      "answer": "duda",
+      "options": [
+        "probabilidad",
+        "duda",
+        "certeza",
+        "esperanza",
+        "experiencia",
+        "ayer"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0073",
+      "ru": "Мне нужна идея.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "idea",
+      "options": [
+        "enseguida",
+        "idea",
+        "decisión",
+        "lógica",
+        "mañana",
+        "error"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0074",
+      "ru": "У нас есть спокойствие.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "calma",
+      "options": [
+        "calma",
+        "mentira",
+        "mañana",
+        "plan",
+        "esperanza",
+        "después"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0075",
+      "ru": "Мне нужна план.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "plan",
+      "options": [
+        "urgencia",
+        "atención",
+        "esperanza",
+        "sueño",
+        "oportunidad",
+        "plan"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0076",
+      "ru": "Мне нужна решение.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "decisión",
+      "options": [
+        "atención",
+        "orden",
+        "posibilidad",
+        "plan",
+        "responsabilidad",
+        "decisión"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0077",
+      "ru": "Нет время.",
+      "es": {
+        "before": "No hay",
+        "after": "."
+      },
+      "answer": "tiempo",
+      "options": [
+        "objetivo",
+        "tiempo",
+        "enseguida",
+        "sueño",
+        "probabilidad",
+        "urgencia"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0078",
+      "ru": "У нас есть риск.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "riesgo",
+      "options": [
+        "riesgo",
+        "certeza",
+        "hoy",
+        "idea",
+        "plan",
+        "antes"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0079",
+      "ru": "Я чувствую правда.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "verdad",
+      "options": [
+        "calidad",
+        "sueño",
+        "momento",
+        "verdad",
+        "mañana",
+        "posibilidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0080",
+      "ru": "У нас есть количество.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "cantidad",
+      "options": [
+        "lógica",
+        "miedo",
+        "cantidad",
+        "probabilidad",
+        "enseguida",
+        "responsabilidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0081",
+      "ru": "Это опыт.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "experiencia",
+      "options": [
+        "ayer",
+        "tristeza",
+        "miedo",
+        "error",
+        "diferencia",
+        "experiencia"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0082",
+      "ru": "У нас есть надежда.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "esperanza",
+      "options": [
+        "miedo",
+        "cantidad",
+        "paciencia",
+        "esperanza",
+        "enseguida",
+        "error"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0083",
+      "ru": "Это хаос.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "caos",
+      "options": [
+        "diferencia",
+        "mañana",
+        "caos",
+        "responsabilidad",
+        "objetivo",
+        "error"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0084",
+      "ru": "Это план.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "plan",
+      "options": [
+        "oportunidad",
+        "lógica",
+        "idea",
+        "alegría",
+        "hoy",
+        "plan"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0085",
+      "ru": "Я чувствую внимание.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "atención",
+      "options": [
+        "orden",
+        "hoy",
+        "verdad",
+        "atención",
+        "plan",
+        "error"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0086",
+      "ru": "Я чувствую смысл.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "sentido",
+      "options": [
+        "sentido",
+        "posibilidad",
+        "tristeza",
+        "alegría",
+        "error",
+        "tiempo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0087",
+      "ru": "У нас есть причина.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "razón",
+      "options": [
+        "certeza",
+        "error",
+        "diferencia",
+        "probabilidad",
+        "antes",
+        "razón"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0088",
+      "ru": "Нет память.",
+      "es": {
+        "before": "No hay",
+        "after": "."
+      },
+      "answer": "memoria",
+      "options": [
+        "momento",
+        "atención",
+        "error",
+        "después",
+        "libertad",
+        "memoria"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0089",
+      "ru": "Я чувствую количество.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "cantidad",
+      "options": [
+        "oportunidad",
+        "alegría",
+        "cantidad",
+        "después",
+        "mentira",
+        "calidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0090",
+      "ru": "Это уверенность.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "certeza",
+      "options": [
+        "responsabilidad",
+        "certeza",
+        "decisión",
+        "urgencia",
+        "razón",
+        "libertad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0091",
+      "ru": "Нет хаос.",
+      "es": {
+        "before": "No hay",
+        "after": "."
+      },
+      "answer": "caos",
+      "options": [
+        "probabilidad",
+        "caos",
+        "calidad",
+        "esperanza",
+        "decisión",
+        "hoy"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0092",
+      "ru": "У нас есть похоже.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "parece",
+      "options": [
+        "parece",
+        "atención",
+        "razón",
+        "sentido",
+        "probabilidad",
+        "sueño"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0093",
+      "ru": "Мне нужна сомнение.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "duda",
+      "options": [
+        "momento",
+        "esperanza",
+        "después",
+        "duda",
+        "urgencia",
+        "posibilidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0094",
+      "ru": "Я чувствую ложь.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "mentira",
+      "options": [
+        "decisión",
+        "mentira",
+        "tristeza",
+        "riesgo",
+        "responsabilidad",
+        "rabia"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0095",
+      "ru": "Мне нужна количество.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "cantidad",
+      "options": [
+        "mañana",
+        "enseguida",
+        "cantidad",
+        "memoria",
+        "objetivo",
+        "orden"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0096",
+      "ru": "Я чувствую спокойствие.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "calma",
+      "options": [
+        "probabilidad",
+        "oportunidad",
+        "calma",
+        "responsabilidad",
+        "mañana",
+        "miedo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0097",
+      "ru": "Нет сомнение.",
+      "es": {
+        "before": "No hay",
+        "after": "."
+      },
+      "answer": "duda",
+      "options": [
+        "miedo",
+        "probabilidad",
+        "oportunidad",
+        "duda",
+        "mentira",
+        "responsabilidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0098",
+      "ru": "Нет риск.",
+      "es": {
+        "before": "No hay",
+        "after": "."
+      },
+      "answer": "riesgo",
+      "options": [
+        "después",
+        "sentido",
+        "calma",
+        "enseguida",
+        "lógica",
+        "riesgo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0099",
+      "ru": "У нас есть радость.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "alegría",
+      "options": [
+        "después",
+        "posibilidad",
+        "decisión",
+        "diferencia",
+        "memoria",
+        "alegría"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0100",
+      "ru": "Я чувствую внимание.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "atención",
+      "options": [
+        "duda",
+        "orden",
+        "libertad",
+        "atención",
+        "experiencia",
+        "decisión"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0101",
+      "ru": "Мне нужна страх.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "miedo",
+      "options": [
+        "sueño",
+        "memoria",
+        "lógica",
+        "miedo",
+        "idea",
+        "atención"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0102",
+      "ru": "Это идея.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "idea",
+      "options": [
+        "enseguida",
+        "plan",
+        "objetivo",
+        "idea",
+        "antes",
+        "decisión"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0103",
+      "ru": "Мне нужна качество.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "calidad",
+      "options": [
+        "mañana",
+        "sueño",
+        "calidad",
+        "duda",
+        "ayer",
+        "momento"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0104",
+      "ru": "Мне нужна логика.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "lógica",
+      "options": [
+        "libertad",
+        "lógica",
+        "plan",
+        "mañana",
+        "hoy",
+        "certeza"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0105",
+      "ru": "Я чувствую момент.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "momento",
+      "options": [
+        "certeza",
+        "orden",
+        "momento",
+        "enseguida",
+        "ayer",
+        "decisión"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0106",
+      "ru": "Это ложь.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "mentira",
+      "options": [
+        "mentira",
+        "oportunidad",
+        "probabilidad",
+        "sentido",
+        "calidad",
+        "plan"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0107",
+      "ru": "У нас есть надежда.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "esperanza",
+      "options": [
+        "esperanza",
+        "tristeza",
+        "urgencia",
+        "razón",
+        "ayer",
+        "duda"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0108",
+      "ru": "У нас есть вероятность.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "probabilidad",
+      "options": [
+        "tiempo",
+        "calidad",
+        "tristeza",
+        "probabilidad",
+        "verdad",
+        "alegría"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0109",
+      "ru": "Это ложь.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "mentira",
+      "options": [
+        "momento",
+        "hoy",
+        "plan",
+        "lógica",
+        "verdad",
+        "mentira"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0110",
+      "ru": "У нас есть радость.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "alegría",
+      "options": [
+        "calidad",
+        "sentido",
+        "experiencia",
+        "oportunidad",
+        "mentira",
+        "alegría"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0111",
+      "ru": "Я чувствую мечта.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "sueño",
+      "options": [
+        "esperanza",
+        "riesgo",
+        "paciencia",
+        "certeza",
+        "momento",
+        "sueño"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0112",
+      "ru": "Мне нужна возможность.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "posibilidad",
+      "options": [
+        "riesgo",
+        "mañana",
+        "orden",
+        "enseguida",
+        "posibilidad",
+        "esperanza"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0113",
+      "ru": "Это порядок.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "orden",
+      "options": [
+        "sueño",
+        "orden",
+        "esperanza",
+        "duda",
+        "posibilidad",
+        "caos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0114",
+      "ru": "Это разница.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "diferencia",
+      "options": [
+        "calma",
+        "verdad",
+        "paciencia",
+        "rabia",
+        "tristeza",
+        "diferencia"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0115",
+      "ru": "Я чувствую смысл.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "sentido",
+      "options": [
+        "atención",
+        "esperanza",
+        "después",
+        "antes",
+        "hoy",
+        "sentido"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0116",
+      "ru": "Нет опыт.",
+      "es": {
+        "before": "No hay",
+        "after": "."
+      },
+      "answer": "experiencia",
+      "options": [
+        "momento",
+        "error",
+        "mentira",
+        "duda",
+        "verdad",
+        "experiencia"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0117",
+      "ru": "Это цель.",
+      "es": {
+        "before": "Es",
+        "after": "."
+      },
+      "answer": "objetivo",
+      "options": [
+        "paciencia",
+        "orden",
+        "objetivo",
+        "lógica",
+        "plan",
+        "posibilidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0118",
+      "ru": "Мне нужна память.",
+      "es": {
+        "before": "Necesito",
+        "after": "."
+      },
+      "answer": "memoria",
+      "options": [
+        "razón",
+        "miedo",
+        "verdad",
+        "memoria",
+        "responsabilidad",
+        "antes"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0119",
+      "ru": "Я чувствую идея.",
+      "es": {
+        "before": "Siento",
+        "after": "."
+      },
+      "answer": "idea",
+      "options": [
+        "calidad",
+        "verdad",
+        "mentira",
+        "plan",
+        "idea",
+        "libertad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "A0120",
+      "ru": "У нас есть качество.",
+      "es": {
+        "before": "Tenemos",
+        "after": "."
+      },
+      "answer": "calidad",
+      "options": [
+        "posibilidad",
+        "calidad",
+        "decisión",
+        "urgencia",
+        "error",
+        "responsabilidad"
+      ],
+      "comment": ""
+    }
+  ]
+}

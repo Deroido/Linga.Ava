@@ -1,0 +1,2175 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "name": "Pronombres clíticos (1 hueco) — sin dobles pronombres",
+    "createdAt": "2026-01-08T17:11:08.776348Z",
+    "count": 120,
+    "tags": [
+      "pronombres",
+      "cliticos",
+      "A1-A2"
+    ]
+  },
+  "cards": [
+    {
+      "id": "P0001",
+      "ru": "Я устал.",
+      "es": {
+        "before": "",
+        "after": "cansé."
+      },
+      "answer": "me",
+      "options": [
+        "la",
+        "los",
+        "os",
+        "te",
+        "se",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0002",
+      "ru": "Ты устал.",
+      "es": {
+        "before": "",
+        "after": "cansaste."
+      },
+      "answer": "te",
+      "options": [
+        "le",
+        "se",
+        "las",
+        "les",
+        "te",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0003",
+      "ru": "Он был удивлён.",
+      "es": {
+        "before": "",
+        "after": "sorprendió."
+      },
+      "answer": "se",
+      "options": [
+        "me",
+        "te",
+        "os",
+        "la",
+        "se",
+        "nos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0004",
+      "ru": "Она улыбнулась.",
+      "es": {
+        "before": "",
+        "after": "sonrió."
+      },
+      "answer": "se",
+      "options": [
+        "lo",
+        "la",
+        "las",
+        "se",
+        "los",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0005",
+      "ru": "Мы проснулись рано.",
+      "es": {
+        "before": "",
+        "after": "despertamos temprano."
+      },
+      "answer": "nos",
+      "options": [
+        "le",
+        "te",
+        "nos",
+        "lo",
+        "les",
+        "los"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0006",
+      "ru": "Вы (в Испании) закрыли дверь?",
+      "es": {
+        "before": "¿",
+        "after": "cerrasteis la puerta?"
+      },
+      "answer": "os",
+      "options": [
+        "os",
+        "nos",
+        "se",
+        "me",
+        "la",
+        "las"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0007",
+      "ru": "Мне нравится эта песня.",
+      "es": {
+        "before": "",
+        "after": "gusta esta canción."
+      },
+      "answer": "me",
+      "options": [
+        "le",
+        "los",
+        "nos",
+        "me",
+        "os",
+        "lo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0008",
+      "ru": "Тебе нравится эта песня.",
+      "es": {
+        "before": "",
+        "after": "gusta esta canción."
+      },
+      "answer": "te",
+      "options": [
+        "le",
+        "les",
+        "os",
+        "te",
+        "se",
+        "las"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0009",
+      "ru": "Ему понравился фильм.",
+      "es": {
+        "before": "",
+        "after": "gustó la película."
+      },
+      "answer": "le",
+      "options": [
+        "la",
+        "se",
+        "lo",
+        "os",
+        "los",
+        "le"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0010",
+      "ru": "Им понравился фильм.",
+      "es": {
+        "before": "",
+        "after": "gustó la película."
+      },
+      "answer": "les",
+      "options": [
+        "os",
+        "se",
+        "me",
+        "les",
+        "las",
+        "los"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0011",
+      "ru": "Я тебя видел.",
+      "es": {
+        "before": "",
+        "after": "vi."
+      },
+      "answer": "te",
+      "options": [
+        "nos",
+        "os",
+        "se",
+        "te",
+        "las",
+        "le"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0012",
+      "ru": "Я её видел.",
+      "es": {
+        "before": "",
+        "after": "vi."
+      },
+      "answer": "la",
+      "options": [
+        "la",
+        "les",
+        "las",
+        "me",
+        "lo",
+        "te"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0013",
+      "ru": "Я его видел.",
+      "es": {
+        "before": "",
+        "after": "vi."
+      },
+      "answer": "lo",
+      "options": [
+        "lo",
+        "los",
+        "la",
+        "las",
+        "te",
+        "le"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0014",
+      "ru": "Я их видел (м.)",
+      "es": {
+        "before": "",
+        "after": "vi."
+      },
+      "answer": "los",
+      "options": [
+        "se",
+        "nos",
+        "las",
+        "te",
+        "os",
+        "los"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0015",
+      "ru": "Я их видел (ж.)",
+      "es": {
+        "before": "",
+        "after": "vi."
+      },
+      "answer": "las",
+      "options": [
+        "os",
+        "les",
+        "los",
+        "lo",
+        "me",
+        "las"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0016",
+      "ru": "Я позвонил ему.",
+      "es": {
+        "before": "",
+        "after": "llamé."
+      },
+      "answer": "le",
+      "options": [
+        "nos",
+        "se",
+        "os",
+        "lo",
+        "le",
+        "les"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0017",
+      "ru": "Я позвонил ей.",
+      "es": {
+        "before": "",
+        "after": "llamé."
+      },
+      "answer": "le",
+      "options": [
+        "los",
+        "se",
+        "me",
+        "le",
+        "les",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0018",
+      "ru": "Я позвонил им.",
+      "es": {
+        "before": "",
+        "after": "llamé."
+      },
+      "answer": "les",
+      "options": [
+        "la",
+        "los",
+        "lo",
+        "las",
+        "les",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0019",
+      "ru": "Ты мне помог.",
+      "es": {
+        "before": "",
+        "after": "ayudaste."
+      },
+      "answer": "me",
+      "options": [
+        "lo",
+        "nos",
+        "te",
+        "os",
+        "les",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0020",
+      "ru": "Он тебя понял.",
+      "es": {
+        "before": "",
+        "after": "entendió."
+      },
+      "answer": "te",
+      "options": [
+        "te",
+        "se",
+        "os",
+        "me",
+        "los",
+        "las"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0021",
+      "ru": "Она нас ждёт.",
+      "es": {
+        "before": "",
+        "after": "espera."
+      },
+      "answer": "nos",
+      "options": [
+        "te",
+        "nos",
+        "os",
+        "se",
+        "lo",
+        "les"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0022",
+      "ru": "Мы вас ждём.",
+      "es": {
+        "before": "",
+        "after": "esperamos."
+      },
+      "answer": "os",
+      "options": [
+        "la",
+        "lo",
+        "me",
+        "os",
+        "le",
+        "les"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0023",
+      "ru": "Я не знаю.",
+      "es": {
+        "before": "No",
+        "after": "sé."
+      },
+      "answer": "lo",
+      "options": [
+        "la",
+        "lo",
+        "os",
+        "nos",
+        "se",
+        "te"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0024",
+      "ru": "Я не знаю этого.",
+      "es": {
+        "before": "No",
+        "after": "sé."
+      },
+      "answer": "lo",
+      "options": [
+        "lo",
+        "les",
+        "le",
+        "los",
+        "se",
+        "las"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0025",
+      "ru": "Он это знает.",
+      "es": {
+        "before": "Él",
+        "after": "sabe."
+      },
+      "answer": "lo",
+      "options": [
+        "lo",
+        "la",
+        "los",
+        "os",
+        "me",
+        "les"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0026",
+      "ru": "Мы это знаем.",
+      "es": {
+        "before": "",
+        "after": "sabemos."
+      },
+      "answer": "lo",
+      "options": [
+        "os",
+        "me",
+        "te",
+        "les",
+        "las",
+        "lo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0027",
+      "ru": "Она это понимает.",
+      "es": {
+        "before": "Ella",
+        "after": "entiende."
+      },
+      "answer": "lo",
+      "options": [
+        "os",
+        "me",
+        "le",
+        "se",
+        "lo",
+        "las"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0028",
+      "ru": "Я согласен.",
+      "es": {
+        "before": "",
+        "after": "parece bien."
+      },
+      "answer": "me",
+      "options": [
+        "se",
+        "os",
+        "las",
+        "los",
+        "me",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0029",
+      "ru": "Тебе холодно.",
+      "es": {
+        "before": "",
+        "after": "da frío."
+      },
+      "answer": "te",
+      "options": [
+        "me",
+        "te",
+        "la",
+        "les",
+        "se",
+        "lo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0030",
+      "ru": "Мне жарко.",
+      "es": {
+        "before": "",
+        "after": "da calor."
+      },
+      "answer": "me",
+      "options": [
+        "nos",
+        "las",
+        "os",
+        "me",
+        "se",
+        "lo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0031",
+      "ru": "Ему страшно.",
+      "es": {
+        "before": "",
+        "after": "da miedo."
+      },
+      "answer": "le",
+      "options": [
+        "los",
+        "te",
+        "las",
+        "lo",
+        "le",
+        "les"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0032",
+      "ru": "Мне нужно уйти.",
+      "es": {
+        "before": "",
+        "after": "tengo que ir."
+      },
+      "answer": "me",
+      "options": [
+        "nos",
+        "la",
+        "le",
+        "me",
+        "les",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0033",
+      "ru": "Тебе нужно уйти.",
+      "es": {
+        "before": "",
+        "after": "tienes que ir."
+      },
+      "answer": "te",
+      "options": [
+        "los",
+        "te",
+        "les",
+        "nos",
+        "se",
+        "las"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0034",
+      "ru": "Ему нужно уйти.",
+      "es": {
+        "before": "",
+        "after": "tiene que ir."
+      },
+      "answer": "le",
+      "options": [
+        "los",
+        "le",
+        "lo",
+        "me",
+        "te",
+        "las"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0035",
+      "ru": "Мы должны уйти.",
+      "es": {
+        "before": "",
+        "after": "tenemos que ir."
+      },
+      "answer": "nos",
+      "options": [
+        "les",
+        "me",
+        "nos",
+        "os",
+        "le",
+        "las"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0036",
+      "ru": "Вам нужно уйти.",
+      "es": {
+        "before": "",
+        "after": "tenéis que ir."
+      },
+      "answer": "os",
+      "options": [
+        "se",
+        "la",
+        "los",
+        "os",
+        "le",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0037",
+      "ru": "Я хочу спать.",
+      "es": {
+        "before": "",
+        "after": "quiero dormir."
+      },
+      "answer": "me",
+      "options": [
+        "os",
+        "me",
+        "les",
+        "la",
+        "se",
+        "le"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0038",
+      "ru": "Тебе кажется странным?",
+      "es": {
+        "before": "¿",
+        "after": "parece raro?"
+      },
+      "answer": "te",
+      "options": [
+        "los",
+        "nos",
+        "las",
+        "te",
+        "le",
+        "les"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0039",
+      "ru": "Мне кажется странным.",
+      "es": {
+        "before": "",
+        "after": "parece raro."
+      },
+      "answer": "me",
+      "options": [
+        "las",
+        "te",
+        "le",
+        "me",
+        "lo",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0040",
+      "ru": "Ему кажется странным.",
+      "es": {
+        "before": "",
+        "after": "parece raro."
+      },
+      "answer": "le",
+      "options": [
+        "nos",
+        "la",
+        "lo",
+        "se",
+        "le",
+        "te"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0041",
+      "ru": "Мне сказали правду.",
+      "es": {
+        "before": "",
+        "after": "dijeron la verdad."
+      },
+      "answer": "me",
+      "options": [
+        "me",
+        "se",
+        "nos",
+        "le",
+        "los",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0042",
+      "ru": "Тебе сказали правду.",
+      "es": {
+        "before": "",
+        "after": "dijeron la verdad."
+      },
+      "answer": "te",
+      "options": [
+        "la",
+        "os",
+        "lo",
+        "te",
+        "nos",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0043",
+      "ru": "Ему сказали правду.",
+      "es": {
+        "before": "",
+        "after": "dijeron la verdad."
+      },
+      "answer": "le",
+      "options": [
+        "te",
+        "me",
+        "les",
+        "nos",
+        "las",
+        "le"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0044",
+      "ru": "Им сказали правду.",
+      "es": {
+        "before": "",
+        "after": "dijeron la verdad."
+      },
+      "answer": "les",
+      "options": [
+        "os",
+        "lo",
+        "les",
+        "se",
+        "le",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0045",
+      "ru": "Я потерялся.",
+      "es": {
+        "before": "",
+        "after": "perdí."
+      },
+      "answer": "me",
+      "options": [
+        "lo",
+        "te",
+        "se",
+        "me",
+        "nos",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0046",
+      "ru": "Ты потерялся.",
+      "es": {
+        "before": "",
+        "after": "perdiste."
+      },
+      "answer": "te",
+      "options": [
+        "les",
+        "se",
+        "lo",
+        "las",
+        "nos",
+        "te"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0047",
+      "ru": "Мы потерялись.",
+      "es": {
+        "before": "",
+        "after": "perdimos."
+      },
+      "answer": "nos",
+      "options": [
+        "los",
+        "les",
+        "lo",
+        "le",
+        "nos",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0048",
+      "ru": "Он поранился.",
+      "es": {
+        "before": "",
+        "after": "lastimó."
+      },
+      "answer": "se",
+      "options": [
+        "se",
+        "te",
+        "lo",
+        "le",
+        "me",
+        "los"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0049",
+      "ru": "Я боюсь.",
+      "es": {
+        "before": "",
+        "after": "asusto."
+      },
+      "answer": "me",
+      "options": [
+        "les",
+        "te",
+        "nos",
+        "se",
+        "me",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0050",
+      "ru": "Не волнуйся.",
+      "es": {
+        "before": "No",
+        "after": "preocupes."
+      },
+      "answer": "te",
+      "options": [
+        "te",
+        "les",
+        "las",
+        "se",
+        "le",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0051",
+      "ru": "Я не волнуюсь.",
+      "es": {
+        "before": "No",
+        "after": "preocupo."
+      },
+      "answer": "me",
+      "options": [
+        "nos",
+        "me",
+        "lo",
+        "le",
+        "la",
+        "les"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0052",
+      "ru": "Они не волнуются.",
+      "es": {
+        "before": "No",
+        "after": "preocupan."
+      },
+      "answer": "se",
+      "options": [
+        "nos",
+        "os",
+        "se",
+        "lo",
+        "te",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0053",
+      "ru": "Я оделся.",
+      "es": {
+        "before": "",
+        "after": "vestí."
+      },
+      "answer": "me",
+      "options": [
+        "las",
+        "nos",
+        "los",
+        "me",
+        "les",
+        "lo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0054",
+      "ru": "Она оделась.",
+      "es": {
+        "before": "",
+        "after": "vistió."
+      },
+      "answer": "se",
+      "options": [
+        "lo",
+        "los",
+        "se",
+        "me",
+        "les",
+        "le"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0055",
+      "ru": "Мы оделись.",
+      "es": {
+        "before": "",
+        "after": "vestimos."
+      },
+      "answer": "nos",
+      "options": [
+        "te",
+        "me",
+        "le",
+        "nos",
+        "os",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0056",
+      "ru": "Он помылся.",
+      "es": {
+        "before": "",
+        "after": "lavó."
+      },
+      "answer": "se",
+      "options": [
+        "le",
+        "las",
+        "les",
+        "me",
+        "la",
+        "se"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0057",
+      "ru": "Я помылся.",
+      "es": {
+        "before": "",
+        "after": "lavé."
+      },
+      "answer": "me",
+      "options": [
+        "les",
+        "los",
+        "la",
+        "me",
+        "se",
+        "te"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0058",
+      "ru": "Мы помылись.",
+      "es": {
+        "before": "",
+        "after": "lavamos."
+      },
+      "answer": "nos",
+      "options": [
+        "las",
+        "os",
+        "nos",
+        "la",
+        "los",
+        "se"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0059",
+      "ru": "Он сел.",
+      "es": {
+        "before": "",
+        "after": "sentó."
+      },
+      "answer": "se",
+      "options": [
+        "nos",
+        "lo",
+        "me",
+        "se",
+        "las",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0060",
+      "ru": "Я сел.",
+      "es": {
+        "before": "",
+        "after": "senté."
+      },
+      "answer": "me",
+      "options": [
+        "la",
+        "lo",
+        "os",
+        "los",
+        "me",
+        "le"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0061",
+      "ru": "Мы сели.",
+      "es": {
+        "before": "",
+        "after": "sentamos."
+      },
+      "answer": "nos",
+      "options": [
+        "las",
+        "me",
+        "le",
+        "nos",
+        "la",
+        "se"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0062",
+      "ru": "Он поднялся.",
+      "es": {
+        "before": "",
+        "after": "levantó."
+      },
+      "answer": "se",
+      "options": [
+        "se",
+        "te",
+        "le",
+        "os",
+        "lo",
+        "los"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0063",
+      "ru": "Я поднялся.",
+      "es": {
+        "before": "",
+        "after": "levanté."
+      },
+      "answer": "me",
+      "options": [
+        "lo",
+        "os",
+        "le",
+        "las",
+        "me",
+        "los"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0064",
+      "ru": "Мы поднялись.",
+      "es": {
+        "before": "",
+        "after": "levantamos."
+      },
+      "answer": "nos",
+      "options": [
+        "le",
+        "los",
+        "las",
+        "les",
+        "nos",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0065",
+      "ru": "Он вернулся.",
+      "es": {
+        "before": "",
+        "after": "volvió."
+      },
+      "answer": "se",
+      "options": [
+        "se",
+        "la",
+        "le",
+        "los",
+        "nos",
+        "te"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0066",
+      "ru": "Я вернулся.",
+      "es": {
+        "before": "",
+        "after": "volví."
+      },
+      "answer": "me",
+      "options": [
+        "te",
+        "la",
+        "las",
+        "lo",
+        "me",
+        "le"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0067",
+      "ru": "Мы вернулись.",
+      "es": {
+        "before": "",
+        "after": "volvimos."
+      },
+      "answer": "nos",
+      "options": [
+        "las",
+        "te",
+        "le",
+        "la",
+        "nos",
+        "les"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0068",
+      "ru": "Она упала.",
+      "es": {
+        "before": "",
+        "after": "cayó."
+      },
+      "answer": "se",
+      "options": [
+        "se",
+        "les",
+        "me",
+        "le",
+        "nos",
+        "lo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0069",
+      "ru": "Я упал.",
+      "es": {
+        "before": "",
+        "after": "caí."
+      },
+      "answer": "me",
+      "options": [
+        "te",
+        "me",
+        "le",
+        "la",
+        "os",
+        "se"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0070",
+      "ru": "Мы упали.",
+      "es": {
+        "before": "",
+        "after": "caímos."
+      },
+      "answer": "nos",
+      "options": [
+        "lo",
+        "se",
+        "los",
+        "me",
+        "nos",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0071",
+      "ru": "Он смеётся.",
+      "es": {
+        "before": "",
+        "after": "ríe."
+      },
+      "answer": "se",
+      "options": [
+        "me",
+        "nos",
+        "te",
+        "se",
+        "lo",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0072",
+      "ru": "Я смеюсь.",
+      "es": {
+        "before": "",
+        "after": "río."
+      },
+      "answer": "me",
+      "options": [
+        "le",
+        "se",
+        "os",
+        "la",
+        "lo",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0073",
+      "ru": "Мы смеёмся.",
+      "es": {
+        "before": "",
+        "after": "reímos."
+      },
+      "answer": "nos",
+      "options": [
+        "le",
+        "nos",
+        "les",
+        "las",
+        "lo",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0074",
+      "ru": "Он пожаловался.",
+      "es": {
+        "before": "",
+        "after": "quejó."
+      },
+      "answer": "se",
+      "options": [
+        "os",
+        "me",
+        "las",
+        "nos",
+        "la",
+        "se"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0075",
+      "ru": "Я пожаловался.",
+      "es": {
+        "before": "",
+        "after": "quejé."
+      },
+      "answer": "me",
+      "options": [
+        "me",
+        "las",
+        "lo",
+        "se",
+        "te",
+        "nos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0076",
+      "ru": "Мы пожаловались.",
+      "es": {
+        "before": "",
+        "after": "quejamos."
+      },
+      "answer": "nos",
+      "options": [
+        "nos",
+        "os",
+        "la",
+        "les",
+        "se",
+        "le"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0077",
+      "ru": "Он извинился.",
+      "es": {
+        "before": "",
+        "after": "disculpó."
+      },
+      "answer": "se",
+      "options": [
+        "se",
+        "lo",
+        "les",
+        "te",
+        "las",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0078",
+      "ru": "Я извинился.",
+      "es": {
+        "before": "",
+        "after": "disculpé."
+      },
+      "answer": "me",
+      "options": [
+        "los",
+        "nos",
+        "la",
+        "lo",
+        "me",
+        "las"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0079",
+      "ru": "Мы извинились.",
+      "es": {
+        "before": "",
+        "after": "disculpamos."
+      },
+      "answer": "nos",
+      "options": [
+        "lo",
+        "la",
+        "le",
+        "se",
+        "nos",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0080",
+      "ru": "Я тебя слушаю.",
+      "es": {
+        "before": "",
+        "after": "escucho."
+      },
+      "answer": "te",
+      "options": [
+        "las",
+        "les",
+        "la",
+        "le",
+        "los",
+        "te"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0081",
+      "ru": "Я вас слушаю.",
+      "es": {
+        "before": "",
+        "after": "escucho."
+      },
+      "answer": "os",
+      "options": [
+        "os",
+        "se",
+        "les",
+        "me",
+        "la",
+        "lo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0082",
+      "ru": "Он нас слушает.",
+      "es": {
+        "before": "",
+        "after": "escucha."
+      },
+      "answer": "nos",
+      "options": [
+        "los",
+        "le",
+        "nos",
+        "te",
+        "las",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0083",
+      "ru": "Мы его слышим.",
+      "es": {
+        "before": "",
+        "after": "oímos."
+      },
+      "answer": "lo",
+      "options": [
+        "las",
+        "les",
+        "te",
+        "le",
+        "los",
+        "lo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0084",
+      "ru": "Мы её слышим.",
+      "es": {
+        "before": "",
+        "after": "oímos."
+      },
+      "answer": "la",
+      "options": [
+        "me",
+        "les",
+        "te",
+        "la",
+        "se",
+        "las"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0085",
+      "ru": "Она нас видит.",
+      "es": {
+        "before": "",
+        "after": "ve."
+      },
+      "answer": "nos",
+      "options": [
+        "lo",
+        "os",
+        "los",
+        "le",
+        "me",
+        "nos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0086",
+      "ru": "Они вас видят.",
+      "es": {
+        "before": "",
+        "after": "ven."
+      },
+      "answer": "os",
+      "options": [
+        "se",
+        "la",
+        "los",
+        "le",
+        "les",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0087",
+      "ru": "Я их знаю (м.).",
+      "es": {
+        "before": "",
+        "after": "conozco."
+      },
+      "answer": "los",
+      "options": [
+        "las",
+        "la",
+        "te",
+        "los",
+        "nos",
+        "le"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0088",
+      "ru": "Я их знаю (ж.).",
+      "es": {
+        "before": "",
+        "after": "conozco."
+      },
+      "answer": "las",
+      "options": [
+        "se",
+        "los",
+        "me",
+        "las",
+        "la",
+        "nos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0089",
+      "ru": "Я его люблю.",
+      "es": {
+        "before": "",
+        "after": "quiero."
+      },
+      "answer": "lo",
+      "options": [
+        "lo",
+        "las",
+        "los",
+        "le",
+        "os",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0090",
+      "ru": "Я её люблю.",
+      "es": {
+        "before": "",
+        "after": "quiero."
+      },
+      "answer": "la",
+      "options": [
+        "me",
+        "os",
+        "las",
+        "nos",
+        "le",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0091",
+      "ru": "Я их люблю.",
+      "es": {
+        "before": "",
+        "after": "quiero."
+      },
+      "answer": "los",
+      "options": [
+        "la",
+        "te",
+        "lo",
+        "las",
+        "los",
+        "se"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0092",
+      "ru": "Она меня любит.",
+      "es": {
+        "before": "",
+        "after": "quiere."
+      },
+      "answer": "me",
+      "options": [
+        "te",
+        "las",
+        "me",
+        "los",
+        "le",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0093",
+      "ru": "Он тебя любит.",
+      "es": {
+        "before": "",
+        "after": "quiere."
+      },
+      "answer": "te",
+      "options": [
+        "os",
+        "la",
+        "se",
+        "los",
+        "me",
+        "te"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0094",
+      "ru": "Он любит нас.",
+      "es": {
+        "before": "",
+        "after": "quiere."
+      },
+      "answer": "nos",
+      "options": [
+        "se",
+        "les",
+        "nos",
+        "lo",
+        "las",
+        "te"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0095",
+      "ru": "Она любит вас.",
+      "es": {
+        "before": "",
+        "after": "quiere."
+      },
+      "answer": "os",
+      "options": [
+        "nos",
+        "les",
+        "los",
+        "la",
+        "te",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0096",
+      "ru": "Это меня раздражает.",
+      "es": {
+        "before": "",
+        "after": "molesta."
+      },
+      "answer": "me",
+      "options": [
+        "las",
+        "me",
+        "os",
+        "nos",
+        "los",
+        "lo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0097",
+      "ru": "Это тебя раздражает.",
+      "es": {
+        "before": "",
+        "after": "molesta."
+      },
+      "answer": "te",
+      "options": [
+        "te",
+        "nos",
+        "la",
+        "las",
+        "me",
+        "le"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0098",
+      "ru": "Это его раздражает.",
+      "es": {
+        "before": "",
+        "after": "molesta."
+      },
+      "answer": "le",
+      "options": [
+        "los",
+        "me",
+        "les",
+        "os",
+        "le",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0099",
+      "ru": "Это их раздражает.",
+      "es": {
+        "before": "",
+        "after": "molesta."
+      },
+      "answer": "les",
+      "options": [
+        "nos",
+        "le",
+        "te",
+        "me",
+        "se",
+        "les"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0100",
+      "ru": "Я не верю.",
+      "es": {
+        "before": "No",
+        "after": "creo."
+      },
+      "answer": "lo",
+      "options": [
+        "nos",
+        "lo",
+        "os",
+        "se",
+        "me",
+        "los"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0101",
+      "ru": "Я этого не понимаю.",
+      "es": {
+        "before": "No",
+        "after": "entiendo."
+      },
+      "answer": "lo",
+      "options": [
+        "les",
+        "te",
+        "se",
+        "los",
+        "me",
+        "lo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0102",
+      "ru": "Я этого не помню.",
+      "es": {
+        "before": "No",
+        "after": "recuerdo."
+      },
+      "answer": "lo",
+      "options": [
+        "la",
+        "te",
+        "le",
+        "los",
+        "las",
+        "lo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0103",
+      "ru": "Я это забыл.",
+      "es": {
+        "before": "",
+        "after": "olvidé."
+      },
+      "answer": "lo",
+      "options": [
+        "se",
+        "nos",
+        "las",
+        "os",
+        "la",
+        "lo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0104",
+      "ru": "Я его нашёл.",
+      "es": {
+        "before": "",
+        "after": "encontré."
+      },
+      "answer": "lo",
+      "options": [
+        "me",
+        "le",
+        "lo",
+        "los",
+        "os",
+        "te"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0105",
+      "ru": "Я её нашёл.",
+      "es": {
+        "before": "",
+        "after": "encontré."
+      },
+      "answer": "la",
+      "options": [
+        "las",
+        "se",
+        "me",
+        "nos",
+        "la",
+        "te"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0106",
+      "ru": "Я их нашёл (м.).",
+      "es": {
+        "before": "",
+        "after": "encontré."
+      },
+      "answer": "los",
+      "options": [
+        "se",
+        "la",
+        "os",
+        "los",
+        "lo",
+        "les"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0107",
+      "ru": "Я их нашёл (ж.).",
+      "es": {
+        "before": "",
+        "after": "encontré."
+      },
+      "answer": "las",
+      "options": [
+        "lo",
+        "los",
+        "las",
+        "nos",
+        "le",
+        "se"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0108",
+      "ru": "Она меня нашла.",
+      "es": {
+        "before": "",
+        "after": "encontró."
+      },
+      "answer": "me",
+      "options": [
+        "la",
+        "las",
+        "nos",
+        "me",
+        "se",
+        "le"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0109",
+      "ru": "Он тебя нашёл.",
+      "es": {
+        "before": "",
+        "after": "encontró."
+      },
+      "answer": "te",
+      "options": [
+        "le",
+        "les",
+        "os",
+        "te",
+        "se",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0110",
+      "ru": "Они нас нашли.",
+      "es": {
+        "before": "",
+        "after": "encontraron."
+      },
+      "answer": "nos",
+      "options": [
+        "lo",
+        "me",
+        "se",
+        "nos",
+        "las",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0111",
+      "ru": "Мы вас нашли.",
+      "es": {
+        "before": "",
+        "after": "encontramos."
+      },
+      "answer": "os",
+      "options": [
+        "le",
+        "os",
+        "lo",
+        "la",
+        "te",
+        "se"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0112",
+      "ru": "Я ему ответил.",
+      "es": {
+        "before": "",
+        "after": "respondí."
+      },
+      "answer": "le",
+      "options": [
+        "lo",
+        "me",
+        "la",
+        "le",
+        "te",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0113",
+      "ru": "Я ей ответил.",
+      "es": {
+        "before": "",
+        "after": "respondí."
+      },
+      "answer": "le",
+      "options": [
+        "le",
+        "lo",
+        "los",
+        "me",
+        "la",
+        "se"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0114",
+      "ru": "Я им ответил.",
+      "es": {
+        "before": "",
+        "after": "respondí."
+      },
+      "answer": "les",
+      "options": [
+        "la",
+        "las",
+        "te",
+        "les",
+        "me",
+        "os"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0115",
+      "ru": "Он мне ответил.",
+      "es": {
+        "before": "",
+        "after": "respondió."
+      },
+      "answer": "me",
+      "options": [
+        "nos",
+        "os",
+        "les",
+        "la",
+        "los",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0116",
+      "ru": "Она тебе ответила.",
+      "es": {
+        "before": "",
+        "after": "respondió."
+      },
+      "answer": "te",
+      "options": [
+        "te",
+        "les",
+        "los",
+        "me",
+        "le",
+        "nos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0117",
+      "ru": "Они нам ответили.",
+      "es": {
+        "before": "",
+        "after": "respondieron."
+      },
+      "answer": "nos",
+      "options": [
+        "os",
+        "les",
+        "las",
+        "nos",
+        "me",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0118",
+      "ru": "Вы им ответили.",
+      "es": {
+        "before": "",
+        "after": "respondisteis."
+      },
+      "answer": "les",
+      "options": [
+        "la",
+        "le",
+        "les",
+        "os",
+        "las",
+        "te"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0119",
+      "ru": "Я решил.",
+      "es": {
+        "before": "",
+        "after": "decidí."
+      },
+      "answer": "me",
+      "options": [
+        "te",
+        "le",
+        "la",
+        "les",
+        "os",
+        "me"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "P0120",
+      "ru": "Он изменился.",
+      "es": {
+        "before": "",
+        "after": "cambió."
+      },
+      "answer": "se",
+      "options": [
+        "le",
+        "nos",
+        "los",
+        "te",
+        "se",
+        "lo"
+      ],
+      "comment": ""
+    }
+  ]
+}

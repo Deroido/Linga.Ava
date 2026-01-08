@@ -1,0 +1,2174 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "name": "Conectores / linking words (1 hueco)",
+    "createdAt": "2026-01-08T17:11:08.780925Z",
+    "count": 120,
+    "tags": [
+      "conectores",
+      "A2-B1"
+    ]
+  },
+  "cards": [
+    {
+      "id": "C0001",
+      "ru": "Я пошёл, потому что было поздно.",
+      "es": {
+        "before": "Fui",
+        "after": ", ___ era tarde."
+      },
+      "answer": "porque",
+      "options": [
+        "así que",
+        "por fin",
+        "pero",
+        "por lo tanto",
+        "porque",
+        "en cuanto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0002",
+      "ru": "Останься, хотя я понимаю.",
+      "es": {
+        "before": "Quédate",
+        "after": ", ___ lo entiendo."
+      },
+      "answer": "aunque",
+      "options": [
+        "mientras",
+        "así que",
+        "aunque",
+        "es decir",
+        "en realidad",
+        "por supuesto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0003",
+      "ru": "Я хотел прийти, но не смог.",
+      "es": {
+        "before": "Quería ir",
+        "after": ", ___ no pude."
+      },
+      "answer": "pero",
+      "options": [
+        "por ejemplo",
+        "también",
+        "pero",
+        "por si",
+        "por eso",
+        "luego"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0004",
+      "ru": "Ты можешь чай или кофе.",
+      "es": {
+        "before": "Puedes té ___ café.",
+        "after": ""
+      },
+      "answer": "o",
+      "options": [
+        "o",
+        "incluso",
+        "tal vez",
+        "para que",
+        "por ejemplo",
+        "por eso"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0005",
+      "ru": "Он не только умный, но и добрый.",
+      "es": {
+        "before": "No solo es inteligente, ___ también es amable.",
+        "after": ""
+      },
+      "answer": "sino",
+      "options": [
+        "sino",
+        "en cuanto",
+        "por otro lado",
+        "antes de",
+        "quizás",
+        "por ejemplo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0006",
+      "ru": "Я не пришёл, потому что был болен.",
+      "es": {
+        "before": "No vine ___ estaba enfermo.",
+        "after": ""
+      },
+      "answer": "porque",
+      "options": [
+        "porque",
+        "por supuesto",
+        "o",
+        "al final",
+        "entonces",
+        "y"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0007",
+      "ru": "Как я говорил, это важно.",
+      "es": {
+        "before": "___ dije, esto es importante.",
+        "after": ""
+      },
+      "answer": "como",
+      "options": [
+        "sin embargo",
+        "como",
+        "porque",
+        "es decir",
+        "por fin",
+        "entonces"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0008",
+      "ru": "Сделай это, чтобы мы успели.",
+      "es": {
+        "before": "Hazlo ___ lleguemos a tiempo.",
+        "after": ""
+      },
+      "answer": "para que",
+      "options": [
+        "en realidad",
+        "pero",
+        "incluso",
+        "primero",
+        "para que",
+        "de hecho"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0009",
+      "ru": "Если будет время, позвони.",
+      "es": {
+        "before": "___ tienes tiempo, llama.",
+        "after": ""
+      },
+      "answer": "si",
+      "options": [
+        "sino",
+        "primero",
+        "por ejemplo",
+        "al menos",
+        "por eso",
+        "si"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0010",
+      "ru": "Я не уверен, однако попробую.",
+      "es": {
+        "before": "No estoy seguro; ___, lo intentaré.",
+        "after": ""
+      },
+      "answer": "sin embargo",
+      "options": [
+        "sobre todo",
+        "por cierto",
+        "también",
+        "a menos que",
+        "sin embargo",
+        "al final"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0011",
+      "ru": "Он устал, поэтому ушёл.",
+      "es": {
+        "before": "Estaba cansado; ___ se fue.",
+        "after": ""
+      },
+      "answer": "por eso",
+      "options": [
+        "si",
+        "por un lado",
+        "por eso",
+        "por supuesto",
+        "para que",
+        "también"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0012",
+      "ru": "Мы закончили, следовательно, можем уйти.",
+      "es": {
+        "before": "Terminamos; ___ podemos irnos.",
+        "after": ""
+      },
+      "answer": "por lo tanto",
+      "options": [
+        "primero",
+        "aunque sea",
+        "antes de",
+        "para que",
+        "por supuesto",
+        "por lo tanto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0013",
+      "ru": "Кроме того, это дешевле.",
+      "es": {
+        "before": "___, es más barato.",
+        "after": ""
+      },
+      "answer": "además",
+      "options": [
+        "por ejemplo",
+        "sobre todo",
+        "para que",
+        "además",
+        "si",
+        "en realidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0014",
+      "ru": "Тоже я согласен.",
+      "es": {
+        "before": "___ estoy de acuerdo.",
+        "after": ""
+      },
+      "answer": "también",
+      "options": [
+        "luego",
+        "en realidad",
+        "de hecho",
+        "aunque sea",
+        "también",
+        "por último"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0015",
+      "ru": "Тогда увидимся завтра.",
+      "es": {
+        "before": "___ nos vemos mañana.",
+        "after": ""
+      },
+      "answer": "entonces",
+      "options": [
+        "sin duda",
+        "por ejemplo",
+        "aunque sea",
+        "entonces",
+        "por lo tanto",
+        "después de"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0016",
+      "ru": "Так что давай начнём.",
+      "es": {
+        "before": "___, empecemos.",
+        "after": ""
+      },
+      "answer": "así que",
+      "options": [
+        "también",
+        "así que",
+        "sino",
+        "a menos que",
+        "luego",
+        "por supuesto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0017",
+      "ru": "Когда придёшь, напиши.",
+      "es": {
+        "before": "___ llegues, escribe.",
+        "after": ""
+      },
+      "answer": "cuando",
+      "options": [
+        "cuando",
+        "pero",
+        "mientras",
+        "a menos que",
+        "por lo tanto",
+        "por supuesto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0018",
+      "ru": "Пока я готовлю, ты убирай.",
+      "es": {
+        "before": "___ yo cocino, tú limpia.",
+        "after": ""
+      },
+      "answer": "mientras",
+      "options": [
+        "sino",
+        "por eso",
+        "al final",
+        "cuando",
+        "mientras",
+        "por supuesto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0019",
+      "ru": "Перед тем как уйти, выключи свет.",
+      "es": {
+        "before": "___ irte, apaga la luz.",
+        "after": ""
+      },
+      "answer": "antes de",
+      "options": [
+        "antes de",
+        "luego",
+        "en cuanto",
+        "sin duda",
+        "aunque",
+        "por si"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0020",
+      "ru": "После того как поешь, отдохни.",
+      "es": {
+        "before": "___ comer, descansa.",
+        "after": ""
+      },
+      "answer": "después de",
+      "options": [
+        "por supuesto",
+        "por eso",
+        "después de",
+        "aunque sea",
+        "quizás",
+        "así que"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0021",
+      "ru": "Если не будет дождя, пойдём.",
+      "es": {
+        "before": "Iremos ___ no llueve.",
+        "after": ""
+      },
+      "answer": "si",
+      "options": [
+        "si",
+        "de hecho",
+        "aunque",
+        "por lo tanto",
+        "en resumen",
+        "porque"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0022",
+      "ru": "Если только не поздно, зайди.",
+      "es": {
+        "before": "Ven ___ sea tarde.",
+        "after": ""
+      },
+      "answer": "a menos que",
+      "options": [
+        "a menos que",
+        "y",
+        "sino",
+        "al menos",
+        "por si",
+        "por último"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0023",
+      "ru": "Как только закончишь, сообщи.",
+      "es": {
+        "before": "___ termines, avisa.",
+        "after": ""
+      },
+      "answer": "en cuanto",
+      "options": [
+        "mientras",
+        "además",
+        "sino",
+        "y",
+        "en cuanto",
+        "pero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0024",
+      "ru": "Так как ты здесь, помоги.",
+      "es": {
+        "before": "___ estás aquí, ayuda.",
+        "after": ""
+      },
+      "answer": "ya que",
+      "options": [
+        "sino",
+        "ya que",
+        "aunque",
+        "por supuesto",
+        "además",
+        "y"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0025",
+      "ru": "На всякий случай возьми зонт.",
+      "es": {
+        "before": "Lleva un paraguas ___ llueve.",
+        "after": ""
+      },
+      "answer": "por si",
+      "options": [
+        "al menos",
+        "en cambio",
+        "por si",
+        "tal vez",
+        "luego",
+        "primero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0026",
+      "ru": "Хотя бы раз попробуй.",
+      "es": {
+        "before": "___ una vez, inténtalo.",
+        "after": ""
+      },
+      "answer": "aunque sea",
+      "options": [
+        "en resumen",
+        "sino",
+        "en realidad",
+        "por cierto",
+        "aunque sea",
+        "por fin"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0027",
+      "ru": "Например, можно начать сейчас.",
+      "es": {
+        "before": "___, podemos empezar ahora.",
+        "after": ""
+      },
+      "answer": "por ejemplo",
+      "options": [
+        "de hecho",
+        "cuando",
+        "también",
+        "como",
+        "al menos",
+        "por ejemplo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0028",
+      "ru": "То есть, ты согласен?",
+      "es": {
+        "before": "___, ¿estás de acuerdo?",
+        "after": ""
+      },
+      "answer": "es decir",
+      "options": [
+        "en resumen",
+        "sin embargo",
+        "antes de",
+        "en general",
+        "para que",
+        "es decir"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0029",
+      "ru": "Вместо этого давай подождём.",
+      "es": {
+        "before": "___, esperemos.",
+        "after": ""
+      },
+      "answer": "en cambio",
+      "options": [
+        "como",
+        "así que",
+        "primero",
+        "al menos",
+        "si",
+        "en cambio"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0030",
+      "ru": "С другой стороны, это риск.",
+      "es": {
+        "before": "___, es un riesgo.",
+        "after": ""
+      },
+      "answer": "por otro lado",
+      "options": [
+        "por otro lado",
+        "para que",
+        "en cuanto",
+        "entonces",
+        "además",
+        "aunque sea"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0031",
+      "ru": "На самом деле он прав.",
+      "es": {
+        "before": "___, tiene razón.",
+        "after": ""
+      },
+      "answer": "de hecho",
+      "options": [
+        "o",
+        "y",
+        "de hecho",
+        "luego",
+        "por fin",
+        "en general"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0032",
+      "ru": "С одной стороны это удобно.",
+      "es": {
+        "before": "___, es cómodo.",
+        "after": ""
+      },
+      "answer": "por un lado",
+      "options": [
+        "además",
+        "quizás",
+        "porque",
+        "sin duda",
+        "por un lado",
+        "por supuesto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0033",
+      "ru": "Наконец, мы добрались.",
+      "es": {
+        "before": "___, llegamos.",
+        "after": ""
+      },
+      "answer": "por fin",
+      "options": [
+        "por supuesto",
+        "además",
+        "ya que",
+        "por lo tanto",
+        "en general",
+        "por fin"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0034",
+      "ru": "В итоге всё получилось.",
+      "es": {
+        "before": "___, todo salió bien.",
+        "after": ""
+      },
+      "answer": "al final",
+      "options": [
+        "pero",
+        "por si",
+        "porque",
+        "al final",
+        "quizás",
+        "en general"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0035",
+      "ru": "Сначала прочитай, потом ответь.",
+      "es": {
+        "before": "___ lee, luego contesta.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "así que",
+        "sin embargo",
+        "aunque",
+        "mientras",
+        "pero",
+        "primero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0036",
+      "ru": "Потом поговорим.",
+      "es": {
+        "before": "___ hablamos.",
+        "after": ""
+      },
+      "answer": "luego",
+      "options": [
+        "así que",
+        "luego",
+        "por eso",
+        "al menos",
+        "si",
+        "aunque"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0037",
+      "ru": "После этого уходим.",
+      "es": {
+        "before": "___ nos vamos.",
+        "after": ""
+      },
+      "answer": "después",
+      "options": [
+        "sino",
+        "después",
+        "ya que",
+        "si",
+        "en resumen",
+        "antes de"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0038",
+      "ru": "Наконец-то, в заключение.",
+      "es": {
+        "before": "___, en resumen.",
+        "after": ""
+      },
+      "answer": "por último",
+      "options": [
+        "es decir",
+        "primero",
+        "aunque",
+        "por último",
+        "en cambio",
+        "o"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0039",
+      "ru": "Без сомнения это полезно.",
+      "es": {
+        "before": "___, es útil.",
+        "after": ""
+      },
+      "answer": "sin duda",
+      "options": [
+        "como",
+        "si",
+        "además",
+        "en resumen",
+        "sin duda",
+        "por último"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0040",
+      "ru": "Возможно, он придёт.",
+      "es": {
+        "before": "___, él venga.",
+        "after": ""
+      },
+      "answer": "quizás",
+      "options": [
+        "quizás",
+        "en general",
+        "aunque",
+        "ya que",
+        "por fin",
+        "y"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0041",
+      "ru": "Может быть, позже.",
+      "es": {
+        "before": "___, más tarde.",
+        "after": ""
+      },
+      "answer": "tal vez",
+      "options": [
+        "así que",
+        "además",
+        "tal vez",
+        "en general",
+        "si",
+        "por último"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0042",
+      "ru": "Конечно, я помогу.",
+      "es": {
+        "before": "___, te ayudaré.",
+        "after": ""
+      },
+      "answer": "por supuesto",
+      "options": [
+        "después",
+        "aunque",
+        "por fin",
+        "por supuesto",
+        "en realidad",
+        "en general"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0043",
+      "ru": "В реальности это сложно.",
+      "es": {
+        "before": "___, es difícil.",
+        "after": ""
+      },
+      "answer": "en realidad",
+      "options": [
+        "al menos",
+        "en realidad",
+        "por si",
+        "o",
+        "en cambio",
+        "como"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0044",
+      "ru": "По крайней мере попробуй.",
+      "es": {
+        "before": "___, inténtalo.",
+        "after": ""
+      },
+      "answer": "al menos",
+      "options": [
+        "cuando",
+        "por supuesto",
+        "aunque sea",
+        "al menos",
+        "por eso",
+        "de hecho"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0045",
+      "ru": "Даже он это понял.",
+      "es": {
+        "before": "___ él lo entendió.",
+        "after": ""
+      },
+      "answer": "incluso",
+      "options": [
+        "incluso",
+        "al menos",
+        "por otro lado",
+        "primero",
+        "por lo tanto",
+        "después"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0046",
+      "ru": "Особенно утром.",
+      "es": {
+        "before": "___ por la mañana.",
+        "after": ""
+      },
+      "answer": "sobre todo",
+      "options": [
+        "cuando",
+        "sobre todo",
+        "por eso",
+        "en general",
+        "sin duda",
+        "antes de"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0047",
+      "ru": "В общем, всё ясно.",
+      "es": {
+        "before": "___, todo está claro.",
+        "after": ""
+      },
+      "answer": "en general",
+      "options": [
+        "en general",
+        "en resumen",
+        "a menos que",
+        "tal vez",
+        "después de",
+        "por lo tanto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0048",
+      "ru": "В итоге, кратко говоря.",
+      "es": {
+        "before": "___, eso es.",
+        "after": ""
+      },
+      "answer": "en resumen",
+      "options": [
+        "además",
+        "en resumen",
+        "ya que",
+        "mientras",
+        "quizás",
+        "primero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0049",
+      "ru": "Кстати, я забыл.",
+      "es": {
+        "before": "___, lo olvidé.",
+        "after": ""
+      },
+      "answer": "por cierto",
+      "options": [
+        "por cierto",
+        "entonces",
+        "aunque",
+        "al menos",
+        "aunque sea",
+        "además"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0050",
+      "ru": "Я позвоню тебе, если смогу.",
+      "es": {
+        "before": "Te llamaré ___ pueda.",
+        "after": ""
+      },
+      "answer": "si",
+      "options": [
+        "en realidad",
+        "aunque",
+        "entonces",
+        "por otro lado",
+        "después de",
+        "si"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0051",
+      "ru": "Я не пошёл, потому что работал.",
+      "es": {
+        "before": "No fui ___ trabajé.",
+        "after": ""
+      },
+      "answer": "porque",
+      "options": [
+        "es decir",
+        "porque",
+        "en general",
+        "y",
+        "por otro lado",
+        "pero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0052",
+      "ru": "Мы остались дома, так как шёл дождь.",
+      "es": {
+        "before": "Nos quedamos en casa ___ llovía.",
+        "after": ""
+      },
+      "answer": "ya que",
+      "options": [
+        "ya que",
+        "es decir",
+        "antes de",
+        "tal vez",
+        "por lo tanto",
+        "y"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0053",
+      "ru": "Он хотел, но всё же ушёл.",
+      "es": {
+        "before": "Quería, ___ se fue.",
+        "after": ""
+      },
+      "answer": "sin embargo",
+      "options": [
+        "por cierto",
+        "sin embargo",
+        "incluso",
+        "en general",
+        "mientras",
+        "al menos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0054",
+      "ru": "Я готовлю, пока ты отдыхаешь.",
+      "es": {
+        "before": "Yo cocino ___ tú descansas.",
+        "after": ""
+      },
+      "answer": "mientras",
+      "options": [
+        "por otro lado",
+        "por un lado",
+        "después de",
+        "para que",
+        "mientras",
+        "en realidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0055",
+      "ru": "Сделай это, чтобы всё было готово.",
+      "es": {
+        "before": "Hazlo ___ todo esté listo.",
+        "after": ""
+      },
+      "answer": "para que",
+      "options": [
+        "antes de",
+        "en resumen",
+        "en realidad",
+        "para que",
+        "por otro lado",
+        "además"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0056",
+      "ru": "Ты можешь прийти, или мы перенесём.",
+      "es": {
+        "before": "Puedes venir, ___ lo aplazamos.",
+        "after": ""
+      },
+      "answer": "o",
+      "options": [
+        "al menos",
+        "entonces",
+        "luego",
+        "incluso",
+        "o",
+        "sobre todo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0057",
+      "ru": "Я хотел купить это, но дорого.",
+      "es": {
+        "before": "Quería comprarlo, ___ es caro.",
+        "after": ""
+      },
+      "answer": "pero",
+      "options": [
+        "después",
+        "cuando",
+        "pero",
+        "después de",
+        "sino",
+        "también"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0058",
+      "ru": "В итоге мы согласились.",
+      "es": {
+        "before": "___, aceptamos.",
+        "after": ""
+      },
+      "answer": "al final",
+      "options": [
+        "primero",
+        "en resumen",
+        "después",
+        "por un lado",
+        "así que",
+        "al final"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0059",
+      "ru": "Например, можно сделать иначе.",
+      "es": {
+        "before": "___, se puede hacer de otra forma.",
+        "after": ""
+      },
+      "answer": "por ejemplo",
+      "options": [
+        "así que",
+        "primero",
+        "también",
+        "sobre todo",
+        "es decir",
+        "por ejemplo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0060",
+      "ru": "Шаг 1: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "por ejemplo",
+        "después de",
+        "antes de",
+        "aunque sea",
+        "sino",
+        "primero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0061",
+      "ru": "Шаг 2: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "primero",
+        "antes de",
+        "cuando",
+        "quizás",
+        "aunque",
+        "a menos que"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0062",
+      "ru": "Шаг 3: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "además",
+        "porque",
+        "primero",
+        "en realidad",
+        "por eso",
+        "así que"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0063",
+      "ru": "Шаг 4: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "en realidad",
+        "primero",
+        "si",
+        "es decir",
+        "incluso",
+        "de hecho"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0064",
+      "ru": "Шаг 5: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "en resumen",
+        "sobre todo",
+        "primero",
+        "antes de",
+        "después de",
+        "aunque sea"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0065",
+      "ru": "Шаг 6: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "ya que",
+        "primero",
+        "mientras",
+        "a menos que",
+        "en cuanto",
+        "al menos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0066",
+      "ru": "Шаг 7: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "por lo tanto",
+        "incluso",
+        "a menos que",
+        "por si",
+        "aunque sea",
+        "primero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0067",
+      "ru": "Шаг 8: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "en realidad",
+        "así que",
+        "y",
+        "incluso",
+        "quizás",
+        "primero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0068",
+      "ru": "Шаг 9: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "por otro lado",
+        "primero",
+        "cuando",
+        "también",
+        "quizás",
+        "por lo tanto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0069",
+      "ru": "Шаг 10: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "incluso",
+        "primero",
+        "tal vez",
+        "por supuesto",
+        "en general",
+        "como"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0070",
+      "ru": "Шаг 11: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "por otro lado",
+        "sin embargo",
+        "luego",
+        "como",
+        "primero",
+        "incluso"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0071",
+      "ru": "Шаг 12: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "primero",
+        "por último",
+        "por un lado",
+        "por eso",
+        "sino",
+        "por fin"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0072",
+      "ru": "Шаг 13: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "después",
+        "por fin",
+        "además",
+        "mientras",
+        "primero",
+        "tal vez"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0073",
+      "ru": "Шаг 14: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "incluso",
+        "primero",
+        "en general",
+        "si",
+        "sin duda",
+        "por fin"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0074",
+      "ru": "Шаг 15: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "por si",
+        "también",
+        "en realidad",
+        "o",
+        "al menos",
+        "primero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0075",
+      "ru": "Шаг 16: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "por fin",
+        "por lo tanto",
+        "al final",
+        "por un lado",
+        "aunque",
+        "primero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0076",
+      "ru": "Шаг 17: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "primero",
+        "aunque",
+        "incluso",
+        "para que",
+        "por un lado",
+        "por si"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0077",
+      "ru": "Шаг 18: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "primero",
+        "antes de",
+        "para que",
+        "por último",
+        "sino",
+        "en cambio"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0078",
+      "ru": "Шаг 19: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "al final",
+        "ya que",
+        "para que",
+        "primero",
+        "después de",
+        "así que"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0079",
+      "ru": "Шаг 20: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "a menos que",
+        "en resumen",
+        "en cuanto",
+        "por eso",
+        "primero",
+        "quizás"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0080",
+      "ru": "Шаг 21: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "sin duda",
+        "después",
+        "sino",
+        "por ejemplo",
+        "a menos que",
+        "primero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0081",
+      "ru": "Шаг 22: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "después",
+        "primero",
+        "incluso",
+        "tal vez",
+        "sino",
+        "al final"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0082",
+      "ru": "Шаг 23: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "en realidad",
+        "incluso",
+        "pero",
+        "primero",
+        "así que",
+        "de hecho"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0083",
+      "ru": "Шаг 24: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "primero",
+        "al menos",
+        "aunque",
+        "y",
+        "pero",
+        "es decir"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0084",
+      "ru": "Шаг 25: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "también",
+        "pero",
+        "a menos que",
+        "en cuanto",
+        "es decir",
+        "primero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0085",
+      "ru": "Шаг 26: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "por ejemplo",
+        "sin embargo",
+        "es decir",
+        "en general",
+        "primero",
+        "sin duda"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0086",
+      "ru": "Шаг 27: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "quizás",
+        "tal vez",
+        "por un lado",
+        "primero",
+        "por lo tanto",
+        "incluso"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0087",
+      "ru": "Шаг 28: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "así que",
+        "por lo tanto",
+        "en realidad",
+        "y",
+        "en cambio",
+        "primero"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0088",
+      "ru": "Шаг 29: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "por eso",
+        "primero",
+        "por un lado",
+        "sin embargo",
+        "o",
+        "después de"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0089",
+      "ru": "Шаг 30: сначала подумай, потом действуй.",
+      "es": {
+        "before": "___ piensa y luego actúa.",
+        "after": ""
+      },
+      "answer": "primero",
+      "options": [
+        "en general",
+        "sino",
+        "en resumen",
+        "por si",
+        "primero",
+        "por lo tanto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0090",
+      "ru": "Перед тем как начать, проверь. (сейчас).",
+      "es": {
+        "before": "___ empezar, revisa.",
+        "after": ""
+      },
+      "answer": "antes de",
+      "options": [
+        "pero",
+        "en resumen",
+        "sino",
+        "antes de",
+        "y",
+        "al menos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0091",
+      "ru": "На самом деле, всё проще. (в целом).",
+      "es": {
+        "before": "___, es más sencillo.",
+        "after": ""
+      },
+      "answer": "de hecho",
+      "options": [
+        "al final",
+        "de hecho",
+        "tal vez",
+        "por si",
+        "sino",
+        "en cuanto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0092",
+      "ru": "Возьми ключи на всякий случай.",
+      "es": {
+        "before": "Lleva las llaves ___ las necesitas.",
+        "after": ""
+      },
+      "answer": "por si",
+      "options": [
+        "por si",
+        "al menos",
+        "aunque sea",
+        "en realidad",
+        "en cambio",
+        "además"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0093",
+      "ru": "На самом деле, всё проще. (сейчас).",
+      "es": {
+        "before": "___, es más sencillo.",
+        "after": ""
+      },
+      "answer": "de hecho",
+      "options": [
+        "tal vez",
+        "sino",
+        "al menos",
+        "de hecho",
+        "en resumen",
+        "por supuesto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0094",
+      "ru": "Кстати, завтра праздник. (как обычно).",
+      "es": {
+        "before": "___, mañana es festivo.",
+        "after": ""
+      },
+      "answer": "por cierto",
+      "options": [
+        "cuando",
+        "quizás",
+        "mientras",
+        "por cierto",
+        "aunque sea",
+        "incluso"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0095",
+      "ru": "С другой стороны, это интересно. (как обычно).",
+      "es": {
+        "before": "___, es interesante.",
+        "after": ""
+      },
+      "answer": "por otro lado",
+      "options": [
+        "por otro lado",
+        "por lo tanto",
+        "pero",
+        "quizás",
+        "además",
+        "si"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0096",
+      "ru": "Вместо этого, сделай паузу.",
+      "es": {
+        "before": "___, haz una pausa.",
+        "after": ""
+      },
+      "answer": "en cambio",
+      "options": [
+        "aunque sea",
+        "en cambio",
+        "al final",
+        "por último",
+        "después",
+        "entonces"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0097",
+      "ru": "Когда будет готово, сообщи. (как обычно).",
+      "es": {
+        "before": "___ esté listo, avisa.",
+        "after": ""
+      },
+      "answer": "cuando",
+      "options": [
+        "quizás",
+        "en resumen",
+        "así que",
+        "cuando",
+        "y",
+        "después de"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0098",
+      "ru": "Мы уйдём, если не будет проблем. (в целом).",
+      "es": {
+        "before": "Nos iremos ___ no haya problemas.",
+        "after": ""
+      },
+      "answer": "si",
+      "options": [
+        "para que",
+        "quizás",
+        "si",
+        "es decir",
+        "antes de",
+        "luego"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0099",
+      "ru": "Это важно, поэтому слушай.",
+      "es": {
+        "before": "Es importante; ___ escucha.",
+        "after": ""
+      },
+      "answer": "por eso",
+      "options": [
+        "entonces",
+        "por eso",
+        "sin duda",
+        "a menos que",
+        "en general",
+        "aunque sea"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0100",
+      "ru": "Кроме того, у нас мало времени.",
+      "es": {
+        "before": "___, tenemos poco tiempo.",
+        "after": ""
+      },
+      "answer": "además",
+      "options": [
+        "en realidad",
+        "por un lado",
+        "aunque",
+        "aunque sea",
+        "al final",
+        "además"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0101",
+      "ru": "Вместо этого, сделай паузу. (сейчас).",
+      "es": {
+        "before": "___, haz una pausa.",
+        "after": ""
+      },
+      "answer": "en cambio",
+      "options": [
+        "pero",
+        "en cambio",
+        "tal vez",
+        "o",
+        "aunque",
+        "luego"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0102",
+      "ru": "С другой стороны, это интересно. (сейчас).",
+      "es": {
+        "before": "___, es interesante.",
+        "after": ""
+      },
+      "answer": "por otro lado",
+      "options": [
+        "quizás",
+        "de hecho",
+        "tal vez",
+        "por otro lado",
+        "aunque",
+        "en cambio"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0103",
+      "ru": "Он не пришёл; однако написал. (как обычно).",
+      "es": {
+        "before": "No vino; ___, escribió.",
+        "after": ""
+      },
+      "answer": "sin embargo",
+      "options": [
+        "por último",
+        "como",
+        "sin embargo",
+        "pero",
+        "sino",
+        "o"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0104",
+      "ru": "Я скажу тебе, как только узнаю.",
+      "es": {
+        "before": "Te lo diré ___ lo sepa.",
+        "after": ""
+      },
+      "answer": "en cuanto",
+      "options": [
+        "para que",
+        "antes de",
+        "al menos",
+        "sin duda",
+        "cuando",
+        "en cuanto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0105",
+      "ru": "Он не пришёл; однако написал. (сейчас).",
+      "es": {
+        "before": "No vino; ___, escribió.",
+        "after": ""
+      },
+      "answer": "sin embargo",
+      "options": [
+        "antes de",
+        "mientras",
+        "entonces",
+        "sin embargo",
+        "pero",
+        "por cierto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0106",
+      "ru": "Я останусь, хотя устал. (сейчас).",
+      "es": {
+        "before": "Me quedaré ___ esté cansado.",
+        "after": ""
+      },
+      "answer": "aunque",
+      "options": [
+        "por fin",
+        "al menos",
+        "sino",
+        "en resumen",
+        "primero",
+        "aunque"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0107",
+      "ru": "На самом деле, всё проще. (как обычно).",
+      "es": {
+        "before": "___, es más sencillo.",
+        "after": ""
+      },
+      "answer": "de hecho",
+      "options": [
+        "en cuanto",
+        "por si",
+        "al menos",
+        "de hecho",
+        "por fin",
+        "aunque"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0108",
+      "ru": "Когда будет готово, сообщи. (в целом).",
+      "es": {
+        "before": "___ esté listo, avisa.",
+        "after": ""
+      },
+      "answer": "cuando",
+      "options": [
+        "sobre todo",
+        "antes de",
+        "y",
+        "cuando",
+        "de hecho",
+        "por lo tanto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0109",
+      "ru": "Мы уйдём, если не будет проблем. (сейчас).",
+      "es": {
+        "before": "Nos iremos ___ no haya problemas.",
+        "after": ""
+      },
+      "answer": "si",
+      "options": [
+        "por ejemplo",
+        "de hecho",
+        "por eso",
+        "aunque",
+        "si",
+        "o"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0110",
+      "ru": "Кроме того, у нас мало времени. (как обычно).",
+      "es": {
+        "before": "___, tenemos poco tiempo.",
+        "after": ""
+      },
+      "answer": "además",
+      "options": [
+        "por lo tanto",
+        "aunque sea",
+        "en realidad",
+        "ya que",
+        "además",
+        "sin embargo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0111",
+      "ru": "В общем, договорились. (в целом).",
+      "es": {
+        "before": "___, quedamos así.",
+        "after": ""
+      },
+      "answer": "en general",
+      "options": [
+        "es decir",
+        "mientras",
+        "después de",
+        "por lo tanto",
+        "en general",
+        "por otro lado"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0112",
+      "ru": "То есть, ты не можешь? (в целом).",
+      "es": {
+        "before": "___, ¿no puedes?",
+        "after": ""
+      },
+      "answer": "es decir",
+      "options": [
+        "por un lado",
+        "en cuanto",
+        "al final",
+        "antes de",
+        "es decir",
+        "aunque"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0113",
+      "ru": "Это важно, поэтому слушай. (как обычно).",
+      "es": {
+        "before": "Es importante; ___ escucha.",
+        "after": ""
+      },
+      "answer": "por eso",
+      "options": [
+        "aunque sea",
+        "así que",
+        "por eso",
+        "a menos que",
+        "sin embargo",
+        "después de"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0114",
+      "ru": "Когда будет готово, сообщи. (сейчас).",
+      "es": {
+        "before": "___ esté listo, avisa.",
+        "after": ""
+      },
+      "answer": "cuando",
+      "options": [
+        "por cierto",
+        "a menos que",
+        "además",
+        "sino",
+        "cuando",
+        "en cambio"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0115",
+      "ru": "Сделай это, чтобы мы могли уйти. (в целом).",
+      "es": {
+        "before": "Hazlo ___ podamos irnos.",
+        "after": ""
+      },
+      "answer": "para que",
+      "options": [
+        "también",
+        "si",
+        "de hecho",
+        "para que",
+        "luego",
+        "y"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0116",
+      "ru": "С другой стороны, это интересно. (в целом).",
+      "es": {
+        "before": "___, es interesante.",
+        "after": ""
+      },
+      "answer": "por otro lado",
+      "options": [
+        "también",
+        "cuando",
+        "luego",
+        "por otro lado",
+        "en resumen",
+        "por eso"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0117",
+      "ru": "С другой стороны, это интересно. (в целом).",
+      "es": {
+        "before": "___, es interesante.",
+        "after": ""
+      },
+      "answer": "por otro lado",
+      "options": [
+        "incluso",
+        "por supuesto",
+        "por otro lado",
+        "por eso",
+        "así que",
+        "en resumen"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0118",
+      "ru": "Мы уйдём, если не будет проблем. (как обычно).",
+      "es": {
+        "before": "Nos iremos ___ no haya problemas.",
+        "after": ""
+      },
+      "answer": "si",
+      "options": [
+        "ya que",
+        "por cierto",
+        "por si",
+        "si",
+        "luego",
+        "sino"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0119",
+      "ru": "После того как закончишь, выйди. (в целом).",
+      "es": {
+        "before": "___ terminar, sal.",
+        "after": ""
+      },
+      "answer": "después de",
+      "options": [
+        "también",
+        "mientras",
+        "sin duda",
+        "incluso",
+        "después de",
+        "si"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "C0120",
+      "ru": "Кстати, завтра праздник.",
+      "es": {
+        "before": "___, mañana es festivo.",
+        "after": ""
+      },
+      "answer": "por cierto",
+      "options": [
+        "por cierto",
+        "porque",
+        "por otro lado",
+        "sin embargo",
+        "ya que",
+        "primero"
+      ],
+      "comment": ""
+    }
+  ]
+}

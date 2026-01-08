@@ -1,0 +1,2175 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "name": "Imperativo (afirmativo/negativo) — 1 hueco",
+    "createdAt": "2026-01-08T17:11:08.799632Z",
+    "count": 120,
+    "tags": [
+      "imperativo",
+      "gramática",
+      "A2-B1"
+    ]
+  },
+  "cards": [
+    {
+      "id": "M0001",
+      "ru": "Скажи это.",
+      "es": {
+        "before": "___ eso.",
+        "after": ""
+      },
+      "answer": "di",
+      "options": [
+        "di",
+        "lea",
+        "venid",
+        "mire",
+        "lee",
+        "decid"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0002",
+      "ru": "Сделай это.",
+      "es": {
+        "before": "___ esto.",
+        "after": ""
+      },
+      "answer": "haz",
+      "options": [
+        "habla",
+        "sal",
+        "estad",
+        "hable",
+        "coma",
+        "haz"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0003",
+      "ru": "Иди сюда.",
+      "es": {
+        "before": "___ aquí.",
+        "after": ""
+      },
+      "answer": "ve",
+      "options": [
+        "espere",
+        "no seas",
+        "dé",
+        "id",
+        "mira",
+        "ve"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0004",
+      "ru": "Подожди.",
+      "es": {
+        "before": "___.",
+        "after": ""
+      },
+      "answer": "espera",
+      "options": [
+        "viva",
+        "espera",
+        "no estés",
+        "no esperes",
+        "ven",
+        "sal"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0005",
+      "ru": "Смотри.",
+      "es": {
+        "before": "___.",
+        "after": ""
+      },
+      "answer": "mira",
+      "options": [
+        "mira",
+        "estad",
+        "no leas",
+        "seamos",
+        "no pongas",
+        "no seas"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0006",
+      "ru": "Прочитай.",
+      "es": {
+        "before": "___ esto.",
+        "after": ""
+      },
+      "answer": "lee",
+      "options": [
+        "estad",
+        "come",
+        "lee",
+        "ten",
+        "poned",
+        "pongamos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0007",
+      "ru": "Не говори!",
+      "es": {
+        "before": "___!",
+        "after": ""
+      },
+      "answer": "no digas",
+      "options": [
+        "no digas",
+        "no seas",
+        "esperemos",
+        "tenga",
+        "mire",
+        "salga"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0008",
+      "ru": "Не делай этого!",
+      "es": {
+        "before": "___ eso!",
+        "after": ""
+      },
+      "answer": "no hagas",
+      "options": [
+        "no hagas",
+        "seamos",
+        "leed",
+        "da",
+        "no comas",
+        "no vivas"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0009",
+      "ru": "Не уходи!",
+      "es": {
+        "before": "___!",
+        "after": ""
+      },
+      "answer": "no salgas",
+      "options": [
+        "salgamos",
+        "no salgas",
+        "lea",
+        "hagamos",
+        "no pongas",
+        "dé"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0010",
+      "ru": "Не будь таким!",
+      "es": {
+        "before": "___ así!",
+        "after": ""
+      },
+      "answer": "no seas",
+      "options": [
+        "no hagas",
+        "mirad",
+        "ve",
+        "no pongas",
+        "no seas",
+        "demos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0011",
+      "ru": "Говорите, пожалуйста. (usted)",
+      "es": {
+        "before": "___, por favor.",
+        "after": ""
+      },
+      "answer": "hable",
+      "options": [
+        "haced",
+        "leamos",
+        "esperad",
+        "no leas",
+        "hable",
+        "sea"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0012",
+      "ru": "Ешьте. (usted)",
+      "es": {
+        "before": "___.",
+        "after": ""
+      },
+      "answer": "coma",
+      "options": [
+        "no leas",
+        "sed",
+        "coma",
+        "poned",
+        "decid",
+        "estemos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0013",
+      "ru": "Пойдём. (nosotros)",
+      "es": {
+        "before": "___.",
+        "after": ""
+      },
+      "answer": "vayamos",
+      "options": [
+        "no mires",
+        "habla",
+        "mire",
+        "hablemos",
+        "esté",
+        "vayamos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0014",
+      "ru": "Давайте сделаем это. (nosotros)",
+      "es": {
+        "before": "___ esto.",
+        "after": ""
+      },
+      "answer": "hagamos",
+      "options": [
+        "haced",
+        "ponga",
+        "decid",
+        "no seas",
+        "hagamos",
+        "esté"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0015",
+      "ru": "Скажем правду. (nosotros)",
+      "es": {
+        "before": "___ la verdad.",
+        "after": ""
+      },
+      "answer": "digamos",
+      "options": [
+        "no vengas",
+        "digamos",
+        "mira",
+        "tened",
+        "come",
+        "vivamos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0016",
+      "ru": "Говорите. (vosotros)",
+      "es": {
+        "before": "___.",
+        "after": ""
+      },
+      "answer": "hablad",
+      "options": [
+        "no hables",
+        "espere",
+        "no hagas",
+        "no seas",
+        "hablad",
+        "estad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0017",
+      "ru": "Ешьте. (vosotros)",
+      "es": {
+        "before": "___.",
+        "after": ""
+      },
+      "answer": "comed",
+      "options": [
+        "vengamos",
+        "vivid",
+        "no des",
+        "leamos",
+        "venid",
+        "comed"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0018",
+      "ru": "Идите. (vosotros)",
+      "es": {
+        "before": "___.",
+        "after": ""
+      },
+      "answer": "id",
+      "options": [
+        "no hables",
+        "viva",
+        "da",
+        "id",
+        "vengamos",
+        "esperemos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0019",
+      "ru": "Сделайте это. (vosotros)",
+      "es": {
+        "before": "___ esto.",
+        "after": ""
+      },
+      "answer": "haced",
+      "options": [
+        "esperemos",
+        "sal",
+        "no esperes",
+        "haced",
+        "lee",
+        "id"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0020",
+      "ru": "Скажите. (vosotros)",
+      "es": {
+        "before": "___.",
+        "after": ""
+      },
+      "answer": "decid",
+      "options": [
+        "leed",
+        "decid",
+        "lee",
+        "no hagas",
+        "ponga",
+        "no vivas"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "M0021",
+      "ru": "Повелительное наклонение: salir (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "salgamos",
+      "options": [
+        "salgamos",
+        "no seas",
+        "salid",
+        "decid",
+        "seamos",
+        "comamos"
+      ],
+      "comment": "imperativo nos, verbo: salir"
+    },
+    {
+      "id": "M0022",
+      "ru": "Повелительное наклонение: dar (usted).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "dé",
+      "options": [
+        "salid",
+        "sal",
+        "espera",
+        "no esperes",
+        "dé",
+        "mirad"
+      ],
+      "comment": "imperativo usted, verbo: dar"
+    },
+    {
+      "id": "M0023",
+      "ru": "Повелительное наклонение: venir (nosotros).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "vengamos",
+      "options": [
+        "ponga",
+        "vengamos",
+        "sé",
+        "salga",
+        "no vivas",
+        "no comas"
+      ],
+      "comment": "imperativo nos, verbo: venir"
+    },
+    {
+      "id": "M0024",
+      "ru": "Повелительное наклонение: tener (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " un poco."
+      },
+      "answer": "no tengas",
+      "options": [
+        "no tengas",
+        "espere",
+        "no comas",
+        "no salgas",
+        "vayamos",
+        "sé"
+      ],
+      "comment": "imperativo neg_tú, verbo: tener"
+    },
+    {
+      "id": "M0025",
+      "ru": "Повелительное наклонение: poner (nosotros).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "pongamos",
+      "options": [
+        "vaya",
+        "no pongas",
+        "no estés",
+        "pongamos",
+        "espere",
+        "no salgas"
+      ],
+      "comment": "imperativo nos, verbo: poner"
+    },
+    {
+      "id": "M0026",
+      "ru": "Повелительное наклонение: leer (tú).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "lee",
+      "options": [
+        "lee",
+        "no vivas",
+        "id",
+        "coma",
+        "habla",
+        "haga"
+      ],
+      "comment": "imperativo tú, verbo: leer"
+    },
+    {
+      "id": "M0027",
+      "ru": "Повелительное наклонение: poner (usted).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "ponga",
+      "options": [
+        "ponga",
+        "demos",
+        "comed",
+        "hablad",
+        "salgamos",
+        "no salgas"
+      ],
+      "comment": "imperativo usted, verbo: poner"
+    },
+    {
+      "id": "M0028",
+      "ru": "Повелительное наклонение: comer (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " un poco."
+      },
+      "answer": "comed",
+      "options": [
+        "hagamos",
+        "comed",
+        "vayamos",
+        "hablemos",
+        "sea",
+        "diga"
+      ],
+      "comment": "imperativo vos, verbo: comer"
+    },
+    {
+      "id": "M0029",
+      "ru": "Повелительное наклонение: venir (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "no vengas",
+      "options": [
+        "ve",
+        "no comas",
+        "vaya",
+        "no vengas",
+        "estemos",
+        "seamos"
+      ],
+      "comment": "imperativo neg_tú, verbo: venir"
+    },
+    {
+      "id": "M0030",
+      "ru": "Повелительное наклонение: salir (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "salgamos",
+      "options": [
+        "salgamos",
+        "id",
+        "vengamos",
+        "vayamos",
+        "vivid",
+        "pongamos"
+      ],
+      "comment": "imperativo nos, verbo: salir"
+    },
+    {
+      "id": "M0031",
+      "ru": "Повелительное наклонение: mirar (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "no mires",
+      "options": [
+        "esperad",
+        "no mires",
+        "digamos",
+        "demos",
+        "da",
+        "vivid"
+      ],
+      "comment": "imperativo neg_tú, verbo: mirar"
+    },
+    {
+      "id": "M0032",
+      "ru": "Повелительное наклонение: venir (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "no vengas",
+      "options": [
+        "lea",
+        "sal",
+        "no vengas",
+        "salgamos",
+        "come",
+        "dé"
+      ],
+      "comment": "imperativo neg_tú, verbo: venir"
+    },
+    {
+      "id": "M0033",
+      "ru": "Повелительное наклонение: ser (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "no seas",
+      "options": [
+        "estad",
+        "no hagas",
+        "no salgas",
+        "diga",
+        "di",
+        "no seas"
+      ],
+      "comment": "imperativo neg_tú, verbo: ser"
+    },
+    {
+      "id": "M0034",
+      "ru": "Повелительное наклонение: salir (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "salgamos",
+      "options": [
+        "pongamos",
+        "dé",
+        "hagamos",
+        "mire",
+        "salgamos",
+        "vive"
+      ],
+      "comment": "imperativo nos, verbo: salir"
+    },
+    {
+      "id": "M0035",
+      "ru": "Повелительное наклонение: decir (nosotros).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "digamos",
+      "options": [
+        "digamos",
+        "seamos",
+        "ve",
+        "esté",
+        "vivamos",
+        "vivid"
+      ],
+      "comment": "imperativo nos, verbo: decir"
+    },
+    {
+      "id": "M0036",
+      "ru": "Повелительное наклонение: hacer (usted).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "haga",
+      "options": [
+        "no esperes",
+        "tened",
+        "estemos",
+        "mire",
+        "haga",
+        "leed"
+      ],
+      "comment": "imperativo usted, verbo: hacer"
+    },
+    {
+      "id": "M0037",
+      "ru": "Повелительное наклонение: mirar (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "miremos",
+      "options": [
+        "tened",
+        "comed",
+        "miremos",
+        "ten",
+        "no mires",
+        "sed"
+      ],
+      "comment": "imperativo nos, verbo: mirar"
+    },
+    {
+      "id": "M0038",
+      "ru": "Повелительное наклонение: estar (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "estad",
+      "options": [
+        "haced",
+        "tengamos",
+        "estad",
+        "hablad",
+        "ponga",
+        "habla"
+      ],
+      "comment": "imperativo vos, verbo: estar"
+    },
+    {
+      "id": "M0039",
+      "ru": "Повелительное наклонение: estar (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "no estés",
+      "options": [
+        "no estés",
+        "seamos",
+        "esperemos",
+        "mira",
+        "no mires",
+        "mire"
+      ],
+      "comment": "imperativo neg_tú, verbo: estar"
+    },
+    {
+      "id": "M0040",
+      "ru": "Повелительное наклонение: hablar (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "hablemos",
+      "options": [
+        "venga",
+        "hablemos",
+        "vivamos",
+        "ve",
+        "estemos",
+        "estad"
+      ],
+      "comment": "imperativo nos, verbo: hablar"
+    },
+    {
+      "id": "M0041",
+      "ru": "Повелительное наклонение: leer (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "leed",
+      "options": [
+        "haced",
+        "leed",
+        "espera",
+        "pon",
+        "esté",
+        "pongamos"
+      ],
+      "comment": "imperativo vos, verbo: leer"
+    },
+    {
+      "id": "M0042",
+      "ru": "Повелительное наклонение: leer (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "leed",
+      "options": [
+        "leed",
+        "espera",
+        "vengamos",
+        "haced",
+        "hablemos",
+        "esté"
+      ],
+      "comment": "imperativo vos, verbo: leer"
+    },
+    {
+      "id": "M0043",
+      "ru": "Повелительное наклонение: tener (tú).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "ten",
+      "options": [
+        "esperad",
+        "ten",
+        "vaya",
+        "da",
+        "pongamos",
+        "venga"
+      ],
+      "comment": "imperativo tú, verbo: tener"
+    },
+    {
+      "id": "M0044",
+      "ru": "Повелительное наклонение: venir (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "vengamos",
+      "options": [
+        "no digas",
+        "habla",
+        "di",
+        "vengamos",
+        "sea",
+        "esperad"
+      ],
+      "comment": "imperativo nos, verbo: venir"
+    },
+    {
+      "id": "M0045",
+      "ru": "Повелительное наклонение: hacer (usted).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "haga",
+      "options": [
+        "dé",
+        "mirad",
+        "sed",
+        "haga",
+        "mira",
+        "digamos"
+      ],
+      "comment": "imperativo usted, verbo: hacer"
+    },
+    {
+      "id": "M0046",
+      "ru": "Повелительное наклонение: decir (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "digamos",
+      "options": [
+        "comamos",
+        "pon",
+        "esperemos",
+        "lea",
+        "digamos",
+        "no hagas"
+      ],
+      "comment": "imperativo nos, verbo: decir"
+    },
+    {
+      "id": "M0047",
+      "ru": "Повелительное наклонение: hablar (usted).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "hable",
+      "options": [
+        "da",
+        "no mires",
+        "hable",
+        "no estés",
+        "no vayas",
+        "pon"
+      ],
+      "comment": "imperativo usted, verbo: hablar"
+    },
+    {
+      "id": "M0048",
+      "ru": "Повелительное наклонение: leer (tú).",
+      "es": {
+        "before": "___",
+        "after": " un poco."
+      },
+      "answer": "lee",
+      "options": [
+        "lee",
+        "venid",
+        "tengamos",
+        "tened",
+        "sal",
+        "pongamos"
+      ],
+      "comment": "imperativo tú, verbo: leer"
+    },
+    {
+      "id": "M0049",
+      "ru": "Повелительное наклонение: hacer (tú).",
+      "es": {
+        "before": "___",
+        "after": " un poco."
+      },
+      "answer": "haz",
+      "options": [
+        "vengamos",
+        "id",
+        "salid",
+        "ven",
+        "haz",
+        "leed"
+      ],
+      "comment": "imperativo tú, verbo: hacer"
+    },
+    {
+      "id": "M0050",
+      "ru": "Повелительное наклонение: leer (tú).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "lee",
+      "options": [
+        "sea",
+        "lee",
+        "haced",
+        "habla",
+        "sed",
+        "mirad"
+      ],
+      "comment": "imperativo tú, verbo: leer"
+    },
+    {
+      "id": "M0051",
+      "ru": "Повелительное наклонение: ir (vosotros).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "id",
+      "options": [
+        "come",
+        "id",
+        "no tengas",
+        "no des",
+        "no hables",
+        "sal"
+      ],
+      "comment": "imperativo vos, verbo: ir"
+    },
+    {
+      "id": "M0052",
+      "ru": "Повелительное наклонение: ir (tú).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "ve",
+      "options": [
+        "no digas",
+        "dad",
+        "no comas",
+        "ve",
+        "miremos",
+        "vaya"
+      ],
+      "comment": "imperativo tú, verbo: ir"
+    },
+    {
+      "id": "M0053",
+      "ru": "Повелительное наклонение: salir (tú).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "sal",
+      "options": [
+        "ten",
+        "vivid",
+        "hable",
+        "no vayas",
+        "pon",
+        "sal"
+      ],
+      "comment": "imperativo tú, verbo: salir"
+    },
+    {
+      "id": "M0054",
+      "ru": "Повелительное наклонение: mirar (vosotros).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "mirad",
+      "options": [
+        "mirad",
+        "pongamos",
+        "lea",
+        "haga",
+        "no hables",
+        "no tengas"
+      ],
+      "comment": "imperativo vos, verbo: mirar"
+    },
+    {
+      "id": "M0055",
+      "ru": "Повелительное наклонение: tener (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "no tengas",
+      "options": [
+        "sal",
+        "no tengas",
+        "salga",
+        "mira",
+        "esté",
+        "haga"
+      ],
+      "comment": "imperativo neg_tú, verbo: tener"
+    },
+    {
+      "id": "M0056",
+      "ru": "Повелительное наклонение: venir (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "venid",
+      "options": [
+        "come",
+        "mirad",
+        "leamos",
+        "ve",
+        "venid",
+        "esperemos"
+      ],
+      "comment": "imperativo vos, verbo: venir"
+    },
+    {
+      "id": "M0057",
+      "ru": "Повелительное наклонение: salir (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "no salgas",
+      "options": [
+        "esperad",
+        "no des",
+        "di",
+        "no vivas",
+        "no salgas",
+        "ten"
+      ],
+      "comment": "imperativo neg_tú, verbo: salir"
+    },
+    {
+      "id": "M0058",
+      "ru": "Повелительное наклонение: esperar (tú).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "espera",
+      "options": [
+        "ten",
+        "digamos",
+        "habla",
+        "comed",
+        "lea",
+        "espera"
+      ],
+      "comment": "imperativo tú, verbo: esperar"
+    },
+    {
+      "id": "M0059",
+      "ru": "Повелительное наклонение: ir (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "vayamos",
+      "options": [
+        "viva",
+        "pongamos",
+        "leed",
+        "no esperes",
+        "leamos",
+        "vayamos"
+      ],
+      "comment": "imperativo nos, verbo: ir"
+    },
+    {
+      "id": "M0060",
+      "ru": "Повелительное наклонение: salir (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "no salgas",
+      "options": [
+        "no salgas",
+        "di",
+        "ponga",
+        "espera",
+        "espere",
+        "vengamos"
+      ],
+      "comment": "imperativo neg_tú, verbo: salir"
+    },
+    {
+      "id": "M0061",
+      "ru": "Повелительное наклонение: salir (usted).",
+      "es": {
+        "before": "___",
+        "after": " un poco."
+      },
+      "answer": "salga",
+      "options": [
+        "ponga",
+        "salga",
+        "miremos",
+        "salgamos",
+        "venid",
+        "come"
+      ],
+      "comment": "imperativo usted, verbo: salir"
+    },
+    {
+      "id": "M0062",
+      "ru": "Повелительное наклонение: tener (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "no tengas",
+      "options": [
+        "no tengas",
+        "no hagas",
+        "no salgas",
+        "lea",
+        "no esperes",
+        "espere"
+      ],
+      "comment": "imperativo neg_tú, verbo: tener"
+    },
+    {
+      "id": "M0063",
+      "ru": "Повелительное наклонение: estar (usted).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "esté",
+      "options": [
+        "pongamos",
+        "lee",
+        "esté",
+        "tened",
+        "miremos",
+        "vivamos"
+      ],
+      "comment": "imperativo usted, verbo: estar"
+    },
+    {
+      "id": "M0064",
+      "ru": "Повелительное наклонение: hablar (tú).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "habla",
+      "options": [
+        "vivid",
+        "habla",
+        "no salgas",
+        "hablemos",
+        "haga",
+        "mirad"
+      ],
+      "comment": "imperativo tú, verbo: hablar"
+    },
+    {
+      "id": "M0065",
+      "ru": "Повелительное наклонение: salir (tú).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "sal",
+      "options": [
+        "tengamos",
+        "sea",
+        "sal",
+        "dad",
+        "haced",
+        "pon"
+      ],
+      "comment": "imperativo tú, verbo: salir"
+    },
+    {
+      "id": "M0066",
+      "ru": "Повелительное наклонение: salir (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " un poco."
+      },
+      "answer": "salid",
+      "options": [
+        "salid",
+        "no tengas",
+        "no vayas",
+        "tened",
+        "haced",
+        "no vengas"
+      ],
+      "comment": "imperativo vos, verbo: salir"
+    },
+    {
+      "id": "M0067",
+      "ru": "Повелительное наклонение: comer (tú).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "come",
+      "options": [
+        "come",
+        "no salgas",
+        "digamos",
+        "ven",
+        "mire",
+        "hablemos"
+      ],
+      "comment": "imperativo tú, verbo: comer"
+    },
+    {
+      "id": "M0068",
+      "ru": "Повелительное наклонение: venir (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "no vengas",
+      "options": [
+        "tengamos",
+        "venga",
+        "no vengas",
+        "dé",
+        "esté",
+        "hablad"
+      ],
+      "comment": "imperativo neg_tú, verbo: venir"
+    },
+    {
+      "id": "M0069",
+      "ru": "Повелительное наклонение: ir (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "no vayas",
+      "options": [
+        "miremos",
+        "digamos",
+        "mirad",
+        "no vayas",
+        "no des",
+        "no hables"
+      ],
+      "comment": "imperativo neg_tú, verbo: ir"
+    },
+    {
+      "id": "M0070",
+      "ru": "Повелительное наклонение: dar (vosotros).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "dad",
+      "options": [
+        "leamos",
+        "esperad",
+        "dad",
+        "sal",
+        "no tengas",
+        "coma"
+      ],
+      "comment": "imperativo vos, verbo: dar"
+    },
+    {
+      "id": "M0071",
+      "ru": "Повелительное наклонение: mirar (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " un poco."
+      },
+      "answer": "mirad",
+      "options": [
+        "no comas",
+        "salga",
+        "lee",
+        "dé",
+        "mirad",
+        "ten"
+      ],
+      "comment": "imperativo vos, verbo: mirar"
+    },
+    {
+      "id": "M0072",
+      "ru": "Повелительное наклонение: tener (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "no tengas",
+      "options": [
+        "no tengas",
+        "sed",
+        "no vivas",
+        "ve",
+        "está",
+        "viva"
+      ],
+      "comment": "imperativo neg_tú, verbo: tener"
+    },
+    {
+      "id": "M0073",
+      "ru": "Повелительное наклонение: dar (usted).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "dé",
+      "options": [
+        "no hagas",
+        "pongamos",
+        "dé",
+        "vivamos",
+        "vengamos",
+        "espera"
+      ],
+      "comment": "imperativo usted, verbo: dar"
+    },
+    {
+      "id": "M0074",
+      "ru": "Повелительное наклонение: tener (tú).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "ten",
+      "options": [
+        "ten",
+        "mira",
+        "leed",
+        "ponga",
+        "tengamos",
+        "mire"
+      ],
+      "comment": "imperativo tú, verbo: tener"
+    },
+    {
+      "id": "M0075",
+      "ru": "Повелительное наклонение: tener (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "no tengas",
+      "options": [
+        "hagamos",
+        "estemos",
+        "no tengas",
+        "lee",
+        "estad",
+        "espere"
+      ],
+      "comment": "imperativo neg_tú, verbo: tener"
+    },
+    {
+      "id": "M0076",
+      "ru": "Повелительное наклонение: mirar (vosotros).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "mirad",
+      "options": [
+        "di",
+        "demos",
+        "hable",
+        "diga",
+        "mirad",
+        "salga"
+      ],
+      "comment": "imperativo vos, verbo: mirar"
+    },
+    {
+      "id": "M0077",
+      "ru": "Повелительное наклонение: vivir (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "vivid",
+      "options": [
+        "vivid",
+        "no vivas",
+        "estemos",
+        "venid",
+        "leamos",
+        "decid"
+      ],
+      "comment": "imperativo vos, verbo: vivir"
+    },
+    {
+      "id": "M0078",
+      "ru": "Повелительное наклонение: comer (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "no comas",
+      "options": [
+        "haga",
+        "pongamos",
+        "vive",
+        "no comas",
+        "da",
+        "no hables"
+      ],
+      "comment": "imperativo neg_tú, verbo: comer"
+    },
+    {
+      "id": "M0079",
+      "ru": "Повелительное наклонение: comer (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "comed",
+      "options": [
+        "esperad",
+        "no tengas",
+        "sé",
+        "comed",
+        "no seas",
+        "venid"
+      ],
+      "comment": "imperativo vos, verbo: comer"
+    },
+    {
+      "id": "M0080",
+      "ru": "Повелительное наклонение: leer (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "no leas",
+      "options": [
+        "sé",
+        "no tengas",
+        "vayamos",
+        "esperad",
+        "no leas",
+        "tengamos"
+      ],
+      "comment": "imperativo neg_tú, verbo: leer"
+    },
+    {
+      "id": "M0081",
+      "ru": "Повелительное наклонение: esperar (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " un poco."
+      },
+      "answer": "esperad",
+      "options": [
+        "no digas",
+        "vivamos",
+        "comed",
+        "esperemos",
+        "sea",
+        "esperad"
+      ],
+      "comment": "imperativo vos, verbo: esperar"
+    },
+    {
+      "id": "M0082",
+      "ru": "Повелительное наклонение: hablar (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "hablad",
+      "options": [
+        "salid",
+        "esperad",
+        "no mires",
+        "hablad",
+        "no tengas",
+        "vengamos"
+      ],
+      "comment": "imperativo vos, verbo: hablar"
+    },
+    {
+      "id": "M0083",
+      "ru": "Повелительное наклонение: decir (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "no digas",
+      "options": [
+        "no digas",
+        "pongamos",
+        "comed",
+        "venga",
+        "salgamos",
+        "ve"
+      ],
+      "comment": "imperativo neg_tú, verbo: decir"
+    },
+    {
+      "id": "M0084",
+      "ru": "Повелительное наклонение: salir (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "no salgas",
+      "options": [
+        "comamos",
+        "no estés",
+        "está",
+        "demos",
+        "no salgas",
+        "no comas"
+      ],
+      "comment": "imperativo neg_tú, verbo: salir"
+    },
+    {
+      "id": "M0085",
+      "ru": "Повелительное наклонение: dar (usted).",
+      "es": {
+        "before": "___",
+        "after": " un poco."
+      },
+      "answer": "dé",
+      "options": [
+        "esté",
+        "viva",
+        "no hables",
+        "vivid",
+        "vive",
+        "dé"
+      ],
+      "comment": "imperativo usted, verbo: dar"
+    },
+    {
+      "id": "M0086",
+      "ru": "Повелительное наклонение: estar (usted).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "esté",
+      "options": [
+        "hablemos",
+        "come",
+        "esté",
+        "no comas",
+        "ven",
+        "no seas"
+      ],
+      "comment": "imperativo usted, verbo: estar"
+    },
+    {
+      "id": "M0087",
+      "ru": "Повелительное наклонение: venir (tú).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "ven",
+      "options": [
+        "di",
+        "ven",
+        "no hables",
+        "diga",
+        "no estés",
+        "vayamos"
+      ],
+      "comment": "imperativo tú, verbo: venir"
+    },
+    {
+      "id": "M0088",
+      "ru": "Повелительное наклонение: tener (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " un poco."
+      },
+      "answer": "tened",
+      "options": [
+        "esté",
+        "haz",
+        "esperemos",
+        "tened",
+        "está",
+        "seamos"
+      ],
+      "comment": "imperativo vos, verbo: tener"
+    },
+    {
+      "id": "M0089",
+      "ru": "Повелительное наклонение: tener (usted).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "tenga",
+      "options": [
+        "tenga",
+        "hablemos",
+        "no estés",
+        "tened",
+        "estad",
+        "no esperes"
+      ],
+      "comment": "imperativo usted, verbo: tener"
+    },
+    {
+      "id": "M0090",
+      "ru": "Повелительное наклонение: poner (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " un poco."
+      },
+      "answer": "pongamos",
+      "options": [
+        "vivid",
+        "estemos",
+        "hablemos",
+        "pongamos",
+        "no salgas",
+        "vayamos"
+      ],
+      "comment": "imperativo nos, verbo: poner"
+    },
+    {
+      "id": "M0091",
+      "ru": "Повелительное наклонение: hacer (nosotros).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "hagamos",
+      "options": [
+        "salid",
+        "no hables",
+        "hagamos",
+        "espera",
+        "no esperes",
+        "no comas"
+      ],
+      "comment": "imperativo nos, verbo: hacer"
+    },
+    {
+      "id": "M0092",
+      "ru": "Повелительное наклонение: estar (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "estad",
+      "options": [
+        "hablad",
+        "haz",
+        "coma",
+        "estad",
+        "diga",
+        "dé"
+      ],
+      "comment": "imperativo vos, verbo: estar"
+    },
+    {
+      "id": "M0093",
+      "ru": "Повелительное наклонение: mirar (tú).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "mira",
+      "options": [
+        "mira",
+        "no vengas",
+        "espere",
+        "comed",
+        "no leas",
+        "salga"
+      ],
+      "comment": "imperativo tú, verbo: mirar"
+    },
+    {
+      "id": "M0094",
+      "ru": "Повелительное наклонение: mirar (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "no mires",
+      "options": [
+        "no comas",
+        "estad",
+        "di",
+        "no mires",
+        "poned",
+        "no vayas"
+      ],
+      "comment": "imperativo neg_tú, verbo: mirar"
+    },
+    {
+      "id": "M0095",
+      "ru": "Повелительное наклонение: ser (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "sed",
+      "options": [
+        "no seas",
+        "haced",
+        "sea",
+        "dé",
+        "no des",
+        "sed"
+      ],
+      "comment": "imperativo vos, verbo: ser"
+    },
+    {
+      "id": "M0096",
+      "ru": "Повелительное наклонение: leer (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "leamos",
+      "options": [
+        "lea",
+        "no vengas",
+        "leamos",
+        "esperad",
+        "mirad",
+        "ten"
+      ],
+      "comment": "imperativo nos, verbo: leer"
+    },
+    {
+      "id": "M0097",
+      "ru": "Повелительное наклонение: esperar (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "esperad",
+      "options": [
+        "ven",
+        "esperad",
+        "digamos",
+        "estad",
+        "no tengas",
+        "no vengas"
+      ],
+      "comment": "imperativo vos, verbo: esperar"
+    },
+    {
+      "id": "M0098",
+      "ru": "Повелительное наклонение: salir (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "salgamos",
+      "options": [
+        "miremos",
+        "salgamos",
+        "viva",
+        "vivid",
+        "salid",
+        "seamos"
+      ],
+      "comment": "imperativo nos, verbo: salir"
+    },
+    {
+      "id": "M0099",
+      "ru": "Повелительное наклонение: leer (tú).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "lee",
+      "options": [
+        "vaya",
+        "ponga",
+        "sé",
+        "haz",
+        "no seas",
+        "lee"
+      ],
+      "comment": "imperativo tú, verbo: leer"
+    },
+    {
+      "id": "M0100",
+      "ru": "Повелительное наклонение: vivir (tú).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "vive",
+      "options": [
+        "vive",
+        "no seas",
+        "no digas",
+        "no salgas",
+        "haga",
+        "pon"
+      ],
+      "comment": "imperativo tú, verbo: vivir"
+    },
+    {
+      "id": "M0101",
+      "ru": "Повелительное наклонение: tener (usted).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "tenga",
+      "options": [
+        "no digas",
+        "tenga",
+        "venid",
+        "sal",
+        "tened",
+        "espere"
+      ],
+      "comment": "imperativo usted, verbo: tener"
+    },
+    {
+      "id": "M0102",
+      "ru": "Повелительное наклонение: decir (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " un poco."
+      },
+      "answer": "no digas",
+      "options": [
+        "no vayas",
+        "vayamos",
+        "no digas",
+        "leed",
+        "no hagas",
+        "ponga"
+      ],
+      "comment": "imperativo neg_tú, verbo: decir"
+    },
+    {
+      "id": "M0103",
+      "ru": "Повелительное наклонение: hacer (tú).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "haz",
+      "options": [
+        "haz",
+        "digamos",
+        "id",
+        "no mires",
+        "no digas",
+        "demos"
+      ],
+      "comment": "imperativo tú, verbo: hacer"
+    },
+    {
+      "id": "M0104",
+      "ru": "Повелительное наклонение: vivir (tú).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "vive",
+      "options": [
+        "hable",
+        "dé",
+        "vive",
+        "esté",
+        "hagamos",
+        "no seas"
+      ],
+      "comment": "imperativo tú, verbo: vivir"
+    },
+    {
+      "id": "M0105",
+      "ru": "Повелительное наклонение: ser (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "sed",
+      "options": [
+        "no estés",
+        "seamos",
+        "esperemos",
+        "dad",
+        "digamos",
+        "sed"
+      ],
+      "comment": "imperativo vos, verbo: ser"
+    },
+    {
+      "id": "M0106",
+      "ru": "Повелительное наклонение: decir (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "digamos",
+      "options": [
+        "no mires",
+        "digamos",
+        "haced",
+        "hablad",
+        "salgamos",
+        "salid"
+      ],
+      "comment": "imperativo nos, verbo: decir"
+    },
+    {
+      "id": "M0107",
+      "ru": "Повелительное наклонение: hacer (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "hagamos",
+      "options": [
+        "hagamos",
+        "espera",
+        "ven",
+        "miremos",
+        "lee",
+        "vaya"
+      ],
+      "comment": "imperativo nos, verbo: hacer"
+    },
+    {
+      "id": "M0108",
+      "ru": "Повелительное наклонение: hablar (tú).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "habla",
+      "options": [
+        "no digas",
+        "leamos",
+        "habla",
+        "no seas",
+        "pongamos",
+        "sé"
+      ],
+      "comment": "imperativo tú, verbo: hablar"
+    },
+    {
+      "id": "M0109",
+      "ru": "Повелительное наклонение: esperar (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "no esperes",
+      "options": [
+        "no esperes",
+        "no tengas",
+        "digamos",
+        "comamos",
+        "comed",
+        "vengamos"
+      ],
+      "comment": "imperativo neg_tú, verbo: esperar"
+    },
+    {
+      "id": "M0110",
+      "ru": "Повелительное наклонение: esperar (usted).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "espere",
+      "options": [
+        "da",
+        "espere",
+        "sed",
+        "vivamos",
+        "ve",
+        "haz"
+      ],
+      "comment": "imperativo usted, verbo: esperar"
+    },
+    {
+      "id": "M0111",
+      "ru": "Повелительное наклонение: poner (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "pongamos",
+      "options": [
+        "pongamos",
+        "hagamos",
+        "miremos",
+        "sed",
+        "sal",
+        "vaya"
+      ],
+      "comment": "imperativo nos, verbo: poner"
+    },
+    {
+      "id": "M0112",
+      "ru": "Повелительное наклонение: ser (tú).",
+      "es": {
+        "before": "___",
+        "after": "."
+      },
+      "answer": "sé",
+      "options": [
+        "vengamos",
+        "está",
+        "sé",
+        "no leas",
+        "haced",
+        "no comas"
+      ],
+      "comment": "imperativo tú, verbo: ser"
+    },
+    {
+      "id": "M0113",
+      "ru": "Повелительное наклонение: ir (tú).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "ve",
+      "options": [
+        "no vivas",
+        "ve",
+        "leed",
+        "salga",
+        "mirad",
+        "ten"
+      ],
+      "comment": "imperativo tú, verbo: ir"
+    },
+    {
+      "id": "M0114",
+      "ru": "Повелительное наклонение: decir (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "digamos",
+      "options": [
+        "pongamos",
+        "no hables",
+        "no leas",
+        "mirad",
+        "hagamos",
+        "digamos"
+      ],
+      "comment": "imperativo nos, verbo: decir"
+    },
+    {
+      "id": "M0115",
+      "ru": "Повелительное наклонение: ir (usted).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "vaya",
+      "options": [
+        "esperemos",
+        "ten",
+        "vaya",
+        "no salgas",
+        "no hagas",
+        "espere"
+      ],
+      "comment": "imperativo usted, verbo: ir"
+    },
+    {
+      "id": "M0116",
+      "ru": "Повелительное наклонение: esperar (nosotros).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "esperemos",
+      "options": [
+        "esperemos",
+        "poned",
+        "dad",
+        "tengamos",
+        "tenga",
+        "no leas"
+      ],
+      "comment": "imperativo nos, verbo: esperar"
+    },
+    {
+      "id": "M0117",
+      "ru": "Повелительное наклонение: ser (usted).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "sea",
+      "options": [
+        "espera",
+        "leamos",
+        "vive",
+        "lee",
+        "sea",
+        "mira"
+      ],
+      "comment": "imperativo usted, verbo: ser"
+    },
+    {
+      "id": "M0118",
+      "ru": "Повелительное наклонение: ir (tú, отриц.).",
+      "es": {
+        "before": "___",
+        "after": " conmigo."
+      },
+      "answer": "no vayas",
+      "options": [
+        "no vayas",
+        "demos",
+        "sé",
+        "no salgas",
+        "no leas",
+        "haced"
+      ],
+      "comment": "imperativo neg_tú, verbo: ir"
+    },
+    {
+      "id": "M0119",
+      "ru": "Повелительное наклонение: hacer (tú).",
+      "es": {
+        "before": "___",
+        "after": " por favor."
+      },
+      "answer": "haz",
+      "options": [
+        "esperemos",
+        "haz",
+        "digamos",
+        "no mires",
+        "dad",
+        "miremos"
+      ],
+      "comment": "imperativo tú, verbo: hacer"
+    },
+    {
+      "id": "M0120",
+      "ru": "Повелительное наклонение: ir (vosotros).",
+      "es": {
+        "before": "___",
+        "after": " ahora."
+      },
+      "answer": "id",
+      "options": [
+        "no hagas",
+        "sea",
+        "no digas",
+        "haz",
+        "venid",
+        "id"
+      ],
+      "comment": "imperativo vos, verbo: ir"
+    }
+  ]
+}

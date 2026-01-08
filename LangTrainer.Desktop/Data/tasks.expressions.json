@@ -1,0 +1,2174 @@
+{
+  "schemaVersion": 1,
+  "deck": {
+    "name": "Expresiones / idioms (1 hueco)",
+    "createdAt": "2026-01-08T17:11:08.791736Z",
+    "count": 120,
+    "tags": [
+      "idioms",
+      "B1"
+    ]
+  },
+  "cards": [
+    {
+      "id": "I0001",
+      "ru": "Это совсем не важно.",
+      "es": {
+        "before": "No tiene",
+        "after": "."
+      },
+      "answer": "importancia",
+      "options": [
+        "pensar",
+        "creer",
+        "demasiado",
+        "te preocupes",
+        "importancia",
+        "Casi"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0002",
+      "ru": "Не переживай, всё будет хорошо.",
+      "es": {
+        "before": "No",
+        "after": ", todo saldrá bien."
+      },
+      "answer": "te preocupes",
+      "options": [
+        "tiempo",
+        "vale",
+        "De ninguna",
+        "pensar",
+        "pecho",
+        "te preocupes"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0003",
+      "ru": "Держи себя в руках.",
+      "es": {
+        "before": "",
+        "after": " el control."
+      },
+      "answer": "Mantén",
+      "options": [
+        "Mantén",
+        "final",
+        "loco",
+        "si",
+        "más",
+        "tiempo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0004",
+      "ru": "Это стоит того.",
+      "es": {
+        "before": "Vale la",
+        "after": "."
+      },
+      "answer": "pena",
+      "options": [
+        "metas",
+        "pena",
+        "vale",
+        "loco",
+        "atrás",
+        "dentro"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0005",
+      "ru": "Я не могу больше.",
+      "es": {
+        "before": "No puedo",
+        "after": " más."
+      },
+      "answer": "aguantar",
+      "options": [
+        "si",
+        "palabra",
+        "aguantar",
+        "fuerzas",
+        "como",
+        "creer"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0006",
+      "ru": "Это не имеет смысла.",
+      "es": {
+        "before": "No tiene",
+        "after": "."
+      },
+      "answer": "sentido",
+      "options": [
+        "pecho",
+        "shock",
+        "nervios",
+        "hielo",
+        "sentido",
+        "Mantén"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0007",
+      "ru": "Я в шоке.",
+      "es": {
+        "before": "Estoy en",
+        "after": "."
+      },
+      "answer": "shock",
+      "options": [
+        "tiempo",
+        "antemano",
+        "Por",
+        "shock",
+        "cara",
+        "oportunidad"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0008",
+      "ru": "Это вышло из-под контроля.",
+      "es": {
+        "before": "Se fue de",
+        "after": "."
+      },
+      "answer": "control",
+      "options": [
+        "dentro",
+        "control",
+        "loco",
+        "final",
+        "claro",
+        "como"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0009",
+      "ru": "Я делаю всё возможное.",
+      "es": {
+        "before": "Hago todo lo",
+        "after": "."
+      },
+      "answer": "posible",
+      "options": [
+        "fuera",
+        "pensar",
+        "hielo",
+        "posible",
+        "sintonía",
+        "antemano"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0010",
+      "ru": "Мне всё равно.",
+      "es": {
+        "before": "Me da",
+        "after": "."
+      },
+      "answer": "igual",
+      "options": [
+        "hielo",
+        "igual",
+        "mano",
+        "nervios",
+        "atrás",
+        "creer"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0011",
+      "ru": "Не шути со мной.",
+      "es": {
+        "before": "No te",
+        "after": " conmigo."
+      },
+      "answer": "metas",
+      "options": [
+        "aguantar",
+        "metas",
+        "atrás",
+        "De ninguna",
+        "igual",
+        "sintonía"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0012",
+      "ru": "Ты попал в точку.",
+      "es": {
+        "before": "Diste en el",
+        "after": "."
+      },
+      "answer": "clavo",
+      "options": [
+        "antemano",
+        "demasiado",
+        "excepción",
+        "clavo",
+        "Por",
+        "igual"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0013",
+      "ru": "Это слишком дорого.",
+      "es": {
+        "before": "Es",
+        "after": " caro."
+      },
+      "answer": "demasiado",
+      "options": [
+        "dos",
+        "excepción",
+        "nervios",
+        "De ninguna",
+        "pausa",
+        "demasiado"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0014",
+      "ru": "Это не моё дело.",
+      "es": {
+        "before": "No es",
+        "after": " asunto."
+      },
+      "answer": "mi",
+      "options": [
+        "De ninguna",
+        "mi",
+        "dentro",
+        "shock",
+        "antemano",
+        "este"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0015",
+      "ru": "Я не уверен.",
+      "es": {
+        "before": "No estoy",
+        "after": "."
+      },
+      "answer": "seguro",
+      "options": [
+        "pensar",
+        "si",
+        "fuera",
+        "cara",
+        "más",
+        "seguro"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0016",
+      "ru": "Не теряй время.",
+      "es": {
+        "before": "No",
+        "after": " el tiempo."
+      },
+      "answer": "pierdas",
+      "options": [
+        "Por",
+        "pierdas",
+        "importancia",
+        "igual",
+        "sintonía",
+        "atrás"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0017",
+      "ru": "У меня нет сил.",
+      "es": {
+        "before": "No tengo",
+        "after": "."
+      },
+      "answer": "fuerzas",
+      "options": [
+        "hielo",
+        "promesa",
+        "final",
+        "fuerzas",
+        "De ninguna",
+        "sintonía"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0018",
+      "ru": "Я не могу поверить.",
+      "es": {
+        "before": "No lo puedo",
+        "after": "."
+      },
+      "answer": "creer",
+      "options": [
+        "creer",
+        "fuerzas",
+        "claro",
+        "pena",
+        "Perder",
+        "importancia"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0019",
+      "ru": "Мне нужно подумать.",
+      "es": {
+        "before": "Necesito",
+        "after": "lo."
+      },
+      "answer": "pensar",
+      "options": [
+        "pierdas",
+        "fuerzas",
+        "sentido",
+        "pensar",
+        "nervios",
+        "cara"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0020",
+      "ru": "Скорее всего.",
+      "es": {
+        "before": "Lo",
+        "after": " probable."
+      },
+      "answer": "más",
+      "options": [
+        "hielo",
+        "acaso",
+        "dos",
+        "pensar",
+        "más",
+        "pecho"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0021",
+      "ru": "Сделай одолжение.",
+      "es": {
+        "before": "Hazme el",
+        "after": "."
+      },
+      "answer": "favor",
+      "options": [
+        "vale",
+        "favor",
+        "Mantén",
+        "Casi",
+        "pensar",
+        "atrás"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0022",
+      "ru": "По правде говоря.",
+      "es": {
+        "before": "A decir",
+        "after": " verdad."
+      },
+      "answer": "la",
+      "options": [
+        "hielo",
+        "claro",
+        "la",
+        "tanto",
+        "posible",
+        "dentro"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0023",
+      "ru": "В конце концов.",
+      "es": {
+        "before": "Al",
+        "after": ", todo valió la pena."
+      },
+      "answer": "final",
+      "options": [
+        "final",
+        "la",
+        "pausa",
+        "sentido",
+        "atrás",
+        "aguantar"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0024",
+      "ru": "С этого момента.",
+      "es": {
+        "before": "A partir de",
+        "after": " momento..."
+      },
+      "answer": "este",
+      "options": [
+        "atrás",
+        "ni",
+        "menos",
+        "oportunidad",
+        "pecho",
+        "este"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0025",
+      "ru": "Ни за что.",
+      "es": {
+        "before": "",
+        "after": " manera."
+      },
+      "answer": "De ninguna",
+      "options": [
+        "vale",
+        "temprano",
+        "De ninguna",
+        "razón",
+        "aguantar",
+        "clavo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0026",
+      "ru": "Я в деле.",
+      "es": {
+        "before": "Estoy",
+        "after": "."
+      },
+      "answer": "dentro",
+      "options": [
+        "fuera",
+        "antemano",
+        "vista",
+        "seguro",
+        "dentro",
+        "demasiado"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0027",
+      "ru": "Я вне игры.",
+      "es": {
+        "before": "Estoy",
+        "after": "."
+      },
+      "answer": "fuera",
+      "options": [
+        "De ninguna",
+        "sentido",
+        "poco",
+        "control",
+        "fuera",
+        "acaso"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0028",
+      "ru": "Это не стоит свеч.",
+      "es": {
+        "before": "No",
+        "after": " la pena."
+      },
+      "answer": "vale",
+      "options": [
+        "mi",
+        "Perder",
+        "tanto",
+        "sentido",
+        "vale",
+        "atrás"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0029",
+      "ru": "В двух словах.",
+      "es": {
+        "before": "En",
+        "after": " palabras."
+      },
+      "answer": "dos",
+      "options": [
+        "pausa",
+        "dos",
+        "tiempo",
+        "temprano",
+        "pena",
+        "si"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0030",
+      "ru": "С глазу на глаз.",
+      "es": {
+        "before": "Cara a",
+        "after": "."
+      },
+      "answer": "cara",
+      "options": [
+        "Asumir",
+        "la",
+        "igual",
+        "cara",
+        "favor",
+        "pausa"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0031",
+      "ru": "Мало-помалу.",
+      "es": {
+        "before": "Poco a",
+        "after": "."
+      },
+      "answer": "poco",
+      "options": [
+        "poco",
+        "sintonía",
+        "favor",
+        "sentido",
+        "De ninguna",
+        "fuerzas"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0032",
+      "ru": "Рано или поздно.",
+      "es": {
+        "before": "Tarde o",
+        "after": "."
+      },
+      "answer": "temprano",
+      "options": [
+        "pierdas",
+        "temprano",
+        "Por",
+        "pena",
+        "pausa",
+        "más"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0033",
+      "ru": "Ни больше ни меньше.",
+      "es": {
+        "before": "Ni más ni",
+        "after": "."
+      },
+      "answer": "menos",
+      "options": [
+        "posible",
+        "menos",
+        "oportunidad",
+        "loco",
+        "mi",
+        "pena"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0034",
+      "ru": "Сделать вид.",
+      "es": {
+        "before": "Hacer",
+        "after": " que..."
+      },
+      "answer": "como",
+      "options": [
+        "la",
+        "este",
+        "promesa",
+        "como",
+        "demasiado",
+        "cara"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0035",
+      "ru": "Быть на одной волне.",
+      "es": {
+        "before": "Estar en la misma",
+        "after": "."
+      },
+      "answer": "sintonía",
+      "options": [
+        "aguantar",
+        "importancia",
+        "fuera",
+        "Perder",
+        "sintonía",
+        "loco"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0036",
+      "ru": "Сходить с ума.",
+      "es": {
+        "before": "Volverse",
+        "after": "."
+      },
+      "answer": "loco",
+      "options": [
+        "loco",
+        "demasiado",
+        "pensar",
+        "Casi",
+        "promesa",
+        "mi"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0037",
+      "ru": "Дать себе время.",
+      "es": {
+        "before": "Darse",
+        "after": "."
+      },
+      "answer": "tiempo",
+      "options": [
+        "mi",
+        "razón",
+        "pena",
+        "clavo",
+        "tiempo",
+        "vale"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0038",
+      "ru": "Потратить впустую.",
+      "es": {
+        "before": "",
+        "after": " el tiempo."
+      },
+      "answer": "Perder",
+      "options": [
+        "palabra",
+        "Perder",
+        "temprano",
+        "excepción",
+        "clavo",
+        "importancia"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0039",
+      "ru": "Сказать прямо.",
+      "es": {
+        "before": "Decirlo",
+        "after": "."
+      },
+      "answer": "claro",
+      "options": [
+        "vista",
+        "vez",
+        "claro",
+        "promesa",
+        "pensar",
+        "Por"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0040",
+      "ru": "Сдержать слово.",
+      "es": {
+        "before": "Cumplir la",
+        "after": "."
+      },
+      "answer": "palabra",
+      "options": [
+        "shock",
+        "como",
+        "demasiado",
+        "cara",
+        "pecho",
+        "palabra"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0041",
+      "ru": "Сломать лёд.",
+      "es": {
+        "before": "Romper el",
+        "after": "."
+      },
+      "answer": "hielo",
+      "options": [
+        "dos",
+        "ni",
+        "Por",
+        "vale",
+        "hielo",
+        "Casi"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0042",
+      "ru": "Взять на себя.",
+      "es": {
+        "before": "",
+        "after": " la responsabilidad."
+      },
+      "answer": "Asumir",
+      "options": [
+        "Asumir",
+        "seguro",
+        "pensar",
+        "nervios",
+        "dos",
+        "atrás"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0043",
+      "ru": "Дать шанс.",
+      "es": {
+        "before": "Dar una",
+        "after": "."
+      },
+      "answer": "oportunidad",
+      "options": [
+        "loco",
+        "mi",
+        "oportunidad",
+        "nervios",
+        "favor",
+        "igual"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0044",
+      "ru": "Заранее.",
+      "es": {
+        "before": "De",
+        "after": " mano."
+      },
+      "answer": "antemano",
+      "options": [
+        "igual",
+        "De ninguna",
+        "Asumir",
+        "antemano",
+        "pensar",
+        "seguro"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0045",
+      "ru": "Наконец-то.",
+      "es": {
+        "before": "",
+        "after": " fin."
+      },
+      "answer": "Por",
+      "options": [
+        "vez",
+        "igual",
+        "vale",
+        "Por",
+        "clavo",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0046",
+      "ru": "Как будто.",
+      "es": {
+        "before": "Como",
+        "after": "."
+      },
+      "answer": "si",
+      "options": [
+        "como",
+        "mi",
+        "control",
+        "oportunidad",
+        "si",
+        "Asumir"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0047",
+      "ru": "Сразу же.",
+      "es": {
+        "before": "",
+        "after": " al instante."
+      },
+      "answer": "Casi",
+      "options": [
+        "razón",
+        "atrás",
+        "temprano",
+        "pecho",
+        "te preocupes",
+        "Casi"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0048",
+      "ru": "Время от времени.",
+      "es": {
+        "before": "De",
+        "after": " en cuando."
+      },
+      "answer": "vez",
+      "options": [
+        "Perder",
+        "vez",
+        "atrás",
+        "sintonía",
+        "sentido",
+        "claro"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0049",
+      "ru": "С точки зрения.",
+      "es": {
+        "before": "Desde el punto de",
+        "after": "."
+      },
+      "answer": "vista",
+      "options": [
+        "claro",
+        "Mantén",
+        "shock",
+        "Perder",
+        "más",
+        "vista"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0050",
+      "ru": "Сделать шаг назад.",
+      "es": {
+        "before": "Dar un paso",
+        "after": "."
+      },
+      "answer": "atrás",
+      "options": [
+        "atrás",
+        "final",
+        "dos",
+        "clavo",
+        "pena",
+        "la"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0051",
+      "ru": "На всякий случай.",
+      "es": {
+        "before": "Por si",
+        "after": "."
+      },
+      "answer": "acaso",
+      "options": [
+        "clavo",
+        "control",
+        "más",
+        "pecho",
+        "nervios",
+        "acaso"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0052",
+      "ru": "Не принимать близко к сердцу.",
+      "es": {
+        "before": "No te lo tomes a",
+        "after": "."
+      },
+      "answer": "pecho",
+      "options": [
+        "acaso",
+        "claro",
+        "metas",
+        "dentro",
+        "cara",
+        "pecho"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0053",
+      "ru": "Держать обещание.",
+      "es": {
+        "before": "Mantener la",
+        "after": "."
+      },
+      "answer": "promesa",
+      "options": [
+        "fuera",
+        "posible",
+        "Por",
+        "tiempo",
+        "promesa",
+        "Asumir"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0054",
+      "ru": "Сделать исключение.",
+      "es": {
+        "before": "Hacer una",
+        "after": "."
+      },
+      "answer": "excepción",
+      "options": [
+        "sentido",
+        "este",
+        "la",
+        "metas",
+        "oportunidad",
+        "excepción"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0055",
+      "ru": "Выйти из себя.",
+      "es": {
+        "before": "Perder los",
+        "after": "."
+      },
+      "answer": "nervios",
+      "options": [
+        "igual",
+        "control",
+        "shock",
+        "nervios",
+        "razón",
+        "pierdas"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0056",
+      "ru": "Быть в курсе.",
+      "es": {
+        "before": "Estar al",
+        "after": "."
+      },
+      "answer": "tanto",
+      "options": [
+        "tiempo",
+        "pierdas",
+        "tanto",
+        "Mantén",
+        "metas",
+        "sintonía"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0057",
+      "ru": "Сделать паузу.",
+      "es": {
+        "before": "Hacer una",
+        "after": "."
+      },
+      "answer": "pausa",
+      "options": [
+        "mi",
+        "loco",
+        "pausa",
+        "mano",
+        "posible",
+        "dentro"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0058",
+      "ru": "Быть правым.",
+      "es": {
+        "before": "Tener",
+        "after": "."
+      },
+      "answer": "razón",
+      "options": [
+        "temprano",
+        "pena",
+        "razón",
+        "Por",
+        "shock",
+        "acaso"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0059",
+      "ru": "Не иметь понятия.",
+      "es": {
+        "before": "No tener",
+        "after": " idea."
+      },
+      "answer": "ni",
+      "options": [
+        "excepción",
+        "vale",
+        "igual",
+        "ni",
+        "te preocupes",
+        "fuerzas"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0060",
+      "ru": "Сделать всё, что в твоих силах.",
+      "es": {
+        "before": "Hacer todo lo que esté en tu",
+        "after": "."
+      },
+      "answer": "mano",
+      "options": [
+        "seguro",
+        "oportunidad",
+        "Perder",
+        "mano",
+        "mi",
+        "sentido"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0061",
+      "ru": "Сказать прямо. (часто).",
+      "es": {
+        "before": "Decirlo",
+        "after": "."
+      },
+      "answer": "claro",
+      "options": [
+        "mi",
+        "claro",
+        "hielo",
+        "Mantén",
+        "shock",
+        "acaso"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0062",
+      "ru": "Не принимать близко к сердцу. (в контексте).",
+      "es": {
+        "before": "No te lo tomes a",
+        "after": "."
+      },
+      "answer": "pecho",
+      "options": [
+        "Perder",
+        "mano",
+        "importancia",
+        "pecho",
+        "favor",
+        "clavo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0063",
+      "ru": "Мне всё равно. (разг.).",
+      "es": {
+        "before": "Me da",
+        "after": "."
+      },
+      "answer": "igual",
+      "options": [
+        "igual",
+        "este",
+        "promesa",
+        "acaso",
+        "posible",
+        "metas"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0064",
+      "ru": "Как будто.",
+      "es": {
+        "before": "Como",
+        "after": "."
+      },
+      "answer": "si",
+      "options": [
+        "importancia",
+        "Mantén",
+        "si",
+        "pecho",
+        "poco",
+        "razón"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0065",
+      "ru": "Это слишком дорого.",
+      "es": {
+        "before": "Es",
+        "after": " caro."
+      },
+      "answer": "demasiado",
+      "options": [
+        "demasiado",
+        "vale",
+        "pecho",
+        "tanto",
+        "De ninguna",
+        "sentido"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0066",
+      "ru": "Я делаю всё возможное. (часто).",
+      "es": {
+        "before": "Hago todo lo",
+        "after": "."
+      },
+      "answer": "posible",
+      "options": [
+        "posible",
+        "si",
+        "ni",
+        "nervios",
+        "favor",
+        "pena"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0067",
+      "ru": "Держать обещание. (часто).",
+      "es": {
+        "before": "Mantener la",
+        "after": "."
+      },
+      "answer": "promesa",
+      "options": [
+        "vez",
+        "sintonía",
+        "Asumir",
+        "Perder",
+        "hielo",
+        "promesa"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0068",
+      "ru": "Это слишком дорого. (в контексте).",
+      "es": {
+        "before": "Es",
+        "after": " caro."
+      },
+      "answer": "demasiado",
+      "options": [
+        "menos",
+        "tiempo",
+        "fuerzas",
+        "razón",
+        "demasiado",
+        "Perder"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0069",
+      "ru": "На всякий случай. (часто).",
+      "es": {
+        "before": "Por si",
+        "after": "."
+      },
+      "answer": "acaso",
+      "options": [
+        "sentido",
+        "acaso",
+        "excepción",
+        "dentro",
+        "De ninguna",
+        "seguro"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0070",
+      "ru": "Скорее всего. (в контексте).",
+      "es": {
+        "before": "Lo",
+        "after": " probable."
+      },
+      "answer": "más",
+      "options": [
+        "más",
+        "palabra",
+        "te preocupes",
+        "razón",
+        "promesa",
+        "control"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0071",
+      "ru": "С глазу на глаз. (разг.).",
+      "es": {
+        "before": "Cara a",
+        "after": "."
+      },
+      "answer": "cara",
+      "options": [
+        "sentido",
+        "loco",
+        "la",
+        "cara",
+        "final",
+        "mi"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0072",
+      "ru": "Это не имеет смысла. (часто).",
+      "es": {
+        "before": "No tiene",
+        "after": "."
+      },
+      "answer": "sentido",
+      "options": [
+        "razón",
+        "si",
+        "sentido",
+        "demasiado",
+        "cara",
+        "vale"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0073",
+      "ru": "Заранее.",
+      "es": {
+        "before": "De",
+        "after": " mano."
+      },
+      "answer": "antemano",
+      "options": [
+        "clavo",
+        "ni",
+        "antemano",
+        "creer",
+        "De ninguna",
+        "excepción"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0074",
+      "ru": "В конце концов. (в контексте).",
+      "es": {
+        "before": "Al",
+        "after": ", todo valió la pena."
+      },
+      "answer": "final",
+      "options": [
+        "menos",
+        "final",
+        "favor",
+        "como",
+        "más",
+        "razón"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0075",
+      "ru": "Это совсем не важно. (разг.).",
+      "es": {
+        "before": "No tiene",
+        "after": "."
+      },
+      "answer": "importancia",
+      "options": [
+        "control",
+        "importancia",
+        "poco",
+        "Perder",
+        "fuerzas",
+        "promesa"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0076",
+      "ru": "Сходить с ума. (в контексте).",
+      "es": {
+        "before": "Volverse",
+        "after": "."
+      },
+      "answer": "loco",
+      "options": [
+        "fuerzas",
+        "antemano",
+        "posible",
+        "atrás",
+        "loco",
+        "ni"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0077",
+      "ru": "Мне нужно подумать. (часто).",
+      "es": {
+        "before": "Necesito",
+        "after": "lo."
+      },
+      "answer": "pensar",
+      "options": [
+        "Por",
+        "favor",
+        "antemano",
+        "pensar",
+        "Asumir",
+        "Casi"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0078",
+      "ru": "Рано или поздно. (часто).",
+      "es": {
+        "before": "Tarde o",
+        "after": "."
+      },
+      "answer": "temprano",
+      "options": [
+        "razón",
+        "te preocupes",
+        "si",
+        "pena",
+        "temprano",
+        "nervios"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0079",
+      "ru": "С точки зрения. (разг.).",
+      "es": {
+        "before": "Desde el punto de",
+        "after": "."
+      },
+      "answer": "vista",
+      "options": [
+        "Mantén",
+        "cara",
+        "vista",
+        "Casi",
+        "vez",
+        "claro"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0080",
+      "ru": "Мне всё равно. (разг.).",
+      "es": {
+        "before": "Me da",
+        "after": "."
+      },
+      "answer": "igual",
+      "options": [
+        "como",
+        "igual",
+        "Mantén",
+        "mano",
+        "claro",
+        "Perder"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0081",
+      "ru": "Мне нужно подумать.",
+      "es": {
+        "before": "Necesito",
+        "after": "lo."
+      },
+      "answer": "pensar",
+      "options": [
+        "pensar",
+        "vale",
+        "tiempo",
+        "sentido",
+        "oportunidad",
+        "promesa"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0082",
+      "ru": "Наконец-то. (часто).",
+      "es": {
+        "before": "",
+        "after": " fin."
+      },
+      "answer": "Por",
+      "options": [
+        "favor",
+        "nervios",
+        "temprano",
+        "metas",
+        "tiempo",
+        "Por"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0083",
+      "ru": "Сделать вид.",
+      "es": {
+        "before": "Hacer",
+        "after": " que..."
+      },
+      "answer": "como",
+      "options": [
+        "sintonía",
+        "vista",
+        "metas",
+        "Por",
+        "como",
+        "más"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0084",
+      "ru": "Наконец-то. (разг.).",
+      "es": {
+        "before": "",
+        "after": " fin."
+      },
+      "answer": "Por",
+      "options": [
+        "demasiado",
+        "Por",
+        "creer",
+        "ni",
+        "más",
+        "poco"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0085",
+      "ru": "Заранее. (часто).",
+      "es": {
+        "before": "De",
+        "after": " mano."
+      },
+      "answer": "antemano",
+      "options": [
+        "De ninguna",
+        "este",
+        "pecho",
+        "antemano",
+        "dentro",
+        "favor"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0086",
+      "ru": "Ни больше ни меньше. (в контексте).",
+      "es": {
+        "before": "Ni más ni",
+        "after": "."
+      },
+      "answer": "menos",
+      "options": [
+        "favor",
+        "ni",
+        "acaso",
+        "metas",
+        "Asumir",
+        "menos"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0087",
+      "ru": "Дать шанс. (в контексте).",
+      "es": {
+        "before": "Dar una",
+        "after": "."
+      },
+      "answer": "oportunidad",
+      "options": [
+        "atrás",
+        "oportunidad",
+        "dentro",
+        "aguantar",
+        "creer",
+        "este"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0088",
+      "ru": "У меня нет сил. (в контексте).",
+      "es": {
+        "before": "No tengo",
+        "after": "."
+      },
+      "answer": "fuerzas",
+      "options": [
+        "fuerzas",
+        "Mantén",
+        "acaso",
+        "importancia",
+        "loco",
+        "excepción"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0089",
+      "ru": "У меня нет сил. (разг.).",
+      "es": {
+        "before": "No tengo",
+        "after": "."
+      },
+      "answer": "fuerzas",
+      "options": [
+        "aguantar",
+        "atrás",
+        "razón",
+        "fuerzas",
+        "tiempo",
+        "shock"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0090",
+      "ru": "Взять на себя. (разг.).",
+      "es": {
+        "before": "",
+        "after": " la responsabilidad."
+      },
+      "answer": "Asumir",
+      "options": [
+        "Asumir",
+        "si",
+        "vez",
+        "hielo",
+        "control",
+        "vista"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0091",
+      "ru": "Рано или поздно. (часто).",
+      "es": {
+        "before": "Tarde o",
+        "after": "."
+      },
+      "answer": "temprano",
+      "options": [
+        "temprano",
+        "final",
+        "pausa",
+        "clavo",
+        "igual",
+        "Casi"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0092",
+      "ru": "Я делаю всё возможное. (разг.).",
+      "es": {
+        "before": "Hago todo lo",
+        "after": "."
+      },
+      "answer": "posible",
+      "options": [
+        "como",
+        "aguantar",
+        "Por",
+        "final",
+        "vale",
+        "posible"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0093",
+      "ru": "Я в деле. (разг.).",
+      "es": {
+        "before": "Estoy",
+        "after": "."
+      },
+      "answer": "dentro",
+      "options": [
+        "creer",
+        "vez",
+        "dentro",
+        "pecho",
+        "Perder",
+        "tanto"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0094",
+      "ru": "Ни больше ни меньше.",
+      "es": {
+        "before": "Ni más ni",
+        "after": "."
+      },
+      "answer": "menos",
+      "options": [
+        "vista",
+        "ni",
+        "menos",
+        "pensar",
+        "Mantén",
+        "excepción"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0095",
+      "ru": "Сдержать слово. (часто).",
+      "es": {
+        "before": "Cumplir la",
+        "after": "."
+      },
+      "answer": "palabra",
+      "options": [
+        "excepción",
+        "acaso",
+        "palabra",
+        "Casi",
+        "aguantar",
+        "claro"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0096",
+      "ru": "Я в шоке. (часто).",
+      "es": {
+        "before": "Estoy en",
+        "after": "."
+      },
+      "answer": "shock",
+      "options": [
+        "sentido",
+        "Por",
+        "razón",
+        "promesa",
+        "shock",
+        "Perder"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0097",
+      "ru": "Это не моё дело.",
+      "es": {
+        "before": "No es",
+        "after": " asunto."
+      },
+      "answer": "mi",
+      "options": [
+        "cara",
+        "atrás",
+        "poco",
+        "mi",
+        "posible",
+        "Asumir"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0098",
+      "ru": "Держи себя в руках. (в контексте).",
+      "es": {
+        "before": "",
+        "after": " el control."
+      },
+      "answer": "Mantén",
+      "options": [
+        "pierdas",
+        "más",
+        "Mantén",
+        "posible",
+        "Asumir",
+        "temprano"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0099",
+      "ru": "Мне нужно подумать.",
+      "es": {
+        "before": "Necesito",
+        "after": "lo."
+      },
+      "answer": "pensar",
+      "options": [
+        "promesa",
+        "pensar",
+        "seguro",
+        "clavo",
+        "acaso",
+        "te preocupes"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0100",
+      "ru": "Сломать лёд. (часто).",
+      "es": {
+        "before": "Romper el",
+        "after": "."
+      },
+      "answer": "hielo",
+      "options": [
+        "vez",
+        "sentido",
+        "hielo",
+        "dentro",
+        "control",
+        "Perder"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0101",
+      "ru": "Не принимать близко к сердцу. (часто).",
+      "es": {
+        "before": "No te lo tomes a",
+        "after": "."
+      },
+      "answer": "pecho",
+      "options": [
+        "pecho",
+        "la",
+        "fuerzas",
+        "sintonía",
+        "oportunidad",
+        "aguantar"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0102",
+      "ru": "Заранее. (в контексте).",
+      "es": {
+        "before": "De",
+        "after": " mano."
+      },
+      "answer": "antemano",
+      "options": [
+        "palabra",
+        "control",
+        "antemano",
+        "dentro",
+        "la",
+        "demasiado"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0103",
+      "ru": "В двух словах. (разг.).",
+      "es": {
+        "before": "En",
+        "after": " palabras."
+      },
+      "answer": "dos",
+      "options": [
+        "demasiado",
+        "dos",
+        "vista",
+        "acaso",
+        "pecho",
+        "Casi"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0104",
+      "ru": "Не иметь понятия.",
+      "es": {
+        "before": "No tener",
+        "after": " idea."
+      },
+      "answer": "ni",
+      "options": [
+        "ni",
+        "aguantar",
+        "mi",
+        "final",
+        "fuera",
+        "importancia"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0105",
+      "ru": "Сломать лёд. (разг.).",
+      "es": {
+        "before": "Romper el",
+        "after": "."
+      },
+      "answer": "hielo",
+      "options": [
+        "final",
+        "favor",
+        "Asumir",
+        "tiempo",
+        "más",
+        "hielo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0106",
+      "ru": "Я вне игры.",
+      "es": {
+        "before": "Estoy",
+        "after": "."
+      },
+      "answer": "fuera",
+      "options": [
+        "acaso",
+        "shock",
+        "poco",
+        "promesa",
+        "fuera",
+        "Casi"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0107",
+      "ru": "Рано или поздно.",
+      "es": {
+        "before": "Tarde o",
+        "after": "."
+      },
+      "answer": "temprano",
+      "options": [
+        "favor",
+        "poco",
+        "pecho",
+        "la",
+        "temprano",
+        "mano"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0108",
+      "ru": "Это не моё дело. (часто).",
+      "es": {
+        "before": "No es",
+        "after": " asunto."
+      },
+      "answer": "mi",
+      "options": [
+        "mi",
+        "creer",
+        "mano",
+        "te preocupes",
+        "antemano",
+        "demasiado"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0109",
+      "ru": "Не шути со мной. (в контексте).",
+      "es": {
+        "before": "No te",
+        "after": " conmigo."
+      },
+      "answer": "metas",
+      "options": [
+        "posible",
+        "importancia",
+        "metas",
+        "control",
+        "vez",
+        "seguro"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0110",
+      "ru": "Держать обещание.",
+      "es": {
+        "before": "Mantener la",
+        "after": "."
+      },
+      "answer": "promesa",
+      "options": [
+        "Mantén",
+        "atrás",
+        "cara",
+        "promesa",
+        "razón",
+        "mi"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0111",
+      "ru": "Сдержать слово. (в контексте).",
+      "es": {
+        "before": "Cumplir la",
+        "after": "."
+      },
+      "answer": "palabra",
+      "options": [
+        "mi",
+        "acaso",
+        "Asumir",
+        "ni",
+        "temprano",
+        "palabra"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0112",
+      "ru": "Сделать паузу.",
+      "es": {
+        "before": "Hacer una",
+        "after": "."
+      },
+      "answer": "pausa",
+      "options": [
+        "shock",
+        "Perder",
+        "pausa",
+        "posible",
+        "demasiado",
+        "razón"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0113",
+      "ru": "Быть в курсе. (в контексте).",
+      "es": {
+        "before": "Estar al",
+        "after": "."
+      },
+      "answer": "tanto",
+      "options": [
+        "tanto",
+        "antemano",
+        "dentro",
+        "Asumir",
+        "metas",
+        "pausa"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0114",
+      "ru": "Сказать прямо. (разг.).",
+      "es": {
+        "before": "Decirlo",
+        "after": "."
+      },
+      "answer": "claro",
+      "options": [
+        "mano",
+        "temprano",
+        "De ninguna",
+        "palabra",
+        "control",
+        "claro"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0115",
+      "ru": "Дать себе время. (разг.).",
+      "es": {
+        "before": "Darse",
+        "after": "."
+      },
+      "answer": "tiempo",
+      "options": [
+        "vista",
+        "Mantén",
+        "oportunidad",
+        "pierdas",
+        "Asumir",
+        "tiempo"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0116",
+      "ru": "Это стоит того. (в контексте).",
+      "es": {
+        "before": "Vale la",
+        "after": "."
+      },
+      "answer": "pena",
+      "options": [
+        "pierdas",
+        "pena",
+        "fuerzas",
+        "acaso",
+        "Mantén",
+        "Por"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0117",
+      "ru": "Мне всё равно. (в контексте).",
+      "es": {
+        "before": "Me da",
+        "after": "."
+      },
+      "answer": "igual",
+      "options": [
+        "atrás",
+        "temprano",
+        "shock",
+        "te preocupes",
+        "igual",
+        "razón"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0118",
+      "ru": "Сдержать слово. (часто).",
+      "es": {
+        "before": "Cumplir la",
+        "after": "."
+      },
+      "answer": "palabra",
+      "options": [
+        "shock",
+        "pecho",
+        "menos",
+        "razón",
+        "De ninguna",
+        "palabra"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0119",
+      "ru": "Ни больше ни меньше.",
+      "es": {
+        "before": "Ni más ni",
+        "after": "."
+      },
+      "answer": "menos",
+      "options": [
+        "Casi",
+        "menos",
+        "hielo",
+        "loco",
+        "antemano",
+        "pena"
+      ],
+      "comment": ""
+    },
+    {
+      "id": "I0120",
+      "ru": "Сходить с ума. (разг.).",
+      "es": {
+        "before": "Volverse",
+        "after": "."
+      },
+      "answer": "loco",
+      "options": [
+        "menos",
+        "promesa",
+        "clavo",
+        "loco",
+        "te preocupes",
+        "nervios"
+      ],
+      "comment": ""
+    }
+  ]
+}
