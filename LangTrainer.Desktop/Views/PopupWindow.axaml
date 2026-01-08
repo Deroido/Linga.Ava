@@ -11,6 +11,7 @@
         ShowInTaskbar="False"
         WindowStartupLocation="Manual"
         SystemDecorations="None"
+        ShowActivated="False"
         Title="LangTrainer"
         Background="#1E2126"
         FontFamily="Candara">
@@ -79,18 +80,33 @@
 
       <TextBox Grid.Row="3"
                FontSize="18"
+               Width="220"
+               HorizontalAlignment="Center"
                Watermark="Type or choose..."
-               Text="{Binding UserAnswer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+               Text="{Binding UserAnswer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+               KeyDown="AnswerBox_KeyDown" />
 
       <Grid Grid.Row="4" RowDefinitions="Auto,Auto,Auto,Auto" RowSpacing="8">
         <TextBlock Grid.Row="0"
+                   Text="Submit"
+                   FontSize="20"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   IsVisible="{Binding ShowSubmitButton}"
+                   Background="#2C3036"
+                   Padding="16,6"
+                   CornerRadius="6"
+                   Cursor="Hand"
+                   PointerPressed="SubmitButton_PointerPressed" />
+
+        <TextBlock Grid.Row="1"
                    Text="{Binding ResultText}"
                    Foreground="{Binding ResultBrush}"
                    FontSize="27"
                    FontWeight="Bold"
                    IsVisible="{Binding HasResult}" />
 
-        <Grid Grid.Row="1"
+        <Grid Grid.Row="2"
               ColumnDefinitions="*,Auto,*"
               IsVisible="{Binding HasResult}">
           <TextBlock Grid.Column="0"
@@ -114,7 +130,7 @@
                      TextAlignment="Left" />
         </Grid>
 
-        <TextBlock Grid.Row="2"
+        <TextBlock Grid.Row="3"
                    Text="{Binding CorrectAnswerText}"
                    FontSize="18"
                    Foreground="#FFB3B3"

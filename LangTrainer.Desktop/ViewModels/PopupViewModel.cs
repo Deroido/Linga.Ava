@@ -16,6 +16,7 @@ public sealed class PopupViewModel : INotifyPropertyChanged
     private bool _wasCorrect;
     private string _correctAnswerText = "";
     private bool _hasResult;
+    private bool _hasUserAnswer;
     private string _resultText = "";
     private IBrush _resultBrush = Brushes.Transparent;
     private string _phrasePrefix = "";
@@ -40,6 +41,7 @@ public sealed class PopupViewModel : INotifyPropertyChanged
             if (_userAnswer != value)
             {
                 _userAnswer = value;
+                HasUserAnswer = !string.IsNullOrWhiteSpace(_userAnswer);
                 OnPropertyChanged();
             }
         }
@@ -80,9 +82,26 @@ public sealed class PopupViewModel : INotifyPropertyChanged
             {
                 _hasResult = value;
                 OnPropertyChanged();
+                OnPropertyChanged(nameof(ShowSubmitButton));
             }
         }
     }
+
+    public bool HasUserAnswer
+    {
+        get => _hasUserAnswer;
+        private set
+        {
+            if (_hasUserAnswer != value)
+            {
+                _hasUserAnswer = value;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(ShowSubmitButton));
+            }
+        }
+    }
+
+    public bool ShowSubmitButton => HasUserAnswer && !HasResult;
 
     public string ResultText
     {
@@ -216,6 +235,7 @@ public sealed class PopupViewModel : INotifyPropertyChanged
         CorrectAnswerText = "";
         WasCorrect = false;
         HasResult = false;
+        HasUserAnswer = false;
         ResultText = "";
         ResultBrush = Brushes.Transparent;
         PhrasePrefix = "";

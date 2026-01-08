@@ -63,6 +63,24 @@ public partial class PopupWindow : Window
         Hide();
     }
 
+    private void AnswerBox_KeyDown(object? sender, KeyEventArgs e)
+    {
+        if (e.Key == Key.Enter)
+        {
+            Submit_Click(sender, new RoutedEventArgs());
+            e.Handled = true;
+        }
+    }
+
+    private void SubmitButton_PointerPressed(object? sender, PointerPressedEventArgs e)
+    {
+        if (e.GetCurrentPoint(this).Properties.IsLeftButtonPressed)
+        {
+            Submit_Click(sender, new RoutedEventArgs());
+            e.Handled = true;
+        }
+    }
+
     private void WindowDrag_PointerPressed(object? sender, PointerPressedEventArgs e)
     {
         if (!ReferenceEquals(e.Source, sender)) return;
