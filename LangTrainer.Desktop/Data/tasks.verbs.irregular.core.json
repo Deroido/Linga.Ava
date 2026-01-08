@@ -8,8 +8,14 @@
       "type": "choose_or_type",
       "promptRu": "Я иду домой.",
       "promptEsTemplate": "Yo ___ a casa.",
-      "options": ["voy", "va", "fui"],
-      "acceptableAnswers": ["voy"],
+      "options": [
+        "voy",
+        "va",
+        "fui"
+      ],
+      "acceptableAnswers": [
+        "voy"
+      ],
       "note": "Ir, present."
     },
     {
@@ -18,8 +24,14 @@
       "type": "choose_or_type",
       "promptRu": "Я пошёл домой.",
       "promptEsTemplate": "Yo ___ a casa.",
-      "options": ["fui", "iba", "voy"],
-      "acceptableAnswers": ["fui"],
+      "options": [
+        "fui",
+        "iba",
+        "voy"
+      ],
+      "acceptableAnswers": [
+        "fui"
+      ],
       "note": "Ir, pretérito."
     },
     {
@@ -28,8 +40,14 @@
       "type": "choose_or_type",
       "promptRu": "Мы идём вместе.",
       "promptEsTemplate": "Nosotros ___ juntos.",
-      "options": ["vamos", "fuimos", "íbamos"],
-      "acceptableAnswers": ["vamos"],
+      "options": [
+        "vamos",
+        "fuimos",
+        "íbamos"
+      ],
+      "acceptableAnswers": [
+        "vamos"
+      ],
       "note": "Ir, present plural."
     },
     {
@@ -38,19 +56,30 @@
       "type": "choose_or_type",
       "promptRu": "Мы пошли вместе.",
       "promptEsTemplate": "Nosotros ___ juntos.",
-      "options": ["fuimos", "íbamos", "vamos"],
-      "acceptableAnswers": ["fuimos"],
+      "options": [
+        "fuimos",
+        "íbamos",
+        "vamos"
+      ],
+      "acceptableAnswers": [
+        "fuimos"
+      ],
       "note": "Ir, pretérito plural."
     },
-
     {
       "id": "vi005",
       "group": "ser.present",
       "type": "choose_or_type",
       "promptRu": "Я инженер.",
       "promptEsTemplate": "Yo ___ ingeniero.",
-      "options": ["soy", "estoy", "fui"],
-      "acceptableAnswers": ["soy"],
+      "options": [
+        "soy",
+        "estoy",
+        "fui"
+      ],
+      "acceptableAnswers": [
+        "soy"
+      ],
       "note": "Ser, identity."
     },
     {
@@ -59,19 +88,30 @@
       "type": "choose_or_type",
       "promptRu": "Он был хорошим другом.",
       "promptEsTemplate": "Él ___ un buen amigo.",
-      "options": ["fue", "era", "estuvo"],
-      "acceptableAnswers": ["fue"],
+      "options": [
+        "fue",
+        "era",
+        "estuvo"
+      ],
+      "acceptableAnswers": [
+        "fue"
+      ],
       "note": "Ser, completed past."
     },
-
     {
       "id": "vi007",
       "group": "estar.present",
       "type": "choose_or_type",
       "promptRu": "Я сейчас дома.",
       "promptEsTemplate": "Yo ___ en casa.",
-      "options": ["estoy", "soy", "fui"],
-      "acceptableAnswers": ["estoy"],
+      "options": [
+        "estoy",
+        "soy",
+        "fui"
+      ],
+      "acceptableAnswers": [
+        "estoy"
+      ],
       "note": "Estar, location."
     },
     {
@@ -80,19 +120,30 @@
       "type": "choose_or_type",
       "promptRu": "Он был дома.",
       "promptEsTemplate": "Él ___ en casa.",
-      "options": ["estuvo", "era", "fue"],
-      "acceptableAnswers": ["estuvo"],
+      "options": [
+        "estuvo",
+        "era",
+        "fue"
+      ],
+      "acceptableAnswers": [
+        "estuvo"
+      ],
       "note": "Estar, pretérito."
     },
-
     {
       "id": "vi009",
       "group": "tener.present",
       "type": "choose_or_type",
       "promptRu": "У меня есть идея.",
       "promptEsTemplate": "Yo ___ una idea.",
-      "options": ["tengo", "tiene", "tuve"],
-      "acceptableAnswers": ["tengo"],
+      "options": [
+        "tengo",
+        "tiene",
+        "tuve"
+      ],
+      "acceptableAnswers": [
+        "tengo"
+      ],
       "note": "Tener, present."
     },
     {
@@ -101,19 +152,30 @@
       "type": "choose_or_type",
       "promptRu": "У нас было время.",
       "promptEsTemplate": "Nosotros ___ tiempo.",
-      "options": ["tuvimos", "teníamos", "tenemos"],
-      "acceptableAnswers": ["tuvimos"],
+      "options": [
+        "tuvimos",
+        "teníamos",
+        "tenemos"
+      ],
+      "acceptableAnswers": [
+        "tuvimos"
+      ],
       "note": "Tener, pretérito."
     },
-
     {
       "id": "vi011",
       "group": "poder.present",
       "type": "choose_or_type",
       "promptRu": "Я могу помочь.",
       "promptEsTemplate": "Yo ___ ayudar.",
-      "options": ["puedo", "pude", "podía"],
-      "acceptableAnswers": ["puedo"],
+      "options": [
+        "puedo",
+        "pude",
+        "podía"
+      ],
+      "acceptableAnswers": [
+        "puedo"
+      ],
       "note": "Poder, present."
     },
     {
@@ -122,19 +184,30 @@
       "type": "choose_or_type",
       "promptRu": "Я смог помочь.",
       "promptEsTemplate": "Yo ___ ayudar.",
-      "options": ["pude", "podía", "puedo"],
-      "acceptableAnswers": ["pude"],
+      "options": [
+        "pude",
+        "podía",
+        "puedo"
+      ],
+      "acceptableAnswers": [
+        "pude"
+      ],
       "note": "Poder, pretérito."
     },
-
     {
       "id": "vi013",
       "group": "saber.present",
       "type": "choose_or_type",
       "promptRu": "Я знаю ответ.",
       "promptEsTemplate": "Yo ___ la respuesta.",
-      "options": ["sé", "sabe", "supe"],
-      "acceptableAnswers": ["sé"],
+      "options": [
+        "sé",
+        "sabe",
+        "supe"
+      ],
+      "acceptableAnswers": [
+        "sé"
+      ],
       "note": "Saber, present."
     },
     {
@@ -143,19 +216,30 @@
       "type": "choose_or_type",
       "promptRu": "Я узнал правду.",
       "promptEsTemplate": "Yo ___ la verdad.",
-      "options": ["supe", "sabía", "sé"],
-      "acceptableAnswers": ["supe"],
+      "options": [
+        "supe",
+        "sabía",
+        "sé"
+      ],
+      "acceptableAnswers": [
+        "supe"
+      ],
       "note": "Saber, pretérito."
     },
-
     {
       "id": "vi015",
       "group": "venir.present",
       "type": "choose_or_type",
       "promptRu": "Я прихожу позже.",
       "promptEsTemplate": "Yo ___ más tarde.",
-      "options": ["vengo", "viene", "vine"],
-      "acceptableAnswers": ["vengo"],
+      "options": [
+        "vengo",
+        "viene",
+        "vine"
+      ],
+      "acceptableAnswers": [
+        "vengo"
+      ],
       "note": "Venir, present."
     },
     {
@@ -164,19 +248,30 @@
       "type": "choose_or_type",
       "promptRu": "Я пришёл поздно.",
       "promptEsTemplate": "Yo ___ tarde.",
-      "options": ["vine", "venía", "vengo"],
-      "acceptableAnswers": ["vine"],
+      "options": [
+        "vine",
+        "venía",
+        "vengo"
+      ],
+      "acceptableAnswers": [
+        "vine"
+      ],
       "note": "Venir, pretérito."
     },
-
     {
       "id": "vi017",
       "group": "salir.present",
       "type": "choose_or_type",
       "promptRu": "Я выхожу сейчас.",
       "promptEsTemplate": "Yo ___ ahora.",
-      "options": ["salgo", "sale", "salí"],
-      "acceptableAnswers": ["salgo"],
+      "options": [
+        "salgo",
+        "sale",
+        "salí"
+      ],
+      "acceptableAnswers": [
+        "salgo"
+      ],
       "note": "Salir, present."
     },
     {
@@ -185,19 +280,30 @@
       "type": "choose_or_type",
       "promptRu": "Я вышел рано.",
       "promptEsTemplate": "Yo ___ temprano.",
-      "options": ["salí", "salía", "salgo"],
-      "acceptableAnswers": ["salí"],
+      "options": [
+        "salí",
+        "salía",
+        "salgo"
+      ],
+      "acceptableAnswers": [
+        "salí"
+      ],
       "note": "Salir, pretérito."
     },
-
     {
       "id": "vi019",
       "group": "caber.present",
       "type": "choose_or_type",
       "promptRu": "Это сюда помещается.",
       "promptEsTemplate": "Esto ___ aquí.",
-      "options": ["cabe", "quepo", "cabía"],
-      "acceptableAnswers": ["cabe"],
+      "options": [
+        "cabe",
+        "quepo",
+        "cabía"
+      ],
+      "acceptableAnswers": [
+        "cabe"
+      ],
       "note": "Caber, 3rd person."
     },
     {
@@ -206,8 +312,14 @@
       "type": "choose_or_type",
       "promptRu": "Я сюда помещаюсь.",
       "promptEsTemplate": "Yo ___ aquí.",
-      "options": ["quepo", "cabo", "cabe"],
-      "acceptableAnswers": ["quepo"],
+      "options": [
+        "quepo",
+        "cabo",
+        "cabe"
+      ],
+      "acceptableAnswers": [
+        "quepo"
+      ],
       "note": "Caber, 1st person singular."
     },
     {
@@ -216,19 +328,30 @@
       "type": "choose_or_type",
       "promptRu": "Это сюда поместилось.",
       "promptEsTemplate": "Esto ___ aquí.",
-      "options": ["cupo", "cabía", "cabe"],
-      "acceptableAnswers": ["cupo"],
+      "options": [
+        "cupo",
+        "cabía",
+        "cabe"
+      ],
+      "acceptableAnswers": [
+        "cupo"
+      ],
       "note": "Caber, pretérito."
     },
-
     {
       "id": "vi022",
       "group": "poner.present",
       "type": "choose_or_type",
       "promptRu": "Я надеваю куртку.",
       "promptEsTemplate": "Yo ___ la chaqueta.",
-      "options": ["pongo", "pone", "puse"],
-      "acceptableAnswers": ["pongo"],
+      "options": [
+        "pongo",
+        "pone",
+        "puse"
+      ],
+      "acceptableAnswers": [
+        "pongo"
+      ],
       "note": "Poner, present."
     },
     {
@@ -237,19 +360,30 @@
       "type": "choose_or_type",
       "promptRu": "Я надел куртку.",
       "promptEsTemplate": "Yo ___ la chaqueta.",
-      "options": ["puse", "ponía", "pongo"],
-      "acceptableAnswers": ["puse"],
+      "options": [
+        "puse",
+        "ponía",
+        "pongo"
+      ],
+      "acceptableAnswers": [
+        "puse"
+      ],
       "note": "Poner, pretérito."
     },
-
     {
       "id": "vi024",
       "group": "decir.present",
       "type": "choose_or_type",
       "promptRu": "Я говорю правду.",
       "promptEsTemplate": "Yo ___ la verdad.",
-      "options": ["digo", "dice", "dije"],
-      "acceptableAnswers": ["digo"],
+      "options": [
+        "digo",
+        "dice",
+        "dije"
+      ],
+      "acceptableAnswers": [
+        "digo"
+      ],
       "note": "Decir, present."
     },
     {
@@ -258,19 +392,30 @@
       "type": "choose_or_type",
       "promptRu": "Я сказал правду.",
       "promptEsTemplate": "Yo ___ la verdad.",
-      "options": ["dije", "decía", "digo"],
-      "acceptableAnswers": ["dije"],
+      "options": [
+        "dije",
+        "decía",
+        "digo"
+      ],
+      "acceptableAnswers": [
+        "dije"
+      ],
       "note": "Decir, pretérito."
     },
-
     {
       "id": "vi026",
       "group": "hacer.present",
       "type": "choose_or_type",
       "promptRu": "Я делаю это.",
       "promptEsTemplate": "Yo ___ esto.",
-      "options": ["hago", "hace", "hice"],
-      "acceptableAnswers": ["hago"],
+      "options": [
+        "hago",
+        "hace",
+        "hice"
+      ],
+      "acceptableAnswers": [
+        "hago"
+      ],
       "note": "Hacer, present."
     },
     {
@@ -279,19 +424,30 @@
       "type": "choose_or_type",
       "promptRu": "Я сделал это.",
       "promptEsTemplate": "Yo ___ esto.",
-      "options": ["hice", "hacía", "hago"],
-      "acceptableAnswers": ["hice"],
+      "options": [
+        "hice",
+        "hacía",
+        "hago"
+      ],
+      "acceptableAnswers": [
+        "hice"
+      ],
       "note": "Hacer, pretérito."
     },
-
     {
       "id": "vi028",
       "group": "traer.present",
       "type": "choose_or_type",
       "promptRu": "Я приношу воду.",
       "promptEsTemplate": "Yo ___ agua.",
-      "options": ["traigo", "trae", "traje"],
-      "acceptableAnswers": ["traigo"],
+      "options": [
+        "traigo",
+        "trae",
+        "traje"
+      ],
+      "acceptableAnswers": [
+        "traigo"
+      ],
       "note": "Traer, present."
     },
     {
@@ -300,19 +456,30 @@
       "type": "choose_or_type",
       "promptRu": "Я принёс воду.",
       "promptEsTemplate": "Yo ___ agua.",
-      "options": ["traje", "traía", "traigo"],
-      "acceptableAnswers": ["traje"],
+      "options": [
+        "traje",
+        "traía",
+        "traigo"
+      ],
+      "acceptableAnswers": [
+        "traje"
+      ],
       "note": "Traer, pretérito."
     },
-
     {
       "id": "vi030",
       "group": "conducir.present",
       "type": "choose_or_type",
       "promptRu": "Я вожу машину.",
       "promptEsTemplate": "Yo ___ el coche.",
-      "options": ["conduzco", "conduce", "conduje"],
-      "acceptableAnswers": ["conduzco"],
+      "options": [
+        "conduzco",
+        "conduce",
+        "conduje"
+      ],
+      "acceptableAnswers": [
+        "conduzco"
+      ],
       "note": "Conducir, present."
     },
     {
@@ -321,19 +488,30 @@
       "type": "choose_or_type",
       "promptRu": "Я вел машину.",
       "promptEsTemplate": "Yo ___ el coche.",
-      "options": ["conduje", "conducía", "conduzco"],
-      "acceptableAnswers": ["conduje"],
+      "options": [
+        "conduje",
+        "conducía",
+        "conduzco"
+      ],
+      "acceptableAnswers": [
+        "conduje"
+      ],
       "note": "Conducir, pretérito."
     },
-
     {
       "id": "vi032",
       "group": "poner.reflexive",
       "type": "choose_or_type",
       "promptRu": "Я злюсь.",
       "promptEsTemplate": "Me ___ nervioso.",
-      "options": ["pongo", "puse", "pone"],
-      "acceptableAnswers": ["pongo"],
+      "options": [
+        "pongo",
+        "puse",
+        "pone"
+      ],
+      "acceptableAnswers": [
+        "pongo"
+      ],
       "note": "Ponerse, present."
     },
     {
@@ -342,19 +520,30 @@
       "type": "choose_or_type",
       "promptRu": "Я разозлился.",
       "promptEsTemplate": "Me ___ nervioso.",
-      "options": ["puse", "ponía", "pongo"],
-      "acceptableAnswers": ["puse"],
+      "options": [
+        "puse",
+        "ponía",
+        "pongo"
+      ],
+      "acceptableAnswers": [
+        "puse"
+      ],
       "note": "Ponerse, pretérito."
     },
-
     {
       "id": "vi034",
       "group": "quedarse.present",
       "type": "choose_or_type",
       "promptRu": "Я остаюсь здесь.",
       "promptEsTemplate": "Me ___ aquí.",
-      "options": ["quedo", "quedé", "queda"],
-      "acceptableAnswers": ["quedo"],
+      "options": [
+        "quedo",
+        "quedé",
+        "queda"
+      ],
+      "acceptableAnswers": [
+        "quedo"
+      ],
       "note": "Quedarse, present."
     },
     {
@@ -363,19 +552,30 @@
       "type": "choose_or_type",
       "promptRu": "Я остался здесь.",
       "promptEsTemplate": "Me ___ aquí.",
-      "options": ["quedé", "quedaba", "quedo"],
-      "acceptableAnswers": ["quedé"],
+      "options": [
+        "quedé",
+        "quedaba",
+        "quedo"
+      ],
+      "acceptableAnswers": [
+        "quedé"
+      ],
       "note": "Quedarse, pretérito."
     },
-
     {
       "id": "vi036",
       "group": "hacerse.present",
       "type": "choose_or_type",
       "promptRu": "Я становлюсь лучше.",
       "promptEsTemplate": "Me ___ mejor.",
-      "options": ["hago", "hice", "hace"],
-      "acceptableAnswers": ["hago"],
+      "options": [
+        "hago",
+        "hice",
+        "hace"
+      ],
+      "acceptableAnswers": [
+        "hago"
+      ],
       "note": "Hacerse, present."
     },
     {
@@ -384,19 +584,30 @@
       "type": "choose_or_type",
       "promptRu": "Я стал сильнее.",
       "promptEsTemplate": "Me ___ más fuerte.",
-      "options": ["hice", "hacía", "hago"],
-      "acceptableAnswers": ["hice"],
+      "options": [
+        "hice",
+        "hacía",
+        "hago"
+      ],
+      "acceptableAnswers": [
+        "hice"
+      ],
       "note": "Hacerse, pretérito."
     },
-
     {
       "id": "vi038",
       "group": "dar.present",
       "type": "choose_or_type",
       "promptRu": "Я даю совет.",
       "promptEsTemplate": "Yo ___ un consejo.",
-      "options": ["doy", "da", "di"],
-      "acceptableAnswers": ["doy"],
+      "options": [
+        "doy",
+        "da",
+        "di"
+      ],
+      "acceptableAnswers": [
+        "doy"
+      ],
       "note": "Dar, present."
     },
     {
@@ -405,19 +616,30 @@
       "type": "choose_or_type",
       "promptRu": "Я дал совет.",
       "promptEsTemplate": "Yo ___ un consejo.",
-      "options": ["di", "daba", "doy"],
-      "acceptableAnswers": ["di"],
+      "options": [
+        "di",
+        "daba",
+        "doy"
+      ],
+      "acceptableAnswers": [
+        "di"
+      ],
       "note": "Dar, pretérito."
     },
-
     {
       "id": "vi040",
       "group": "ver.present",
       "type": "choose_or_type",
       "promptRu": "Я вижу это.",
       "promptEsTemplate": "Yo ___ eso.",
-      "options": ["veo", "ve", "vi"],
-      "acceptableAnswers": ["veo"],
+      "options": [
+        "veo",
+        "ve",
+        "vi"
+      ],
+      "acceptableAnswers": [
+        "veo"
+      ],
       "note": "Ver, present."
     },
     {
@@ -426,19 +648,30 @@
       "type": "choose_or_type",
       "promptRu": "Я это увидел.",
       "promptEsTemplate": "Yo ___ eso.",
-      "options": ["vi", "veía", "veo"],
-      "acceptableAnswers": ["vi"],
+      "options": [
+        "vi",
+        "veía",
+        "veo"
+      ],
+      "acceptableAnswers": [
+        "vi"
+      ],
       "note": "Ver, pretérito."
     },
-
     {
       "id": "vi042",
       "group": "querer.present",
       "type": "choose_or_type",
       "promptRu": "Я хочу уйти.",
       "promptEsTemplate": "Yo ___ irme.",
-      "options": ["quiero", "quise", "quería"],
-      "acceptableAnswers": ["quiero"],
+      "options": [
+        "quiero",
+        "quise",
+        "quería"
+      ],
+      "acceptableAnswers": [
+        "quiero"
+      ],
       "note": "Querer, present."
     },
     {
@@ -447,19 +680,30 @@
       "type": "choose_or_type",
       "promptRu": "Я захотел уйти.",
       "promptEsTemplate": "Yo ___ irme.",
-      "options": ["quise", "quería", "quiero"],
-      "acceptableAnswers": ["quise"],
+      "options": [
+        "quise",
+        "quería",
+        "quiero"
+      ],
+      "acceptableAnswers": [
+        "quise"
+      ],
       "note": "Querer, pretérito."
     },
-
     {
       "id": "vi044",
       "group": "llegar.past",
       "type": "choose_or_type",
       "promptRu": "Я приехал поздно.",
       "promptEsTemplate": "Yo ___ tarde.",
-      "options": ["llegué", "llegaba", "llego"],
-      "acceptableAnswers": ["llegué"],
+      "options": [
+        "llegué",
+        "llegaba",
+        "llego"
+      ],
+      "acceptableAnswers": [
+        "llegué"
+      ],
       "note": "Llegar, pretérito spelling change."
     },
     {
@@ -468,19 +712,30 @@
       "type": "choose_or_type",
       "promptRu": "Я искал это.",
       "promptEsTemplate": "Yo ___ eso.",
-      "options": ["busqué", "buscaba", "busco"],
-      "acceptableAnswers": ["busqué"],
+      "options": [
+        "busqué",
+        "buscaba",
+        "busco"
+      ],
+      "acceptableAnswers": [
+        "busqué"
+      ],
       "note": "Buscar, pretérito spelling change."
     },
-
     {
       "id": "vi046",
       "group": "haber.present",
       "type": "choose_or_type",
       "promptRu": "Есть проблема.",
       "promptEsTemplate": "___ un problema.",
-      "options": ["hay", "hubo", "había"],
-      "acceptableAnswers": ["hay"],
+      "options": [
+        "hay",
+        "hubo",
+        "había"
+      ],
+      "acceptableAnswers": [
+        "hay"
+      ],
       "note": "Haber, present impersonal."
     },
     {
@@ -489,371 +744,540 @@
       "type": "choose_or_type",
       "promptRu": "Была проблема.",
       "promptEsTemplate": "___ un problema.",
-      "options": ["hubo", "había", "hay"],
-      "acceptableAnswers": ["hubo"],
+      "options": [
+        "hubo",
+        "había",
+        "hay"
+      ],
+      "acceptableAnswers": [
+        "hubo"
+      ],
       "note": "Haber, pretérito impersonal."
     },
-
     {
       "id": "vi048",
       "group": "andar.past",
       "type": "choose_or_type",
       "promptRu": "Я много ходил.",
       "promptEsTemplate": "Yo ___ mucho.",
-      "options": ["anduve", "andaba", "ando"],
-      "acceptableAnswers": ["anduve"],
+      "options": [
+        "anduve",
+        "andaba",
+        "ando"
+      ],
+      "acceptableAnswers": [
+        "anduve"
+      ],
       "note": "Andar, pretérito irregular."
     },
-
     {
       "id": "vi049",
       "group": "estar.reflexive",
       "type": "choose_or_type",
       "promptRu": "Я волнуюсь.",
       "promptEsTemplate": "Me ___ nervioso.",
-      "options": ["pongo", "estoy", "soy"],
-      "acceptableAnswers": ["estoy"],
+      "options": [
+        "pongo",
+        "estoy",
+        "soy"
+      ],
+      "acceptableAnswers": [
+        "estoy"
+      ],
       "note": "State description."
     },
-
     {
       "id": "vi050",
       "group": "mixed.contrast",
       "type": "choose_or_type",
       "promptRu": "Я был готов.",
       "promptEsTemplate": "Yo ___ listo.",
-      "options": ["estuve", "era", "fui"],
-      "acceptableAnswers": ["estuve"],
+      "options": [
+        "estuve",
+        "era",
+        "fui"
+      ],
+      "acceptableAnswers": [
+        "estuve"
+      ],
       "note": "Estar + adjective, pretérito."
     },
-
     {
       "id": "vi051",
       "group": "mixed.contrast",
       "type": "choose_or_type",
       "promptRu": "Я был человеком.",
       "promptEsTemplate": "Yo ___ humano.",
-      "options": ["fui", "era", "estuve"],
-      "acceptableAnswers": ["fui"],
+      "options": [
+        "fui",
+        "era",
+        "estuve"
+      ],
+      "acceptableAnswers": [
+        "fui"
+      ],
       "note": "Ser, identity in past."
     },
-
     {
       "id": "vi052",
       "group": "venir.past",
       "type": "choose_or_type",
       "promptRu": "Мы пришли рано.",
       "promptEsTemplate": "Nosotros ___ temprano.",
-      "options": ["vinimos", "veníamos", "venimos"],
-      "acceptableAnswers": ["vinimos"],
+      "options": [
+        "vinimos",
+        "veníamos",
+        "venimos"
+      ],
+      "acceptableAnswers": [
+        "vinimos"
+      ],
       "note": "Venir, pretérito plural."
     },
-
     {
       "id": "vi053",
       "group": "ir.past",
       "type": "choose_or_type",
       "promptRu": "Они пошли туда.",
       "promptEsTemplate": "Ellos ___ allí.",
-      "options": ["fueron", "iban", "van"],
-      "acceptableAnswers": ["fueron"],
+      "options": [
+        "fueron",
+        "iban",
+        "van"
+      ],
+      "acceptableAnswers": [
+        "fueron"
+      ],
       "note": "Ir, pretérito plural."
     },
-
     {
       "id": "vi054",
       "group": "poder.present",
       "type": "choose_or_type",
       "promptRu": "Ты можешь подождать?",
       "promptEsTemplate": "¿___ esperar?",
-      "options": ["Puedes", "Pudiste", "Podías"],
-      "acceptableAnswers": ["Puedes"],
+      "options": [
+        "Puedes",
+        "Pudiste",
+        "Podías"
+      ],
+      "acceptableAnswers": [
+        "Puedes"
+      ],
       "note": "Poder, question."
     },
-
     {
       "id": "vi055",
       "group": "saber.present",
       "type": "choose_or_type",
       "promptRu": "Ты знаешь его?",
       "promptEsTemplate": "¿___ a él?",
-      "options": ["Conoces", "Sabes", "Supiste"],
-      "acceptableAnswers": ["Conoces"],
+      "options": [
+        "Conoces",
+        "Sabes",
+        "Supiste"
+      ],
+      "acceptableAnswers": [
+        "Conoces"
+      ],
       "note": "Conocer vs saber."
     },
-
     {
       "id": "vi056",
       "group": "conocer.past",
       "type": "choose_or_type",
       "promptRu": "Я познакомился с ним.",
       "promptEsTemplate": "Lo ___ ayer.",
-      "options": ["conocí", "sabía", "sé"],
-      "acceptableAnswers": ["conocí"],
+      "options": [
+        "conocí",
+        "sabía",
+        "sé"
+      ],
+      "acceptableAnswers": [
+        "conocí"
+      ],
       "note": "Conocer, pretérito."
     },
-
     {
       "id": "vi057",
       "group": "salir.present",
       "type": "choose_or_type",
       "promptRu": "Мы выходим рано.",
       "promptEsTemplate": "___ temprano.",
-      "options": ["Salimos", "Salimos", "Salimos"],
-      "acceptableAnswers": ["Salimos"],
+      "options": [
+        "Salimos"
+      ],
+      "acceptableAnswers": [
+        "Salimos"
+      ],
       "note": "Salir, present plural."
     },
-
     {
       "id": "vi058",
       "group": "tener.present",
       "type": "choose_or_type",
       "promptRu": "Он должен уйти.",
       "promptEsTemplate": "___ que irse.",
-      "options": ["Tiene", "Tuvo", "Tenía"],
-      "acceptableAnswers": ["Tiene"],
+      "options": [
+        "Tiene",
+        "Tuvo",
+        "Tenía"
+      ],
+      "acceptableAnswers": [
+        "Tiene"
+      ],
       "note": "Tener que."
     },
-
     {
       "id": "vi059",
       "group": "querer.present",
       "type": "choose_or_type",
       "promptRu": "Она не хочет идти.",
       "promptEsTemplate": "No ___ ir.",
-      "options": ["quiere", "quiso", "quería"],
-      "acceptableAnswers": ["quiere"],
+      "options": [
+        "quiere",
+        "quiso",
+        "quería"
+      ],
+      "acceptableAnswers": [
+        "quiere"
+      ],
       "note": "Querer, present."
     },
-
     {
       "id": "vi060",
       "group": "hacer.present",
       "type": "choose_or_type",
       "promptRu": "Что ты делаешь?",
       "promptEsTemplate": "¿Qué ___?",
-      "options": ["haces", "hiciste", "harás"],
-      "acceptableAnswers": ["haces"],
+      "options": [
+        "haces",
+        "hiciste",
+        "harás"
+      ],
+      "acceptableAnswers": [
+        "haces"
+      ],
       "note": "Hacer, question."
     },
-
     {
       "id": "vi061",
       "group": "dar.present",
       "type": "choose_or_type",
       "promptRu": "Он даёт мне время.",
       "promptEsTemplate": "Me ___ tiempo.",
-      "options": ["da", "dio", "daba"],
-      "acceptableAnswers": ["da"],
+      "options": [
+        "da",
+        "dio",
+        "daba"
+      ],
+      "acceptableAnswers": [
+        "da"
+      ],
       "note": "Dar, present."
     },
-
     {
       "id": "vi062",
       "group": "decir.present",
       "type": "choose_or_type",
       "promptRu": "Она говорит правду.",
       "promptEsTemplate": "Ella ___ la verdad.",
-      "options": ["dice", "dijo", "decía"],
-      "acceptableAnswers": ["dice"],
+      "options": [
+        "dice",
+        "dijo",
+        "decía"
+      ],
+      "acceptableAnswers": [
+        "dice"
+      ],
       "note": "Decir, present."
     },
-
     {
       "id": "vi063",
       "group": "venir.present",
       "type": "choose_or_type",
       "promptRu": "Он приходит каждый день.",
       "promptEsTemplate": "Él ___ cada día.",
-      "options": ["viene", "vino", "venía"],
-      "acceptableAnswers": ["viene"],
+      "options": [
+        "viene",
+        "vino",
+        "venía"
+      ],
+      "acceptableAnswers": [
+        "viene"
+      ],
       "note": "Venir, present."
     },
-
     {
       "id": "vi064",
       "group": "estar.present",
       "type": "choose_or_type",
       "promptRu": "Мы готовы.",
       "promptEsTemplate": "___ listos.",
-      "options": ["Estamos", "Somos", "Fuimos"],
-      "acceptableAnswers": ["Estamos"],
+      "options": [
+        "Estamos",
+        "Somos",
+        "Fuimos"
+      ],
+      "acceptableAnswers": [
+        "Estamos"
+      ],
       "note": "Estar + adjective."
     },
-
     {
       "id": "vi065",
       "group": "ser.present",
       "type": "choose_or_type",
       "promptRu": "Это важно.",
       "promptEsTemplate": "Esto ___ importante.",
-      "options": ["es", "está", "fue"],
-      "acceptableAnswers": ["es"],
+      "options": [
+        "es",
+        "está",
+        "fue"
+      ],
+      "acceptableAnswers": [
+        "es"
+      ],
       "note": "Ser + adjective."
     },
-
     {
       "id": "vi066",
       "group": "haber.present",
       "type": "choose_or_type",
       "promptRu": "Есть вопросы?",
       "promptEsTemplate": "¿___ preguntas?",
-      "options": ["Hay", "Hubo", "Había"],
-      "acceptableAnswers": ["Hay"],
+      "options": [
+        "Hay",
+        "Hubo",
+        "Había"
+      ],
+      "acceptableAnswers": [
+        "Hay"
+      ],
       "note": "Haber impersonal."
     },
-
     {
       "id": "vi067",
       "group": "haber.past",
       "type": "choose_or_type",
       "promptRu": "Были проблемы.",
       "promptEsTemplate": "___ problemas.",
-      "options": ["Hubo", "Había", "Hay"],
-      "acceptableAnswers": ["Hubo"],
+      "options": [
+        "Hubo",
+        "Había",
+        "Hay"
+      ],
+      "acceptableAnswers": [
+        "Hubo"
+      ],
       "note": "Haber, pretérito."
     },
-
     {
       "id": "vi068",
       "group": "andar.past",
       "type": "choose_or_type",
       "promptRu": "Он много ходил.",
       "promptEsTemplate": "Él ___ mucho.",
-      "options": ["anduvo", "andaba", "anda"],
-      "acceptableAnswers": ["anduvo"],
+      "options": [
+        "anduvo",
+        "andaba",
+        "anda"
+      ],
+      "acceptableAnswers": [
+        "anduvo"
+      ],
       "note": "Andar, pretérito."
     },
-
     {
       "id": "vi069",
       "group": "ir.present",
       "type": "choose_or_type",
       "promptRu": "Ты идёшь со мной?",
       "promptEsTemplate": "¿___ conmigo?",
-      "options": ["Vas", "Fuiste", "Ibas"],
-      "acceptableAnswers": ["Vas"],
+      "options": [
+        "Vas",
+        "Fuiste",
+        "Ibas"
+      ],
+      "acceptableAnswers": [
+        "Vas"
+      ],
       "note": "Ir, question."
     },
-
     {
       "id": "vi070",
       "group": "ir.past",
       "type": "choose_or_type",
       "promptRu": "Ты пошёл со мной?",
       "promptEsTemplate": "¿___ conmigo?",
-      "options": ["Fuiste", "Ibas", "Vas"],
-      "acceptableAnswers": ["Fuiste"],
+      "options": [
+        "Fuiste",
+        "Ibas",
+        "Vas"
+      ],
+      "acceptableAnswers": [
+        "Fuiste"
+      ],
       "note": "Ir, pretérito question."
     },
-
     {
       "id": "vi071",
       "group": "poder.present",
       "type": "choose_or_type",
       "promptRu": "Он может прийти.",
       "promptEsTemplate": "Él ___ venir.",
-      "options": ["puede", "pudo", "podía"],
-      "acceptableAnswers": ["puede"],
+      "options": [
+        "puede",
+        "pudo",
+        "podía"
+      ],
+      "acceptableAnswers": [
+        "puede"
+      ],
       "note": "Poder, present."
     },
-
     {
       "id": "vi072",
       "group": "poder.past",
       "type": "choose_or_type",
       "promptRu": "Он смог прийти.",
       "promptEsTemplate": "Él ___ venir.",
-      "options": ["pudo", "podía", "puede"],
-      "acceptableAnswers": ["pudo"],
+      "options": [
+        "pudo",
+        "podía",
+        "puede"
+      ],
+      "acceptableAnswers": [
+        "pudo"
+      ],
       "note": "Poder, pretérito."
     },
-
     {
       "id": "vi073",
       "group": "saber.present",
       "type": "choose_or_type",
       "promptRu": "Мы знаем это.",
       "promptEsTemplate": "Nosotros ___ eso.",
-      "options": ["sabemos", "supimos", "sabíamos"],
-      "acceptableAnswers": ["sabemos"],
+      "options": [
+        "sabemos",
+        "supimos",
+        "sabíamos"
+      ],
+      "acceptableAnswers": [
+        "sabemos"
+      ],
       "note": "Saber, present plural."
     },
-
     {
       "id": "vi074",
       "group": "saber.past",
       "type": "choose_or_type",
       "promptRu": "Мы узнали это.",
       "promptEsTemplate": "Nosotros ___ eso.",
-      "options": ["supimos", "sabíamos", "sabemos"],
-      "acceptableAnswers": ["supimos"],
+      "options": [
+        "supimos",
+        "sabíamos",
+        "sabemos"
+      ],
+      "acceptableAnswers": [
+        "supimos"
+      ],
       "note": "Saber, pretérito plural."
     },
-
     {
       "id": "vi075",
       "group": "caber.present",
       "type": "choose_or_type",
       "promptRu": "Ты сюда помещаешься?",
       "promptEsTemplate": "¿___ aquí?",
-      "options": ["Cabes", "Cupo", "Quepes"],
-      "acceptableAnswers": ["Cabes"],
+      "options": [
+        "Cabes",
+        "Cupo",
+        "Quepes"
+      ],
+      "acceptableAnswers": [
+        "Cabes"
+      ],
       "note": "Caber, 2nd person."
     },
-
     {
       "id": "vi076",
       "group": "caber.past",
       "type": "choose_or_type",
       "promptRu": "Ты сюда поместился?",
       "promptEsTemplate": "¿___ aquí?",
-      "options": ["Cupiste", "Cabías", "Cabes"],
-      "acceptableAnswers": ["Cupiste"],
+      "options": [
+        "Cupiste",
+        "Cabías",
+        "Cabes"
+      ],
+      "acceptableAnswers": [
+        "Cupiste"
+      ],
       "note": "Caber, pretérito."
     },
-
     {
       "id": "vi077",
       "group": "venir.present",
       "type": "choose_or_type",
       "promptRu": "Вы приходите завтра.",
       "promptEsTemplate": "___ mañana.",
-      "options": ["Venís", "Vinisteis", "Venían"],
-      "acceptableAnswers": ["Venís"],
+      "options": [
+        "Venís",
+        "Vinisteis",
+        "Venían"
+      ],
+      "acceptableAnswers": [
+        "Venís"
+      ],
       "note": "Venir, vosotros."
     },
-
     {
       "id": "vi078",
       "group": "venir.past",
       "type": "choose_or_type",
       "promptRu": "Вы пришли вчера.",
       "promptEsTemplate": "___ ayer.",
-      "options": ["Vinisteis", "Venís", "Venían"],
-      "acceptableAnswers": ["Vinisteis"],
+      "options": [
+        "Vinisteis",
+        "Venís",
+        "Venían"
+      ],
+      "acceptableAnswers": [
+        "Vinisteis"
+      ],
       "note": "Venir, pretérito vosotros."
     },
-
     {
       "id": "vi079",
       "group": "ser.present",
       "type": "choose_or_type",
       "promptRu": "Они умные.",
       "promptEsTemplate": "Ellos ___ inteligentes.",
-      "options": ["son", "están", "fueron"],
-      "acceptableAnswers": ["son"],
+      "options": [
+        "son",
+        "están",
+        "fueron"
+      ],
+      "acceptableAnswers": [
+        "son"
+      ],
       "note": "Ser, plural."
     },
-
     {
       "id": "vi080",
       "group": "estar.present",
       "type": "choose_or_type",
       "promptRu": "Они готовы.",
       "promptEsTemplate": "Ellos ___ listos.",
-      "options": ["están", "son", "fueron"],
-      "acceptableAnswers": ["están"],
+      "options": [
+        "están",
+        "son",
+        "fueron"
+      ],
+      "acceptableAnswers": [
+        "están"
+      ],
       "note": "Estar, plural."
     }
   ]
