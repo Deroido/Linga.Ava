@@ -149,7 +149,6 @@ public partial class App : Application
 
         // Show popup (topmost). Focus textbox is handled by user click for now (we can improve).
         _popupWindow.Show();
-        _popupWindow.Activate();
 
         PositionPopupWindow();
         _popupWindow.LayoutUpdated += PopupWindowOnLayoutUpdated;
@@ -202,6 +201,12 @@ public partial class App : Application
         menu.Add(openNowItem);
 
         var intervalMenu = new NativeMenu();
+        intervalMenu.Add(CreateIntervalItem("1 sec"));
+        intervalMenu.Add(CreateIntervalItem("3 sec"));
+        intervalMenu.Add(CreateIntervalItem("5 sec"));
+        intervalMenu.Add(CreateIntervalItem("10 sec"));
+        intervalMenu.Add(CreateIntervalItem("30 sec"));
+        intervalMenu.Add(CreateIntervalItem("1 min"));
         intervalMenu.Add(CreateIntervalItem("5 min"));
         intervalMenu.Add(CreateIntervalItem("10 min"));
         intervalMenu.Add(CreateIntervalItem("30 min"));
@@ -245,11 +250,10 @@ public partial class App : Application
     {
         if (sender is not NativeMenuItem item) return;
         var header = item.Header?.ToString() ?? "";
-        var minutesText = header.Replace("min", "", StringComparison.OrdinalIgnoreCase).Trim();
-        if (!int.TryParse(minutesText, out var minutes)) return;
-        if (minutes <= 0) return;
+        var interval = ParseIntervalHeader(header);
+        if (interval <= TimeSpan.Zero) return;
 
-        _interval = TimeSpan.FromMinutes(minutes);
+        _interval = interval;
 
         if (_popupWindow != null && _popupWindow.IsVisible)
         {
@@ -294,6 +298,30 @@ public partial class App : Application
         var y = working.Bottom - height - margin;
 
         _popupWindow.Position = new PixelPoint(x, y);
+    }
+
+    private static TimeSpan ParseIntervalHeader(string header)
+    {
+        var text = header.Trim();
+        if (text.Length == 0) return TimeSpan.Zero;
+
+        if (text.Contains("sec", StringComparison.OrdinalIgnoreCase))
+        {
+            var valueText = text.Replace("sec", "", StringComparison.OrdinalIgnoreCase).Trim();
+            return int.TryParse(valueText, out var seconds) && seconds > 0
+                ? TimeSpan.FromSeconds(seconds)
+                : TimeSpan.Zero;
+        }
+
+        if (text.Contains("min", StringComparison.OrdinalIgnoreCase))
+        {
+            var valueText = text.Replace("min", "", StringComparison.OrdinalIgnoreCase).Trim();
+            return int.TryParse(valueText, out var minutes) && minutes > 0
+                ? TimeSpan.FromMinutes(minutes)
+                : TimeSpan.Zero;
+        }
+
+        return TimeSpan.Zero;
     }
 
     private static void LogStartupError(string message, Exception ex)
