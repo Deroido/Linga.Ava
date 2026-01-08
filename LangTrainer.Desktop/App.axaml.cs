@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text.Json;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
@@ -28,7 +29,11 @@ public partial class App : Application
     private List<TaskDeck> _decks = new();
     private readonly DeckLoader _deckLoader = new();
     private readonly TaskPicker _picker = new();
+    private readonly Random _rng = new();
     private string _lastLoadStatus = "Decks not loaded yet.";
+    private readonly List<(NativeMenuItem Item, string Label)> _intervalItems = new();
+    private PixelPoint? _savedPopupPosition;
+    private bool _handlingPositionChange;
 
     public override void Initialize()
     {
@@ -45,35 +50,38 @@ public partial class App : Application
                 desktop.ShutdownMode = Avalonia.Controls.ShutdownMode.OnExplicitShutdown;
 
                 _popupVm = new PopupViewModel();
-                _popupWindow = new PopupWindow
-                {
-                    DataContext = _popupVm
-                };
+            _popupWindow = new PopupWindow
+            {
+                DataContext = _popupVm
+            };
 
-                // Do not show window at start.
-                _popupWindow.Hide();
+            // Do not show window at start.
+            _popupWindow.Hide();
+            _popupWindow.PropertyChanged += PopupWindowOnPropertyChanged;
+            _popupWindow.PositionChanged += PopupWindowOnPositionChanged;
 
-                LoadData();
+            LoadData();
+            LoadWindowPosition();
+            LoadRecentHistory();
 
                 var settings = LoadSettings();
                 _interval = ResolveInterval(settings);
 
-                _scheduler = new PopupScheduler();
-                _scheduler.Start(_interval, ShowNextTaskPopup);
+            _scheduler = new PopupScheduler();
+            _scheduler.Start(_interval, ShowNextTaskPopup);
 
-                _popupWindow.PropertyChanged += PopupWindowOnPropertyChanged;
-
-                try
-                {
-                    InitializeTray();
-                }
-                catch (Exception ex)
-                {
-                    LogStartupError("Tray init failed", ex);
-                }
-
-                ShowPopupNow();
+            try
+            {
+                InitializeTray();
             }
+            catch (Exception ex)
+            {
+                LogStartupError("Tray init failed", ex);
+            }
+
+            UpdateIntervalChecks();
+            ShowPopupNow();
+        }
             catch (Exception ex)
             {
                 LogStartupError("Startup failed", ex);
@@ -145,6 +153,8 @@ public partial class App : Application
         _scheduler?.Stop();
 
         var task = _picker.PickRandom(_decks);
+        SaveRecentHistory();
+        task.Options = BuildOptions(task, 6);
         _popupVm.SetTask(task);
 
         // Show popup (topmost). Focus textbox is handled by user click for now (we can improve).
@@ -170,6 +180,15 @@ public partial class App : Application
         {
             _scheduler.Start(_interval, ShowNextTaskPopup);
         }
+    }
+
+    private void PopupWindowOnPositionChanged(object? sender, PixelPointEventArgs e)
+    {
+        if (_popupWindow == null) return;
+        if (_handlingPositionChange) return;
+
+        _savedPopupPosition = e.Point;
+        SaveWindowPosition(e.Point);
     }
 
     public void ShowPopupNow()
@@ -231,6 +250,7 @@ public partial class App : Application
     {
         var item = new NativeMenuItem { Header = header };
         item.Click += TrayInterval_Click;
+        _intervalItems.Add((item, header));
         return item;
     }
 
@@ -254,6 +274,8 @@ public partial class App : Application
         if (interval <= TimeSpan.Zero) return;
 
         _interval = interval;
+        SaveIntervalToSettings(interval);
+        UpdateIntervalChecks();
 
         if (_popupWindow != null && _popupWindow.IsVisible)
         {
@@ -280,6 +302,14 @@ public partial class App : Application
         var screen = screens.ScreenFromWindow(_popupWindow) ?? screens.Primary;
         if (screen == null) return;
 
+        if (_savedPopupPosition.HasValue)
+        {
+            _handlingPositionChange = true;
+            _popupWindow.Position = _savedPopupPosition.Value;
+            _handlingPositionChange = false;
+            return;
+        }
+
         var working = screen.WorkingArea;
         var margin = 12;
         var width = (int)Math.Round(_popupWindow.Width);
@@ -297,12 +327,95 @@ public partial class App : Application
         var x = working.Right - width - margin;
         var y = working.Bottom - height - margin;
 
-        _popupWindow.Position = new PixelPoint(x, y);
+        var target = _savedPopupPosition ?? new PixelPoint(x, y);
+
+        _handlingPositionChange = true;
+        _popupWindow.Position = target;
+        _handlingPositionChange = false;
+    }
+
+    private List<string> BuildOptions(TrainerTask task, int targetCount)
+    {
+        if (task.Options.Count >= targetCount)
+        {
+            return Dedup(task.Options);
+        }
+
+        var key = string.IsNullOrWhiteSpace(task.Group) ? task.Type : task.Group;
+        var pool = new List<string>();
+
+        foreach (var deck in _decks)
+        {
+            foreach (var t in deck.Tasks)
+            {
+                if (!IsSameTheme(t, key)) continue;
+                if (t.Options.Count == 0) continue;
+                pool.AddRange(t.Options);
+            }
+        }
+
+        var result = new List<string>();
+        var used = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+        foreach (var opt in task.Options)
+        {
+            if (used.Add(opt))
+            {
+                result.Add(opt);
+            }
+        }
+
+        Shuffle(pool);
+        foreach (var opt in pool)
+        {
+            if (result.Count >= targetCount) break;
+            if (used.Add(opt))
+            {
+                result.Add(opt);
+            }
+        }
+
+        Shuffle(result);
+        return result;
+    }
+
+    private static bool IsSameTheme(TrainerTask task, string key)
+    {
+        if (!string.IsNullOrWhiteSpace(task.Group))
+        {
+            return string.Equals(task.Group, key, StringComparison.OrdinalIgnoreCase);
+        }
+
+        return string.Equals(task.Type, key, StringComparison.OrdinalIgnoreCase);
+    }
+
+    private static List<string> Dedup(List<string> options)
+    {
+        var result = new List<string>();
+        var used = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        foreach (var opt in options)
+        {
+            if (used.Add(opt))
+            {
+                result.Add(opt);
+            }
+        }
+
+        return result;
+    }
+
+    private void Shuffle(List<string> items)
+    {
+        for (var i = items.Count - 1; i > 0; i--)
+        {
+            var j = _rng.Next(i + 1);
+            (items[i], items[j]) = (items[j], items[i]);
+        }
     }
 
     private static TimeSpan ParseIntervalHeader(string header)
     {
-        var text = header.Trim();
+        var text = header.Replace("✓", "", StringComparison.Ordinal).Trim();
         if (text.Length == 0) return TimeSpan.Zero;
 
         if (text.Contains("sec", StringComparison.OrdinalIgnoreCase))
@@ -324,6 +437,45 @@ public partial class App : Application
         return TimeSpan.Zero;
     }
 
+    private void UpdateIntervalChecks()
+    {
+        foreach (var (item, label) in _intervalItems)
+        {
+            var interval = ParseIntervalHeader(label);
+            item.Header = interval == _interval ? $"✓ {label}" : label;
+        }
+    }
+
+    private void SaveIntervalToSettings(TimeSpan interval)
+    {
+        try
+        {
+            var settings = new AppSettings();
+            if (interval.TotalSeconds < 60)
+            {
+                settings.DebugIntervalSeconds = Math.Max(1, (int)interval.TotalSeconds);
+                settings.IntervalMinutes = 0;
+            }
+            else
+            {
+                settings.IntervalMinutes = Math.Max(1, (int)interval.TotalMinutes);
+                settings.DebugIntervalSeconds = 0;
+            }
+
+            var baseDir = AppContext.BaseDirectory;
+            var dataDir = Path.Combine(baseDir, "Data");
+            Directory.CreateDirectory(dataDir);
+
+            var path = Path.Combine(dataDir, "appsettings.json");
+            var json = JsonSerializer.Serialize(settings, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(path, json);
+        }
+        catch
+        {
+            // Ignore persistence errors.
+        }
+    }
+
     private static void LogStartupError(string message, Exception ex)
     {
         try
@@ -336,6 +488,90 @@ public partial class App : Application
         catch
         {
             // Swallow logging errors to avoid recursive failures.
+        }
+    }
+
+    private void LoadWindowPosition()
+    {
+        try
+        {
+            var baseDir = AppContext.BaseDirectory;
+            var path = Path.Combine(baseDir, "Data", "windowstate.json");
+            if (!File.Exists(path)) return;
+
+            var json = File.ReadAllText(path);
+            var state = JsonSerializer.Deserialize<WindowState>(json);
+            if (state == null) return;
+
+            _savedPopupPosition = new PixelPoint(state.X, state.Y);
+        }
+        catch
+        {
+            // Ignore failures.
+        }
+    }
+
+    private void SaveWindowPosition(PixelPoint position)
+    {
+        try
+        {
+            var baseDir = AppContext.BaseDirectory;
+            var dataDir = Path.Combine(baseDir, "Data");
+            Directory.CreateDirectory(dataDir);
+            var path = Path.Combine(dataDir, "windowstate.json");
+
+            var state = new WindowState { X = position.X, Y = position.Y };
+            var json = JsonSerializer.Serialize(state, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(path, json);
+        }
+        catch
+        {
+            // Ignore failures.
+        }
+    }
+
+    private sealed class WindowState
+    {
+        public int X { get; set; }
+        public int Y { get; set; }
+    }
+
+    private void LoadRecentHistory()
+    {
+        try
+        {
+            var baseDir = AppContext.BaseDirectory;
+            var path = Path.Combine(baseDir, "Data", "recent.json");
+            if (!File.Exists(path)) return;
+
+            var json = File.ReadAllText(path);
+            var ids = JsonSerializer.Deserialize<List<string>>(json);
+            if (ids == null) return;
+
+            _picker.RestoreRecentIds(ids);
+        }
+        catch
+        {
+            // Ignore failures.
+        }
+    }
+
+    private void SaveRecentHistory()
+    {
+        try
+        {
+            var baseDir = AppContext.BaseDirectory;
+            var dataDir = Path.Combine(baseDir, "Data");
+            Directory.CreateDirectory(dataDir);
+            var path = Path.Combine(dataDir, "recent.json");
+
+            var ids = _picker.GetRecentIds();
+            var json = JsonSerializer.Serialize(ids, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(path, json);
+        }
+        catch
+        {
+            // Ignore failures.
         }
     }
 }

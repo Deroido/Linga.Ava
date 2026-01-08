@@ -10,6 +10,9 @@ public sealed class TaskPicker
     private readonly List<TrainerTask> _globalPool = new();
     private readonly List<string> _deckIds = new();
     private readonly List<int> _taskCounts = new();
+    private readonly Queue<string> _recentIds = new();
+    private readonly HashSet<string> _recentSet = new(StringComparer.OrdinalIgnoreCase);
+    private const int RecentLimit = 30;
 
     public TrainerTask PickRandom(TaskDeck deck)
     {
@@ -25,8 +28,19 @@ public sealed class TaskPicker
             throw new InvalidOperationException("Decks have no tasks.");
         }
 
-        var index = _rng.Next(0, _globalPool.Count);
-        return _globalPool[index];
+        for (var i = 0; i < _globalPool.Count * 2; i++)
+        {
+            var index = _rng.Next(0, _globalPool.Count);
+            var task = _globalPool[index];
+            if (IsRecent(task.Id)) continue;
+
+            Remember(task.Id);
+            return task;
+        }
+
+        var fallback = _globalPool[_rng.Next(0, _globalPool.Count)];
+        Remember(fallback.Id);
+        return fallback;
     }
 
     private void EnsureState(IReadOnlyList<TaskDeck> decks)
@@ -75,6 +89,52 @@ public sealed class TaskPicker
             {
                 _globalPool.Add(task);
             }
+        }
+    }
+
+    private bool IsRecent(string id)
+    {
+        if (string.IsNullOrWhiteSpace(id)) return false;
+        return _recentSet.Contains(id);
+    }
+
+    private void Remember(string id)
+    {
+        if (string.IsNullOrWhiteSpace(id)) return;
+
+        if (_recentSet.Contains(id)) return;
+        _recentSet.Add(id);
+        _recentIds.Enqueue(id);
+
+        while (_recentIds.Count > RecentLimit)
+        {
+            var old = _recentIds.Dequeue();
+            _recentSet.Remove(old);
+        }
+    }
+
+    public List<string> GetRecentIds()
+    {
+        return new List<string>(_recentIds);
+    }
+
+    public void RestoreRecentIds(IEnumerable<string> ids)
+    {
+        _recentIds.Clear();
+        _recentSet.Clear();
+
+        foreach (var id in ids)
+        {
+            if (string.IsNullOrWhiteSpace(id)) continue;
+            if (_recentSet.Contains(id)) continue;
+            _recentSet.Add(id);
+            _recentIds.Enqueue(id);
+        }
+
+        while (_recentIds.Count > RecentLimit)
+        {
+            var old = _recentIds.Dequeue();
+            _recentSet.Remove(old);
         }
     }
 }
