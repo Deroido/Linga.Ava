@@ -7,10 +7,9 @@ namespace LangTrainer.Core.Services;
 public sealed class TaskPicker
 {
     private readonly Random _rng = new();
+    private readonly List<TrainerTask> _globalPool = new();
     private readonly List<string> _deckIds = new();
     private readonly List<int> _taskCounts = new();
-    private Queue<int> _deckQueue = new();
-    private List<Queue<int>> _taskQueues = new();
 
     public TrainerTask PickRandom(TaskDeck deck)
     {
@@ -21,47 +20,20 @@ public sealed class TaskPicker
     {
         EnsureState(decks);
 
-        if (decks == null || decks.Count == 0)
+        if (_globalPool.Count == 0)
         {
-            throw new InvalidOperationException("No decks available.");
+            throw new InvalidOperationException("Decks have no tasks.");
         }
 
-        for (var attempt = 0; attempt < decks.Count; attempt++)
-        {
-            if (_deckQueue.Count == 0)
-            {
-                RebuildQueues(decks);
-            }
-
-            var deckIndex = _deckQueue.Dequeue();
-            var deck = decks[deckIndex];
-
-            if (deck.Tasks.Count == 0)
-            {
-                _deckQueue.Enqueue(deckIndex);
-                continue;
-            }
-
-            var queue = _taskQueues[deckIndex];
-            if (queue.Count == 0)
-            {
-                _taskQueues[deckIndex] = BuildTaskQueue(deck.Tasks.Count);
-                queue = _taskQueues[deckIndex];
-            }
-
-            var taskIndex = queue.Dequeue();
-            _deckQueue.Enqueue(deckIndex);
-            return deck.Tasks[taskIndex];
-        }
-
-        throw new InvalidOperationException("Decks have no tasks.");
+        var index = _rng.Next(0, _globalPool.Count);
+        return _globalPool[index];
     }
 
     private void EnsureState(IReadOnlyList<TaskDeck> decks)
     {
         if (decks == null)
         {
-            RebuildQueues(Array.Empty<TaskDeck>());
+            RebuildPool(Array.Empty<TaskDeck>());
             return;
         }
 
@@ -84,45 +56,25 @@ public sealed class TaskPicker
 
         if (needsRebuild)
         {
-            RebuildQueues(decks);
+            RebuildPool(decks);
         }
     }
 
-    private void RebuildQueues(IReadOnlyList<TaskDeck> decks)
+    private void RebuildPool(IReadOnlyList<TaskDeck> decks)
     {
         _deckIds.Clear();
         _taskCounts.Clear();
-        _taskQueues = new List<Queue<int>>(decks.Count);
+        _globalPool.Clear();
 
         for (var i = 0; i < decks.Count; i++)
         {
             _deckIds.Add(decks[i].DeckId ?? "");
             _taskCounts.Add(decks[i].Tasks.Count);
-            _taskQueues.Add(BuildTaskQueue(decks[i].Tasks.Count));
+
+            foreach (var task in decks[i].Tasks)
+            {
+                _globalPool.Add(task);
+            }
         }
-
-        _deckQueue = new Queue<int>(ShuffleIndices(decks.Count));
-    }
-
-    private Queue<int> BuildTaskQueue(int count)
-    {
-        return new Queue<int>(ShuffleIndices(count));
-    }
-
-    private IEnumerable<int> ShuffleIndices(int count)
-    {
-        var list = new List<int>(count);
-        for (var i = 0; i < count; i++)
-        {
-            list.Add(i);
-        }
-
-        for (var i = list.Count - 1; i > 0; i--)
-        {
-            var j = _rng.Next(i + 1);
-            (list[i], list[j]) = (list[j], list[i]);
-        }
-
-        return list;
     }
 }

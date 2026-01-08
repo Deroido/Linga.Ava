@@ -13,129 +13,146 @@
         SystemDecorations="None"
         ShowActivated="False"
         Title="LangTrainer"
-        Background="#1E2126"
+        Background="#0A0C10"
         FontFamily="Candara">
-  <Border Padding="16"
-          CornerRadius="12"
-          Background="#22262B"
+  <Border x:Name="RootBorder"
+          Padding="0"
+          CornerRadius="10"
+          Background="Transparent"
+          BorderBrush="#2A3038"
+          BorderThickness="1"
           PointerPressed="WindowDrag_PointerPressed">
-    <Grid RowDefinitions="Auto,Auto,Auto,Auto,*" RowSpacing="10">
-      <Grid ColumnDefinitions="*,Auto,Auto" RowDefinitions="Auto">
-        <TextBlock Text="LangTrainer"
-                   FontSize="21"
-                   Foreground="#8FA1B3"
-                   VerticalAlignment="Center" />
-        <Button Grid.Column="1"
-                Width="28"
-                Height="28"
-                FontSize="21"
-                Content="⟳"
-                ToolTip.Tip="Reload decks"
-                Click="ReloadDecks_Click" />
-        <Button Grid.Column="2"
-                Width="28"
-                Height="28"
-                FontSize="16"
-                Content="✕"
-                ToolTip.Tip="Skip"
-                Click="Skip_Click"
-                Margin="6,0,0,0" />
-      </Grid>
+    <Grid>
+      <Border x:Name="BackgroundBorder"
+              CornerRadius="10"
+              IsHitTestVisible="False">
+        <Border.Background>
+          <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#0A0C10" Offset="0"/>
+            <GradientStop Color="#0A0C10" Offset="1"/>
+          </LinearGradientBrush>
+        </Border.Background>
+      </Border>
 
-      <TextBlock Grid.Row="1"
-                 Text="{Binding PromptRu}"
-                 FontSize="27"
-                 Foreground="White"
-                 TextWrapping="Wrap" />
-      <Grid Grid.Row="2"
-            ColumnDefinitions="Auto,Auto,Auto"
-            HorizontalAlignment="Center">
-        <TextBlock Grid.Column="0"
-                   Text="{Binding PromptPrefix}"
-                   FontSize="33"
-                   Foreground="#E3E7ED"
-                   TextWrapping="NoWrap"
-                   TextTrimming="CharacterEllipsis"
-                   TextAlignment="Right"
-                   MaxWidth="220" />
-        <ComboBox Grid.Column="1"
-                  MinWidth="140"
-                  MaxWidth="220"
-                  FontSize="28"
-                  ItemsSource="{Binding Options}"
-                  SelectionChanged="Options_SelectionChanged"
-                  Margin="10,0"
-                  HorizontalContentAlignment="Center"
-                  PlaceholderText="●"
-                  PlaceholderForeground="#5C6773" />
-        <TextBlock Grid.Column="2"
-                   Text="{Binding PromptSuffix}"
-                   FontSize="33"
-                   Foreground="#E3E7ED"
-                   TextWrapping="NoWrap"
-                   TextTrimming="CharacterEllipsis"
-                   TextAlignment="Left"
-                   MaxWidth="220" />
-      </Grid>
-
-      <TextBox Grid.Row="3"
-               FontSize="18"
-               Width="220"
-               HorizontalAlignment="Center"
-               Watermark="Type or choose..."
-               Text="{Binding UserAnswer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-               KeyDown="AnswerBox_KeyDown" />
-
-      <Grid Grid.Row="4" RowDefinitions="Auto,Auto,Auto,Auto" RowSpacing="8">
-        <TextBlock Grid.Row="0"
-                   Text="Submit"
-                   FontSize="20"
-                   FontWeight="Bold"
-                   HorizontalAlignment="Center"
-                   IsVisible="{Binding ShowSubmitButton}"
-                   Background="#2C3036"
-                   Padding="16,6"
-                   CornerRadius="6"
-                   Cursor="Hand"
-                   PointerPressed="SubmitButton_PointerPressed" />
-
-        <TextBlock Grid.Row="1"
-                   Text="{Binding ResultText}"
-                   Foreground="{Binding ResultBrush}"
-                   FontSize="27"
-                   FontWeight="Bold"
-                   IsVisible="{Binding HasResult}" />
-
-        <Grid Grid.Row="2"
-              ColumnDefinitions="*,Auto,*"
-              IsVisible="{Binding HasResult}">
-          <TextBlock Grid.Column="0"
-                     Text="{Binding PhrasePrefix}"
-                     FontSize="33"
-                     TextWrapping="Wrap"
-                     Foreground="White"
-                     TextAlignment="Right" />
-          <TextBlock Grid.Column="1"
-                     Text="{Binding PhraseInsert}"
-                     FontSize="36"
-                     FontWeight="Bold"
-                     Foreground="{Binding InsertBrush}"
-                     Margin="10,0"
-                     TextAlignment="Center" />
-          <TextBlock Grid.Column="2"
-                     Text="{Binding PhraseSuffix}"
-                     FontSize="33"
-                     TextWrapping="Wrap"
-                     Foreground="White"
-                     TextAlignment="Left" />
+      <Grid RowDefinitions="Auto,Auto,Auto,Auto,*" RowSpacing="10" Margin="16">
+        <Grid ColumnDefinitions="*,Auto,Auto" RowDefinitions="Auto">
+          <TextBlock Text="LangTrainer"
+                     FontSize="21"
+                     Foreground="#8FA1B3"
+                     VerticalAlignment="Center" />
+          <Button Grid.Column="1"
+                  Width="28"
+                  Height="28"
+                  FontSize="21"
+                  Content="⟳"
+                  ToolTip.Tip="Reload decks"
+                  Click="ReloadDecks_Click" />
+          <Button Grid.Column="2"
+                  Width="28"
+                  Height="28"
+                  FontSize="16"
+                  Content="✕"
+                  ToolTip.Tip="Skip"
+                  Click="Skip_Click"
+                  Margin="6,0,0,0" />
         </Grid>
 
-        <TextBlock Grid.Row="3"
-                   Text="{Binding CorrectAnswerText}"
-                   FontSize="18"
-                   Foreground="#FFB3B3"
-                   TextWrapping="Wrap"
-                   IsVisible="{Binding HasResult}" />
+        <TextBlock Grid.Row="1"
+                   Text="{Binding PromptRu}"
+                   FontSize="27"
+                   Foreground="White"
+                   TextWrapping="Wrap" />
+        <Grid Grid.Row="2"
+              ColumnDefinitions="Auto,Auto,Auto"
+              HorizontalAlignment="Center">
+          <TextBlock Grid.Column="0"
+                     Text="{Binding PromptPrefix}"
+                     FontSize="33"
+                     Foreground="#E3E7ED"
+                     TextWrapping="NoWrap"
+                     TextTrimming="CharacterEllipsis"
+                     TextAlignment="Right"
+                     MaxWidth="220" />
+          <ComboBox Grid.Column="1"
+                    MinWidth="140"
+                    MaxWidth="220"
+                    FontSize="28"
+                    ItemsSource="{Binding Options}"
+                    SelectionChanged="Options_SelectionChanged"
+                    Margin="10,0"
+                    HorizontalContentAlignment="Center"
+                    PlaceholderText="●"
+                    PlaceholderForeground="#5C6773" />
+          <TextBlock Grid.Column="2"
+                     Text="{Binding PromptSuffix}"
+                     FontSize="33"
+                     Foreground="#E3E7ED"
+                     TextWrapping="NoWrap"
+                     TextTrimming="CharacterEllipsis"
+                     TextAlignment="Left"
+                     MaxWidth="220" />
+        </Grid>
+
+        <TextBox Grid.Row="3"
+                 FontSize="18"
+                 Width="220"
+                 HorizontalAlignment="Center"
+                 Watermark="Type or choose..."
+                 Text="{Binding UserAnswer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 KeyDown="AnswerBox_KeyDown" />
+
+        <Grid Grid.Row="4" RowDefinitions="Auto,Auto,Auto,Auto" RowSpacing="8">
+          <Border Grid.Row="0"
+                  Background="#2C3036"
+                  CornerRadius="6"
+                  Padding="16,6"
+                  HorizontalAlignment="Center"
+                  IsVisible="{Binding ShowSubmitButton}"
+                  Cursor="Hand"
+                  PointerPressed="SubmitButton_PointerPressed">
+            <TextBlock Text="Submit"
+                       FontSize="20"
+                       FontWeight="Bold" />
+          </Border>
+
+          <TextBlock Grid.Row="1"
+                     Text="{Binding ResultText}"
+                     Foreground="{Binding ResultBrush}"
+                     FontSize="27"
+                     FontWeight="Bold"
+                     IsVisible="{Binding HasResult}" />
+
+          <Grid Grid.Row="2"
+                ColumnDefinitions="*,Auto,*"
+                IsVisible="{Binding HasResult}">
+            <TextBlock Grid.Column="0"
+                       Text="{Binding PhrasePrefix}"
+                       FontSize="33"
+                       TextWrapping="Wrap"
+                       Foreground="White"
+                       TextAlignment="Right" />
+            <TextBlock Grid.Column="1"
+                       Text="{Binding PhraseInsert}"
+                       FontSize="36"
+                       FontWeight="Bold"
+                       Foreground="{Binding InsertBrush}"
+                       Margin="10,0"
+                       TextAlignment="Center" />
+            <TextBlock Grid.Column="2"
+                       Text="{Binding PhraseSuffix}"
+                       FontSize="33"
+                       TextWrapping="Wrap"
+                       Foreground="White"
+                       TextAlignment="Left" />
+          </Grid>
+
+          <TextBlock Grid.Row="3"
+                     Text="{Binding CorrectAnswerText}"
+                     FontSize="18"
+                     Foreground="#FFB3B3"
+                     TextWrapping="Wrap"
+                     IsVisible="{Binding HasResult}" />
+        </Grid>
       </Grid>
     </Grid>
   </Border>

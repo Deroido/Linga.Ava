@@ -1,6 +1,7 @@
 using System;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Media;
 using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Threading;
@@ -12,10 +13,15 @@ public partial class PopupWindow : Window
 {
     private DispatcherTimer? _autoCloseTimer;
     private DispatcherTimer? _autoSubmitTimer;
+    private IBrush? _gradientBackground;
+    private IBrush? _solidBackground;
 
     public PopupWindow()
     {
         InitializeComponent();
+        _gradientBackground = BackgroundBorder.Background;
+        _solidBackground = new SolidColorBrush(Color.Parse("#22262B"));
+        SetFadeActive(true);
     }
 
     private void Options_SelectionChanged(object? sender, SelectionChangedEventArgs e)
@@ -34,6 +40,7 @@ public partial class PopupWindow : Window
     {
         StopAutoSubmitTimer();
         StopAutoCloseTimer();
+        SetFadeActive(true);
 
         if (Application.Current is App app)
         {
@@ -49,6 +56,8 @@ public partial class PopupWindow : Window
 
         var correct = vm.Submit();
 
+        SetFadeActive(false);
+
         // Keep visible to show feedback; auto-close after a short delay if correct.
         if (correct)
         {
@@ -60,6 +69,7 @@ public partial class PopupWindow : Window
     {
         StopAutoSubmitTimer();
         StopAutoCloseTimer();
+        SetFadeActive(true);
         Hide();
     }
 
@@ -90,6 +100,11 @@ public partial class PopupWindow : Window
         }
     }
 
+    private void SetFadeActive(bool active)
+    {
+        BackgroundBorder.Background = active ? _gradientBackground : _solidBackground;
+    }
+
     protected override void OnClosed(EventArgs e)
     {
         StopAutoSubmitTimer();
@@ -104,6 +119,7 @@ public partial class PopupWindow : Window
         _autoCloseTimer = new DispatcherTimer(TimeSpan.FromSeconds(3), DispatcherPriority.Normal, (_, _) =>
         {
             StopAutoCloseTimer();
+            SetFadeActive(true);
             Hide();
         });
         _autoCloseTimer.Start();

@@ -326,7 +326,7 @@ public sealed class PopupViewModel : INotifyPropertyChanged
 
         if (index >= 0)
         {
-            PhrasePrefix = TrimDuplicatePrefixToken(template.Substring(0, index), new[] { answer });
+            PhrasePrefix = TrimDuplicatePrefixToken(template.Substring(0, index), new List<string> { answer });
             PhraseInsert = answer;
             PhraseSuffix = template.Substring(index + placeholder.Length);
         }
@@ -340,7 +340,7 @@ public sealed class PopupViewModel : INotifyPropertyChanged
         InsertBrush = correct ? Brushes.LimeGreen : Brushes.IndianRed;
     }
 
-    private static string TrimDuplicatePrefixToken(string prefix, IEnumerable<string> candidates)
+    private static string TrimDuplicatePrefixToken(string prefix, List<string> candidates)
     {
         if (string.IsNullOrWhiteSpace(prefix)) return prefix;
 

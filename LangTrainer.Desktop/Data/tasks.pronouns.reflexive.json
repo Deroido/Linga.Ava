@@ -1,106 +1,726 @@
 {
-  "deckId": "pronouns.reflexive.basic",
-  "title": "Pronouns: reflexive & benefactive",
+  "deckId": "pronouns.reflexive",
+  "title": "Pronouns: reflexive (deep practice)",
   "tasks": [
     {
       "id": "pr001",
-      "group": "pronouns.reflexive",
+      "group": "pronouns.reflexive.expression",
       "type": "choose_or_type",
       "promptRu": "Взять себя в руки.",
-      "promptEsTemplate": "___ tomó en serio.",
-      "options": ["se", "me", "te"],
+      "promptEsTemplate": "Se ___ tomó en serio.",
+      "options": ["me", "te", "se", "nos", "os"],
       "acceptableAnswers": ["se"],
-      "note": "Fixed reflexive expression: 'tomarse en serio'."
+      "note": "Fixed expression: tomarse en serio."
     },
     {
       "id": "pr002",
-      "group": "pronouns.reflexive",
+      "group": "pronouns.reflexive.expression",
       "type": "choose_or_type",
-      "promptRu": "Он помыл руки.",
-      "promptEsTemplate": "___ lavó las manos.",
-      "options": ["se", "le", "lo"],
+      "promptRu": "Она наконец успокоилась.",
+      "promptEsTemplate": "Se ___ calmó.",
+      "options": ["se", "me", "te", "nos"],
       "acceptableAnswers": ["se"],
-      "note": "Reflexive action on own body."
+      "note": "Calmarse = to calm down."
     },
     {
       "id": "pr003",
-      "group": "pronouns.non_reflexive",
+      "group": "pronouns.reflexive.expression",
       "type": "choose_or_type",
-      "promptRu": "Он помыл машину.",
-      "promptEsTemplate": "___ lavó el coche.",
-      "options": ["se", "lo", "le"],
-      "acceptableAnswers": ["lo"],
-      "note": "Not reflexive: washing an external object."
+      "promptRu": "Я понял это.",
+      "promptEsTemplate": "Me ___ di cuenta.",
+      "options": ["me", "te", "se", "nos"],
+      "acceptableAnswers": ["me"],
+      "note": "Darse cuenta uses dative pronoun (me/te/se/nos/os)."
     },
     {
       "id": "pr004",
-      "group": "pronouns.benefactive",
+      "group": "pronouns.reflexive.expression",
       "type": "choose_or_type",
-      "promptRu": "Купи себе кофе.",
-      "promptEsTemplate": "Cómprate ___ café.",
-      "options": ["un", "te", "me"],
+      "promptRu": "Ты ошибся.",
+      "promptEsTemplate": "Te ___ equivocaste.",
+      "options": ["te", "me", "se", "nos"],
       "acceptableAnswers": ["te"],
-      "note": "Benefactive pronoun: action done for oneself."
+      "note": "Equivocarse = to make a mistake."
     },
     {
       "id": "pr005",
-      "group": "pronouns.reflexive",
+      "group": "pronouns.reflexive.daily",
       "type": "choose_or_type",
-      "promptRu": "Она порезалась.",
-      "promptEsTemplate": "___ cortó.",
-      "options": ["se", "la", "le"],
-      "acceptableAnswers": ["se"],
-      "note": "Accidental reflexive verb."
+      "promptRu": "Я проснулся рано.",
+      "promptEsTemplate": "___ desperté temprano.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Despertarse = to wake up."
     },
     {
       "id": "pr006",
-      "group": "pronouns.false_reflexive",
+      "group": "pronouns.reflexive.daily",
       "type": "choose_or_type",
-      "promptRu": "Он ушёл.",
-      "promptEsTemplate": "___ fue.",
-      "options": ["se", "lo", "le"],
-      "acceptableAnswers": ["se"],
-      "note": "Movement verb with reflexive meaning change."
+      "promptRu": "Ты умылся.",
+      "promptEsTemplate": "___ lavaste la cara.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["te"],
+      "note": "Lavarse la cara."
     },
     {
       "id": "pr007",
-      "group": "pronouns.non_reflexive",
+      "group": "pronouns.reflexive.daily",
       "type": "choose_or_type",
-      "promptRu": "Он уехал его.",
-      "promptEsTemplate": "___ llevó.",
-      "options": ["se", "lo", "le"],
-      "acceptableAnswers": ["lo"],
-      "note": "Non-reflexive transport of another person/object."
+      "promptRu": "Он побрился.",
+      "promptEsTemplate": "___ afeitó.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Afeitarse."
     },
     {
       "id": "pr008",
-      "group": "pronouns.reflexive_vs_indirect",
+      "group": "pronouns.reflexive.daily",
       "type": "choose_or_type",
-      "promptRu": "Я сломал себе ногу.",
-      "promptEsTemplate": "___ rompí la pierna.",
-      "options": ["me", "se", "le"],
-      "acceptableAnswers": ["me"],
-      "note": "Indirect reflexive possession (body parts)."
+      "promptRu": "Она оделась быстро.",
+      "promptEsTemplate": "___ vistió rápido.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Vestirse."
     },
     {
       "id": "pr009",
-      "group": "pronouns.indirect",
+      "group": "pronouns.reflexive.daily",
       "type": "choose_or_type",
-      "promptRu": "Я сломал ему ногу.",
-      "promptEsTemplate": "___ rompí la pierna.",
-      "options": ["le", "me", "se"],
-      "acceptableAnswers": ["le"],
-      "note": "Indirect object pronoun for another person."
+      "promptRu": "Мы сели.",
+      "promptEsTemplate": "___ sentamos.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["nos"],
+      "note": "Sentarse."
     },
     {
       "id": "pr010",
-      "group": "pronouns.reflexive",
+      "group": "pronouns.reflexive.daily",
       "type": "choose_or_type",
-      "promptRu": "Она засмеялась.",
-      "promptEsTemplate": "___ rió.",
-      "options": ["se", "la", "le"],
+      "promptRu": "Вы встали поздно.",
+      "promptEsTemplate": "___ levantasteis tarde.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["os"],
+      "note": "Levantarse (vosotros)."
+    },
+    {
+      "id": "pr011",
+      "group": "pronouns.reflexive.daily",
+      "type": "choose_or_type",
+      "promptRu": "Они легли спать.",
+      "promptEsTemplate": "___ acostaron temprano.",
+      "options": ["me", "te", "se", "nos", "os"],
       "acceptableAnswers": ["se"],
-      "note": "Inchoative reflexive verb."
+      "note": "Acostarse."
+    },
+    {
+      "id": "pr012",
+      "group": "pronouns.reflexive.daily",
+      "type": "choose_or_type",
+      "promptRu": "Я принял душ.",
+      "promptEsTemplate": "___ duché.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Ducharse."
+    },
+    {
+      "id": "pr013",
+      "group": "pronouns.reflexive.daily",
+      "type": "choose_or_type",
+      "promptRu": "Она расчесалась.",
+      "promptEsTemplate": "___ peinó.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Peinarse."
+    },
+    {
+      "id": "pr014",
+      "group": "pronouns.reflexive.daily",
+      "type": "choose_or_type",
+      "promptRu": "Мы расслабились.",
+      "promptEsTemplate": "___ relajamos.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["nos"],
+      "note": "Relajarse."
+    },
+    {
+      "id": "pr015",
+      "group": "pronouns.reflexive.movement",
+      "type": "choose_or_type",
+      "promptRu": "Он ушёл.",
+      "promptEsTemplate": "Se ___ fue.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Irse = to leave."
+    },
+    {
+      "id": "pr016",
+      "group": "pronouns.reflexive.movement",
+      "type": "choose_or_type",
+      "promptRu": "Я вернулся домой.",
+      "promptEsTemplate": "Me ___ volví a casa.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Volverse can mean 'to return' in context."
+    },
+    {
+      "id": "pr017",
+      "group": "pronouns.reflexive.movement",
+      "type": "choose_or_type",
+      "promptRu": "Она подошла ближе.",
+      "promptEsTemplate": "Se ___ acercó.",
+      "options": ["se", "me", "te", "nos"],
+      "acceptableAnswers": ["se"],
+      "note": "Acercarse = to come closer."
+    },
+    {
+      "id": "pr018",
+      "group": "pronouns.reflexive.movement",
+      "type": "choose_or_type",
+      "promptRu": "Мы отдалились.",
+      "promptEsTemplate": "Nos ___ alejamos.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["nos"],
+      "note": "Alejarse = to move away."
+    },
+    {
+      "id": "pr019",
+      "group": "pronouns.reflexive.change",
+      "type": "choose_or_type",
+      "promptRu": "Он стал нервным.",
+      "promptEsTemplate": "Se ___ puso nervioso.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Ponerse + adjective = to become."
+    },
+    {
+      "id": "pr020",
+      "group": "pronouns.reflexive.change",
+      "type": "choose_or_type",
+      "promptRu": "Я привык к этому.",
+      "promptEsTemplate": "Me ___ acostumbré a esto.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Acostumbrarse a = to get used to."
+    },
+    {
+      "id": "pr021",
+      "group": "pronouns.reflexive.change",
+      "type": "choose_or_type",
+      "promptRu": "Ты заинтересовался?",
+      "promptEsTemplate": "Te ___ interesaste?",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["te"],
+      "note": "Interesarse por = to get interested."
+    },
+    {
+      "id": "pr022",
+      "group": "pronouns.reflexive.emotion",
+      "type": "choose_or_type",
+      "promptRu": "Она рассердилась.",
+      "promptEsTemplate": "Se ___ enfadó.",
+      "options": ["se", "me", "te", "nos"],
+      "acceptableAnswers": ["se"],
+      "note": "Enfadarse = to get angry."
+    },
+    {
+      "id": "pr023",
+      "group": "pronouns.reflexive.emotion",
+      "type": "choose_or_type",
+      "promptRu": "Мы удивились.",
+      "promptEsTemplate": "Nos ___ sorprendimos.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["nos"],
+      "note": "Sorprenderse = to be surprised."
+    },
+    {
+      "id": "pr024",
+      "group": "pronouns.reflexive.emotion",
+      "type": "choose_or_type",
+      "promptRu": "Я разочаровался.",
+      "promptEsTemplate": "Me ___ decepcioné.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Decepcionarse = to be disappointed."
+    },
+    {
+      "id": "pr025",
+      "group": "pronouns.reflexive.emotion",
+      "type": "choose_or_type",
+      "promptRu": "Ты обрадовался.",
+      "promptEsTemplate": "Te ___ alegraste.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["te"],
+      "note": "Alegrarse = to be glad."
+    },
+    {
+      "id": "pr026",
+      "group": "pronouns.reflexive.emotion",
+      "type": "choose_or_type",
+      "promptRu": "Он испугался.",
+      "promptEsTemplate": "Se ___ asustó.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Asustarse = to get scared."
+    },
+    {
+      "id": "pr027",
+      "group": "pronouns.reflexive.emotion",
+      "type": "choose_or_type",
+      "promptRu": "Я волновался.",
+      "promptEsTemplate": "Me ___ preocupé.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Preocuparse = to worry."
+    },
+    {
+      "id": "pr028",
+      "group": "pronouns.reflexive.emotion",
+      "type": "choose_or_type",
+      "promptRu": "Они развлеклись.",
+      "promptEsTemplate": "Se ___ divirtieron.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Divertirse (boot verb)."
+    },
+    {
+      "id": "pr029",
+      "group": "pronouns.reflexive.mental",
+      "type": "choose_or_type",
+      "promptRu": "Я сосредоточился.",
+      "promptEsTemplate": "Me ___ concentré.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Concentrarse = to focus."
+    },
+    {
+      "id": "pr030",
+      "group": "pronouns.reflexive.mental",
+      "type": "choose_or_type",
+      "promptRu": "Она запуталась.",
+      "promptEsTemplate": "Se ___ confundió.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Confundirse = to get confused."
+    },
+    {
+      "id": "pr031",
+      "group": "pronouns.reflexive.mental",
+      "type": "choose_or_type",
+      "promptRu": "Мы представили себе это.",
+      "promptEsTemplate": "Nos ___ imaginamos eso.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["nos"],
+      "note": "Imaginarse = to imagine (for oneself)."
+    },
+    {
+      "id": "pr032",
+      "group": "pronouns.reflexive.mental",
+      "type": "choose_or_type",
+      "promptRu": "Он сдержался.",
+      "promptEsTemplate": "Se ___ contuvo.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Contenerse = to hold back."
+    },
+    {
+      "id": "pr033",
+      "group": "pronouns.reflexive.mental",
+      "type": "choose_or_type",
+      "promptRu": "Я пожаловался.",
+      "promptEsTemplate": "Me ___ quejé.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Quejarse de = to complain."
+    },
+    {
+      "id": "pr034",
+      "group": "pronouns.reflexive.behavior",
+      "type": "choose_or_type",
+      "promptRu": "Веди себя прилично.",
+      "promptEsTemplate": "Compórta___ bien.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["te"],
+      "note": "Imperative: comportarse. In writing: compórtate."
+    },
+    {
+      "id": "pr035",
+      "group": "pronouns.reflexive.behavior",
+      "type": "choose_or_type",
+      "promptRu": "Не сдавайся.",
+      "promptEsTemplate": "No ___ rindas.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["te"],
+      "note": "Rendirse = to give up."
+    },
+    {
+      "id": "pr036",
+      "group": "pronouns.reflexive.behavior",
+      "type": "choose_or_type",
+      "promptRu": "Мы постарались.",
+      "promptEsTemplate": "Nos ___ esforzamos.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["nos"],
+      "note": "Esforzarse = to make an effort."
+    },
+    {
+      "id": "pr037",
+      "group": "pronouns.reflexive.behavior",
+      "type": "choose_or_type",
+      "promptRu": "Она позволила себе отдых.",
+      "promptEsTemplate": "Se ___ permitió descansar.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Permitirse = to allow oneself."
+    },
+    {
+      "id": "pr038",
+      "group": "pronouns.reflexive.behavior",
+      "type": "choose_or_type",
+      "promptRu": "Я организовался.",
+      "promptEsTemplate": "Me ___ organicé.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Organizarse = to get organized."
+    },
+    {
+      "id": "pr039",
+      "group": "pronouns.dative.accidental",
+      "type": "choose_or_type",
+      "promptRu": "У меня упал телефон.",
+      "promptEsTemplate": "Se ___ cayó el móvil.",
+      "options": ["me", "te", "le", "nos", "os", "les"],
+      "acceptableAnswers": ["me"],
+      "note": "Accidental 'se' + dative pronoun."
+    },
+    {
+      "id": "pr040",
+      "group": "pronouns.dative.accidental",
+      "type": "choose_or_type",
+      "promptRu": "У тебя пропали ключи.",
+      "promptEsTemplate": "Se ___ perdieron las llaves.",
+      "options": ["me", "te", "le", "nos", "os", "les"],
+      "acceptableAnswers": ["te"],
+      "note": "Accidental loss."
+    },
+    {
+      "id": "pr041",
+      "group": "pronouns.dative.accidental",
+      "type": "choose_or_type",
+      "promptRu": "У него сломался ноутбук.",
+      "promptEsTemplate": "Se ___ rompió el portátil.",
+      "options": ["me", "te", "le", "nos", "os", "les"],
+      "acceptableAnswers": ["le"],
+      "note": "Accidental breakage."
+    },
+    {
+      "id": "pr042",
+      "group": "pronouns.dative.accidental",
+      "type": "choose_or_type",
+      "promptRu": "У нас закончилось время.",
+      "promptEsTemplate": "Se ___ acabó el tiempo.",
+      "options": ["me", "te", "le", "nos", "os", "les"],
+      "acceptableAnswers": ["nos"],
+      "note": "Accidental running out."
+    },
+    {
+      "id": "pr043",
+      "group": "pronouns.dative.accidental",
+      "type": "choose_or_type",
+      "promptRu": "У вас забылись документы.",
+      "promptEsTemplate": "Se ___ olvidaron los documentos.",
+      "options": ["me", "te", "le", "nos", "os", "les"],
+      "acceptableAnswers": ["os"],
+      "note": "Accidental forgetting."
+    },
+    {
+      "id": "pr044",
+      "group": "pronouns.dative.accidental",
+      "type": "choose_or_type",
+      "promptRu": "У них испортилась еда.",
+      "promptEsTemplate": "Se ___ estropeó la comida.",
+      "options": ["me", "te", "le", "nos", "os", "les"],
+      "acceptableAnswers": ["les"],
+      "note": "Accidental spoilage."
+    },
+    {
+      "id": "pr045",
+      "group": "pronouns.benefactive.imperative",
+      "type": "choose_or_type",
+      "promptRu": "Купи себе кофе.",
+      "promptEsTemplate": "Cómprate ___ café.",
+      "options": ["un", "una", "te", "me"],
+      "acceptableAnswers": ["te"],
+      "note": "Benefactive: cómprate (buy for yourself)."
+    },
+    {
+      "id": "pr046",
+      "group": "pronouns.benefactive.imperative",
+      "type": "choose_or_type",
+      "promptRu": "Сделай себе одолжение.",
+      "promptEsTemplate": "Hazte ___ favor.",
+      "options": ["un", "una", "te", "me"],
+      "acceptableAnswers": ["un"],
+      "note": "Hazte un favor (idiom)."
+    },
+    {
+      "id": "pr047",
+      "group": "pronouns.benefactive.imperative",
+      "type": "choose_or_type",
+      "promptRu": "Дай себе время.",
+      "promptEsTemplate": "Date ___ tiempo.",
+      "options": ["me", "te", "se", "nos"],
+      "acceptableAnswers": ["te"],
+      "note": "Darse (imperative) for oneself. In writing: date."
+    },
+    {
+      "id": "pr048",
+      "group": "pronouns.benefactive.imperative",
+      "type": "choose_or_type",
+      "promptRu": "Возьми себе выходной.",
+      "promptEsTemplate": "Tómate ___ día libre.",
+      "options": ["un", "una", "te", "me"],
+      "acceptableAnswers": ["un"],
+      "note": "Tómate un día libre."
+    },
+    {
+      "id": "pr049",
+      "group": "pronouns.reflexive.contrast",
+      "type": "choose_or_type",
+      "promptRu": "Он помылся.",
+      "promptEsTemplate": "___ lavó.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Lavarse (to wash oneself)."
+    },
+    {
+      "id": "pr050",
+      "group": "pronouns.reflexive.contrast",
+      "type": "choose_or_type",
+      "promptRu": "Он помыл его.",
+      "promptEsTemplate": "___ lavó.",
+      "options": ["lo", "le", "se", "la"],
+      "acceptableAnswers": ["lo"],
+      "note": "Washing another person/object: direct object."
+    },
+    {
+      "id": "pr051",
+      "group": "pronouns.reflexive.contrast",
+      "type": "choose_or_type",
+      "promptRu": "Она оделась.",
+      "promptEsTemplate": "___ vistió.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Vestirse."
+    },
+    {
+      "id": "pr052",
+      "group": "pronouns.reflexive.contrast",
+      "type": "choose_or_type",
+      "promptRu": "Она одела его.",
+      "promptEsTemplate": "___ vistió.",
+      "options": ["lo", "le", "se", "la"],
+      "acceptableAnswers": ["lo"],
+      "note": "Vestir a alguien: direct object."
+    },
+    {
+      "id": "pr053",
+      "group": "pronouns.tonic",
+      "type": "choose_or_type",
+      "promptRu": "Я гулял с ней.",
+      "promptEsTemplate": "Paseé con ___.",
+      "options": ["mí", "ti", "ella", "él", "nosotros"],
+      "acceptableAnswers": ["ella"],
+      "note": "Tonic pronoun after preposition."
+    },
+    {
+      "id": "pr054",
+      "group": "pronouns.tonic",
+      "type": "choose_or_type",
+      "promptRu": "Это для меня.",
+      "promptEsTemplate": "Esto es para ___.",
+      "options": ["mí", "me", "yo", "mío"],
+      "acceptableAnswers": ["mí"],
+      "note": "Para mí (tonic with accent)."
+    },
+    {
+      "id": "pr055",
+      "group": "pronouns.reflexive.movement",
+      "type": "choose_or_type",
+      "promptRu": "Я заблудился.",
+      "promptEsTemplate": "Me ___ perdí.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Perderse = to get lost."
+    },
+    {
+      "id": "pr056",
+      "group": "pronouns.reflexive.movement",
+      "type": "choose_or_type",
+      "promptRu": "Они спрятались.",
+      "promptEsTemplate": "Se ___ escondieron.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Esconderse = to hide."
+    },
+    {
+      "id": "pr057",
+      "group": "pronouns.reflexive.state",
+      "type": "choose_or_type",
+      "promptRu": "Ты почувствовал себя лучше.",
+      "promptEsTemplate": "Te ___ sentiste mejor.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["te"],
+      "note": "Sentirse = to feel."
+    },
+    {
+      "id": "pr058",
+      "group": "pronouns.reflexive.state",
+      "type": "choose_or_type",
+      "promptRu": "Я простудился.",
+      "promptEsTemplate": "Me ___ resfrié.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Resfriarse = to catch a cold."
+    },
+    {
+      "id": "pr059",
+      "group": "pronouns.reflexive.state",
+      "type": "choose_or_type",
+      "promptRu": "Она устала.",
+      "promptEsTemplate": "Se ___ cansó.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Cansarse."
+    },
+    {
+      "id": "pr060",
+      "group": "pronouns.reflexive.mental",
+      "type": "choose_or_type",
+      "promptRu": "Мы вспомнили об этом.",
+      "promptEsTemplate": "Nos ___ acordamos de eso.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["nos"],
+      "note": "Acordarse de."
+    },
+    {
+      "id": "pr061",
+      "group": "pronouns.reflexive.mental",
+      "type": "choose_or_type",
+      "promptRu": "Ты решил это для себя.",
+      "promptEsTemplate": "Te ___ decidiste.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["te"],
+      "note": "Decidirse = to make up one's mind."
+    },
+    {
+      "id": "pr062",
+      "group": "pronouns.reflexive.mental",
+      "type": "choose_or_type",
+      "promptRu": "Я передумал.",
+      "promptEsTemplate": "Me ___ arrepentí.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["me"],
+      "note": "Arrepentirse = to regret."
+    },
+    {
+      "id": "pr063",
+      "group": "pronouns.reflexive.mental",
+      "type": "choose_or_type",
+      "promptRu": "Он рассмеялся.",
+      "promptEsTemplate": "Se ___ rió.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Reírse = to laugh."
+    },
+    {
+      "id": "pr064",
+      "group": "pronouns.reflexive.emotion",
+      "type": "choose_or_type",
+      "promptRu": "Они рассердились.",
+      "promptEsTemplate": "Se ___ enfadaron.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["se"],
+      "note": "Enfadarse."
+    },
+    {
+      "id": "pr065",
+      "group": "pronouns.reflexive.emotion",
+      "type": "choose_or_type",
+      "promptRu": "Мы обиделись.",
+      "promptEsTemplate": "Nos ___ ofendimos.",
+      "options": ["me", "te", "se", "nos", "os"],
+      "acceptableAnswers": ["nos"],
+      "note": "Ofenderse = to feel offended."
+    },
+    {
+      "id": "pr066",
+      "group": "pronouns.dative.body",
+      "type": "choose_or_type",
+      "promptRu": "У меня болит голова.",
+      "promptEsTemplate": "Me ___ duele la cabeza.",
+      "options": ["me", "te", "le", "nos", "os", "les"],
+      "acceptableAnswers": ["me"],
+      "note": "Dative with doler."
+    },
+    {
+      "id": "pr067",
+      "group": "pronouns.dative.body",
+      "type": "choose_or_type",
+      "promptRu": "У тебя болят глаза.",
+      "promptEsTemplate": "Te ___ duelen los ojos.",
+      "options": ["me", "te", "le", "nos", "os", "les"],
+      "acceptableAnswers": ["te"],
+      "note": "Dative with doler (plural subject)."
+    },
+    {
+      "id": "pr068",
+      "group": "pronouns.dative.body",
+      "type": "choose_or_type",
+      "promptRu": "У него болит спина.",
+      "promptEsTemplate": "Le ___ duele la espalda.",
+      "options": ["me", "te", "le", "nos", "os", "les"],
+      "acceptableAnswers": ["le"],
+      "note": "Le duele..."
+    },
+    {
+      "id": "pr069",
+      "group": "pronouns.dative.body",
+      "type": "choose_or_type",
+      "promptRu": "У нас болят ноги.",
+      "promptEsTemplate": "Nos ___ duelen las piernas.",
+      "options": ["me", "te", "le", "nos", "os", "les"],
+      "acceptableAnswers": ["nos"],
+      "note": "Nos duelen..."
+    },
+    {
+      "id": "pr070",
+      "group": "pronouns.dative.body",
+      "type": "choose_or_type",
+      "promptRu": "У вас болит горло.",
+      "promptEsTemplate": "Os ___ duele la garganta.",
+      "options": ["me", "te", "le", "nos", "os", "les"],
+      "acceptableAnswers": ["os"],
+      "note": "Os duele..."
+    },
+    {
+      "id": "pr071",
+      "group": "pronouns.dative.body",
+      "type": "choose_or_type",
+      "promptRu": "У них болит живот.",
+      "promptEsTemplate": "Les ___ duele el estómago.",
+      "options": ["me", "te", "le", "nos", "os", "les"],
+      "acceptableAnswers": ["les"],
+      "note": "Les duele..."
+    },
+    {
+      "id": "pr072",
+      "group": "pronouns.reflexive.daily",
+      "type": "choose_or_type",
+      "promptRu": "Не торопись.",
+      "promptEsTemplate": "No te ___.",
+      "options": ["apresures", "apresura", "apresurar"],
+      "acceptableAnswers": ["apresures"],
+      "note": "Apresurarse (negative imperative)."
     }
   ]
 }
