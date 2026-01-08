@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -294,7 +295,7 @@ public sealed class PopupViewModel : INotifyPropertyChanged
 
         if (index >= 0)
         {
-            PromptPrefix = template.Substring(0, index);
+            PromptPrefix = TrimDuplicatePrefixToken(template.Substring(0, index), _task.Options);
             PromptSuffix = template.Substring(index + placeholder.Length);
         }
         else
@@ -325,7 +326,7 @@ public sealed class PopupViewModel : INotifyPropertyChanged
 
         if (index >= 0)
         {
-            PhrasePrefix = template.Substring(0, index);
+            PhrasePrefix = TrimDuplicatePrefixToken(template.Substring(0, index), new[] { answer });
             PhraseInsert = answer;
             PhraseSuffix = template.Substring(index + placeholder.Length);
         }
@@ -337,6 +338,37 @@ public sealed class PopupViewModel : INotifyPropertyChanged
         }
 
         InsertBrush = correct ? Brushes.LimeGreen : Brushes.IndianRed;
+    }
+
+    private static string TrimDuplicatePrefixToken(string prefix, IEnumerable<string> candidates)
+    {
+        if (string.IsNullOrWhiteSpace(prefix)) return prefix;
+
+        var trimmed = prefix.TrimEnd();
+        var lastSpace = trimmed.LastIndexOf(' ');
+        if (lastSpace < 0) return prefix;
+
+        var token = trimmed[(lastSpace + 1)..];
+        var cleaned = CleanToken(token);
+        if (string.IsNullOrEmpty(cleaned)) return prefix;
+
+        foreach (var c in candidates)
+        {
+            var candidate = CleanToken(c);
+            if (candidate.Length == 0) continue;
+
+            if (string.Equals(cleaned, candidate, StringComparison.OrdinalIgnoreCase))
+            {
+                return prefix.Substring(0, lastSpace + 1);
+            }
+        }
+
+        return prefix;
+    }
+
+    private static string CleanToken(string value)
+    {
+        return value.Trim().Trim(',', '.', ';', ':', '!', '?', '¿', '¡', '"', '\'');
     }
 
     private void OnPropertyChanged([CallerMemberName] string? name = null)
